@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>3. セットアップ | FF-SDK-Unity </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="3. セットアップ | FF-SDK-Unity ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/setup.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FF-SDK-Unity">
+            FF-SDK-Unity
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="3-セットアップ">3. セットアップ</h1>
+
+<h2 id="31-ff-sdk-unityのセットアップ">3.1. FF-SDK-Unityのセットアップ</h2>
+<h3 id="311-unitypackageのインポート">3.1.1. unitypackageのインポート</h3>
+<ol>
+<li>Unity EditorのメニューのAssets / Import Package / Custom Package…を選択し、.unitypackage ファイルをインポートします。<br>
+<img src="images/setup_00.png" alt="Import SDK package"></li>
+<li>TextMesh Proのアセットのインストールダイアログが表示された場合は、インストールを行います。</li>
+</ol>
+<p>unitypackageの種類と説明</p>
+<table>
+<thead>
+<tr>
+<th>unitypackage</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FF-SDK-Unity_Core</td>
+<td>FF-SDK-Unityコア機能<br>SDK動作に必ずインポートする必要があります</td>
+</tr>
+<tr>
+<td>FF-SDK-Unity_Windows</td>
+<td>USB有線接続版FeelFuse向け機能<br><a href="#35-usb%E6%9C%89%E7%B7%9A%E6%8E%A5%E7%B6%9A%E7%89%88feelfuse%E5%90%91%E3%81%91%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.5. USB有線接続版FeelFuse向けセットアップ （オプション）">3.5. USB有線接続版FeelFuse向けセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+</tr>
+<tr>
+<td>FF-SDK-Unity_MetaXR</td>
+<td>Meta Questとの連携機能を使用する場合にインポートする<br><a href="#33-meta-xr-sdk%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.3. Meta XR SDKのセットアップ （オプション）">3.3. Meta XR SDKのセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+</tr>
+<tr>
+<td>FF-SDK-Unity_TofAR</td>
+<td>ToF ARと連携した開発・デバッグ支援機能を使用する場合にインポートする<br><a href="#34-tof-ar-sdk%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.4. ToF AR SDKのセットアップ （オプション）">3.4. ToF AR SDKのセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+</tr>
+<tr>
+<td>FF-SDK-Unity_Samples</td>
+<td>サンプルシーン</td>
+</tr>
+</tbody>
+</table>
+<h3 id="312-osccoreのunitypackageのインポート">3.1.2. OscCoreのunitypackageのインポート</h3>
+<ol>
+<li>OscCore_vX.X.X.unitypackage を <a href="https://github.com/stella3d/OscCore/releases">https://github.com/stella3d/OscCore/releases</a> よりダウンロードしてインポートします。</li>
+</ol>
+<h2 id="32-ff-sdk-unityのアップグレード">3.2. FF-SDK-Unityのアップグレード</h2>
+<ol>
+<li>Unity EditorのProjectビューの Commissure/HapticsSystem フォルダを削除します。</li>
+<li>Unity EditorのメニューのAssets / Import Package / Custom Package…を選択し、.unitypackage ファイルをインポートします。</li>
+</ol>
+<h2 id="33-meta-xr-sdkのセットアップ-オプション">3.3. Meta XR SDKのセットアップ （オプション）</h2>
+<p>Meta XR SDKを使用すると、Meta Questなどのヘッドマウントディスプレイで触覚体験ができるアプリケーションを開発することができます。</p>
+<p>Meta XR SDKを使用する場合はMeta XR SDKのセットアップ手順に従って、セットアップを行なってください。<br>
+XR プラグインは Unity OpenXR プラグインの利用を推奨します。</p>
+<p><a href="https://developers.meta.com/horizon/documentation/unity/unity-project-setup">https://developers.meta.com/horizon/documentation/unity/unity-project-setup</a></p>
+<h2 id="34-tof-ar-sdkのセットアップ-オプション">3.4. ToF AR SDKのセットアップ （オプション）</h2>
+<p>ToF AR SDKと対応スマートフォンを使用するとヘッドマウントディスプレイ非着用状態での開発・デバッグを効率化することができます。</p>
+<ol>
+<li>ToF AR SDKを以下のサイトよりダウンロードします。<br>
+<a href="https://tof-ar.com/">https://tof-ar.com/</a></li>
+<li>TofAR_Base_vx.x.x_Android.unitypackage と TofAR_Base_vx.x.x_iOS.unitypackage をインポートします。</li>
+</ol>
+<p><strong>スマートフォンへのデプロイは行わないので、Unityのプロジェクト設定は変更不要です。</strong></p>
+<h2 id="35-usb有線接続版feelfuse向けセットアップ-オプション">3.5. USB有線接続版FeelFuse向けセットアップ （オプション）</h2>
+<p>USB有線接続版FeelFuseを動作させるには、下記アセットをインストールします。</p>
+<ul>
+<li><p>AudioStream(有償)<br>
+<a href="https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411">https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411</a></p>
+</li>
+<li><p>FMOD for Unity<br>
+<a href="https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631">https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631</a></p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/setup.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

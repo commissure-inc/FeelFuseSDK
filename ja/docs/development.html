@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>4. FF-SDK-Unityアプリケーション開発 | FF-SDK-Unity </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="4. FF-SDK-Unityアプリケーション開発 | FF-SDK-Unity ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/development.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FF-SDK-Unity">
+            FF-SDK-Unity
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="4-ff-sdk-unityアプリケーション開発">4. FF-SDK-Unityアプリケーション開発</h1>
+
+<h2 id="41-ff-sdk-unityアプリケーション開発の基本">4.1. FF-SDK-Unityアプリケーション開発の基本</h2>
+<p>FF-SDK-Unityアプリケーション開発の基本的な流れは以下のようになります。<br>
+(FF-SDK-Unityのセットアップは完了している前提です。)</p>
+<ol>
+<li><p>シーンにHapticManagerプレファブを配置する<br>
+Assets/Commissure/HapticsSystem/Core/Prefabs/HapticManager をシーンに配置します。<br>
+<img src="images/development_00.png" alt="Put HapticManager prefab"></p>
+</li>
+<li><p>シーンに任意のHapticOutput系プレファブを配置する<br>
+Assets/Commissure/HapticsSystem/Devices/FeelFuseV1/Prefabs/FeelFuseV1Output などのプレファブをシーンに配置します。<br>
+<img src="images/development_01.png" alt="Put HapticOutput prefab"><br>
+HapticOutputの種類と説明については <a href="#432hapticoutput" title="4.3.2. HapticOutput">4.3.2. HapticOutput</a> をご参照ください。</p>
+</li>
+<li><p>HapticManagerとHapticOutputを関連付ける<br>
+HapticManagerのInspectorでOutputsフィールドに、シーンに配置したHapticOutputを設定します。<br>
+以下の図では、2つのHapticOutputを関連付けています。<br>
+これにより2つの出力先へ触覚が出力されます。<br>
+<img src="images/development_02.png" alt="Setup HapticManager"></p>
+</li>
+<li><p>シーンに任意のHapticInput系プレファブを配置する<br>
+Assets/Commissure/HapticsSystem/Core/Prefabs/PointHapticInput などのプレファブをシーンに配置します。<br>
+以下の図では、4つのHapticInputを配置しています。<br>
+MetaQuestを使用する場合は、<a href="#44-ui%E6%A7%8B%E7%AF%89%E3%83%98%E3%83%AB%E3%83%91%E3%83%BC">4.4. UI構築ヘルパー</a>にあるMetaXRHapticInputs.prefabを使用してください。<br>
+<img src="images/development_03.png" alt="Put HapticInput prefab"></p>
+</li>
+<li><p>HapticInputの設定を行う<br>
+PointHapticInputには人体のどの部位に相当するかの設定がありますので、適切に設定を行います。<br>
+<img src="images/development_04.png" alt="Setup HapticInput"></p>
+</li>
+<li><p>触覚を発生させたいオブジェクトのHapticSource系のコンポーネントをアタッチする<br>
+HapticSource, FingerVibrationSource, HapticForceSource の3つのコンポーネントをアタッチします。
+HapticSourceはColliderを使用しますので、Collider系のコンポーネントもアタッチします。<br>
+以下の例では、基本的な振動触覚を発するBasicFingerVibrationSourceと重力感触覚を発するGravityHapticForceSourceをアタッチしています。<br>
+<img src="images/development_05.png" alt="Setup HapticSource"></p>
+</li>
+<li><p>HapticSourceの各種パラメータを変更し、触覚をカスタマイズする<br>
+振動を発するためのAudioClipなどの設定を行います。</p>
+</li>
+</ol>
+<h2 id="42-触覚のカスタマイズ">4.2. 触覚のカスタマイズ</h2>
+<p>触覚のカスタマイズを行うには、SDKが提供するHapticsSource系コンポーネントの設定をInspectorで変更したり、コードからプロパティを変更することに加え、独自のコンポーネントを作成する方法もあります。<br>
+独自のコンポーネントを実装するには、以下のインターフェイスを実装したクラスを作成し、HapticSourceと同じGameObjectにアタッチしてください。</p>
+<table>
+<thead>
+<tr>
+<th>インターフェイス</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IFingerVibrationSource</td>
+<td>振動触覚ソースのインターフェイス</td>
+</tr>
+<tr>
+<td>IHapticForceSource</td>
+<td>剪断触覚ソースのインターフェイス</td>
+</tr>
+</tbody>
+</table>
+<h2 id="43-sdkが提供するコンポーネント">4.3. SDKが提供するコンポーネント</h2>
+<p>SDKが提供するコンポーネントは Commissure/HapticsSystem/ 配下に配置されており、下記となります。</p>
+<h3 id="431hapticinput">4.3.1.　HapticInput</h3>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core/Prefabs/PointHapticInput.prefab</td>
+<td>点入力</td>
+</tr>
+</tbody>
+</table>
+<h3 id="432hapticoutput">4.3.2.　HapticOutput</h3>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Devices/Simulator/Prefabs/SimulatorOutput.prefab</td>
+<td>触覚の出力を画面上で確認できるシミュレーター</td>
+</tr>
+<tr>
+<td>Devices/FeelFuseV1/Prefabs/FeelFuseV1Output.prefab</td>
+<td>FeelFuseデバイス用出力</td>
+</tr>
+<tr>
+<td>Devices.Windows/FeelFuseV0/Prefabs/FeelFuseV0Output.prefab</td>
+<td>USB有線接続版FeelFuseデバイス用出力</td>
+</tr>
+</tbody>
+</table>
+<h3 id="433fingervibrationsource">4.3.3.　FingerVibrationSource</h3>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core/Scripts/HapticSources/FingerVibration/BasicFingerVibrationSource.cs</td>
+<td>単一の振動オーディオを出力する</td>
+</tr>
+<tr>
+<td>Core/Scripts/HapticSources/HapticForce/GravityHapticForceSource.cs</td>
+<td>複数オーディオクリップを切り替えて出力することが可能</td>
+</tr>
+</tbody>
+</table>
+<h3 id="434hapticforcesource">4.3.4.　HapticForceSource</h3>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core/Scripts/HapticSources/FingerVibration/BasicFingerVibrationSource.cs</td>
+<td>重力を出力する</td>
+</tr>
+<tr>
+<td>Core/Scripts/HapticSources/HapticForce/LinearResistanceHapticForceSource.cs</td>
+<td>線形抵抗力を出力する</td>
+</tr>
+<tr>
+<td>Core/Scripts/HapticSources/HapticForce/TwoPointHapticForceSource.cs</td>
+<td>2点間の距離に応じた力を出力する</td>
+</tr>
+</tbody>
+</table>
+<h2 id="44-ui構築ヘルパー">4.4. UI構築ヘルパー</h2>
+<p>アプリケーションを開発するために役立つヘルパーコンポーネントが Assets/Commissure/HapticsSystem 配下に用意されています。</p>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UI/Scripts/GenericGrabbable.cs</td>
+<td>HapticSourceがアタッチされた物体を掴む操作<br>HapticSourceと同じGame Objectにアタッチして使用する<br>Meta Questなどデバイス側のSDKで物体を掴む動作が用意されている場合は triggerOnly フィールドをtrueに設定すれば触覚発生の検知のみ行うことが可能</td>
+</tr>
+<tr>
+<td>UI.MetaXR/Prefabs/MetaXRHapticInputs.prefab</td>
+<td>Meta XR SDKが提供するHandモデルの指先にHapticInputをアタッチし自動追従させるオブジェクト<br>シーンに配置して使用する</td>
+</tr>
+<tr>
+<td>UI.TofAr/Prefabs/TofARCamera.prefab</td>
+<td>ToF AR SDKが提供するHandモデルの指先にHapticInputをアタッチし自動追従させるオブジェクト<br>シーンに配置して使用する</td>
+</tr>
+</tbody>
+</table>
+<h3 id="441-metaxrhapticinputsの設定">4.4.1. MetaXRHapticInputsの設定</h3>
+<ol>
+<li>UI.MetaXR/Prefabs/MetaXRHapticInputs.prefab をシーンに配置する。</li>
+<li>MetaXRHapticInputs配下の4つのHapticInputにアタッチされている HandJoint コンポーネントのHandフィールドの参照を設定する。<br>
+参照先は下記のようにする。</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>参照先</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HapticInputLeftThumb</td>
+<td>LeftHandSynthetic</td>
+</tr>
+<tr>
+<td>HapticInputLeftIndex</td>
+<td>LeftHandSynthetic</td>
+</tr>
+<tr>
+<td>HapticInputRightThumb</td>
+<td>RightHandSynthetic</td>
+</tr>
+<tr>
+<td>HapticInputRightIndex</td>
+<td>RightHandSynthetic</td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/development_10.png" alt="HandJoint.Hand Reference"></p>
+<ol start="3">
+<li>MetaXRHapticInputs配下の4つのHapticInputにアタッチされている HandJoint コンポーネントのJoint Idフィールドの値を設定する<br>
+値は下記のようにする</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>Joint Id 値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HapticInputLeftThumb</td>
+<td>Hand Thumb Tip</td>
+</tr>
+<tr>
+<td>HapticInputLeftIndex</td>
+<td>Hand Index Tip</td>
+</tr>
+<tr>
+<td>HapticInputRightThumb</td>
+<td>Hand Thumb Tip</td>
+</tr>
+<tr>
+<td>HapticInputRightIndex</td>
+<td>Hand Index Tip</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-開発デバッグ支援機能">4.5. 開発・デバッグ支援機能</h2>
+<p>ヘッドマウントディスプレイを被らない状態でのハンドトラッキングを使用した開発・デバッグを効率化する目的で ToF AR SDK を使用することができます。</p>
+<ol>
+<li>ToF AR 動作対応スマートフォン（Face IDに対応したiPhoneやiPad Pro）でApp Storeより ToF AR Serverをダウンロードする。<br>
+<a href="https://apps.apple.com/jp/app/tof-ar-server/id1613866652">https://apps.apple.com/jp/app/tof-ar-server/id1613866652</a></li>
+<li>シーンにTofArCamera.prefab を配置する。</li>
+<li>スマートフォンとUnityを使用しているPCを同一ネットワークに接続する。</li>
+<li>スマートフォンでToF AR Serverを起動し、画面に表示されたIPアドレスを確認する。
+<img src="images/development_06.jpeg" alt="ToF AR Server"></li>
+<li>そのIPアドレスをシーン上の TofArCamera/TofArManagerのInspector上のDebug Server IP Addressに設定する。<br>
+<img src="images/development_07.png" alt="TofArManager"></li>
+<li>Unity Editorを再起動する。</li>
+</ol>
+<p>上記設定を行った後、シーンをPlayするとスマートフォンのFace IDカメラ映像でハンドトラッキングが行われ、物体に触れたり掴むといった操作を行いながら開発・デバッグを行うことができます。<br>
+<img src="images/development_08.png" alt="Hand tracking by ToF AR"></p>
+<h2 id="46-usb有線接続版feelfuse接続設定">4.6. USB有線接続版FeelFuse接続設定</h2>
+<p>USB有線接続版FeelFuseはWindows PCのCOMポートを使用して通信を行います。<br>
+通信に使用するCOMポートは、FeelFuseV0Outputオブジェクト配下の SerialPort_Left および SerialPort_Right オブジェクトのInspectorで指定します。<br>
+設定値はPCローカルに自動保存されるので、次回起動時の再設定は不要です。</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/development.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

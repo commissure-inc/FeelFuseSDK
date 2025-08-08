@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>2. FF-SDK-Unityの概要 | FF-SDK-Unity </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="2. FF-SDK-Unityの概要 | FF-SDK-Unity ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/overview.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FF-SDK-Unity">
+            FF-SDK-Unity
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="2-ff-sdk-unityの概要">2. FF-SDK-Unityの概要</h1>
+
+<h2 id="21-触覚を再生するしくみ">2.1. 触覚を再生するしくみ</h2>
+<p><img src="images/overview_00.png" alt="Haptics Playback Flow"><br>
+FF-SDK-Unity 触覚再生フロー図</p>
+<h3 id="211-基本コンポーネント">2.1.1. 基本コンポーネント</h3>
+<p>FF-SDK-Unityは以下のコンポーネントを提供します。</p>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HapticsInput</td>
+<td>触覚を知覚する入力点<br>例) 親指や人差し指の指先</td>
+</tr>
+<tr>
+<td>HapticsSource</td>
+<td>触覚を発生する物体<br>振動を発するFingerVibrationSourceと剪断強度を計算するHapticForceSourceを配下に持つ</td>
+</tr>
+<tr>
+<td>HapticsOutput</td>
+<td>触覚を出力するデバイス<br>例) FeelFuseデバイスやシミュレーター</td>
+</tr>
+<tr>
+<td>HapticsManager</td>
+<td>触覚入力から出力までを制御するコンポーネント</td>
+</tr>
+</tbody>
+</table>
+<h3 id="212-触覚の入力から出力までのフロー">2.1.2. 触覚の入力から出力までのフロー</h3>
+<ol>
+<li>HapticInputがHapticSourceに干渉する。</li>
+<li>HapticSourceは配下のFingerVibrationSourceとHaticForceSourceから計算された触覚パラメータ（振動音生クリップや剪断再生用モーターの駆動量）を取得する。</li>
+<li>HapticeSourceは触覚パラメータをHapticsManagerへ送信する。</li>
+<li>HapticsManagerは触覚パラメータをHapticsInputへ送信する。HapticsOutputはFeelFuseデバイス等で触覚を再生する。</li>
+</ol>
+<h2 id="22-パッケージ構成">2.2. パッケージ構成</h2>
+<p>FF-SDK-Unityのパッケージには下記のものが含まれます。</p>
+<p><img src="images/overview_01.png" alt="SDK Package Contents"></p>
+<table>
+<thead>
+<tr>
+<th>パッケージ</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core</td>
+<td>SDKコア機能</td>
+</tr>
+<tr>
+<td>MetaXR</td>
+<td>Meta XR SDKとの連携機能</td>
+</tr>
+<tr>
+<td>TofAR</td>
+<td>ToF AR SDKとの連携機能（開発・デバッグ支援機能）</td>
+</tr>
+<tr>
+<td>Samples</td>
+<td>サンプルシーン</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>USB有線接続版FeelFuse向けパッケージ、有償アセットへの依存が存在する</td>
+</tr>
+</tbody>
+</table>
+<h2 id="23-フォルダ構成">2.3. フォルダ構成</h2>
+<p>FF-SDK-Unityのパッケージを全てUnityにインポートした場合のフォルダ構成は下記のようになります。</p>
+<p><img src="images/overview_02.png" alt="SDK Folder Structure"></p>
+<table>
+<thead>
+<tr>
+<th>フォルダ</th>
+<th>パッケージ</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commissure/HapticsSystem/Core</td>
+<td>Core</td>
+<td>FF-SDK-Unityコア機能<br>SDK動作に必須のファイル類</td>
+</tr>
+<tr>
+<td>Commissure/HapticsSystem/Devices</td>
+<td>Core</td>
+<td>デバイス依存機能</td>
+</tr>
+<tr>
+<td>Commissure/HapticsSystem/Devices.Windows</td>
+<td>Windows</td>
+<td>USB有線接続版FeelFuse向け機能</td>
+</tr>
+<tr>
+<td>Commissure/HapticsSystem/UI</td>
+<td>Core</td>
+<td>UI構築ヘルパー</td>
+</tr>
+<tr>
+<td>Commissure/HapticsSystem/UI.MetaXR</td>
+<td>MetaXR</td>
+<td>Meta XR SDK 依存UI構築ヘルパー</td>
+</tr>
+<tr>
+<td>Commissure/HapticsSystem/UI.TofAr</td>
+<td>TofAR</td>
+<td>ToF AR SDK 依存UI構築ヘルパー</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/overview.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

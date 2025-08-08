@@ -1,0 +1,1854 @@
+{
+  "source_base_path": "D:/Project/Github/Commissure/FF-SDK/Document/ja/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.AcceptableInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.AcceptableInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.AcceptableInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.AcceptableInput.yml\" sourcestartlinenumber=\"1\">HapticsSourceが同時干渉を許可するHapticInputの数</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.BasicFingerVibrationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.BasicFingerVibrationSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.BasicFingerVibrationSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.BasicFingerVibrationSource.yml\" sourcestartlinenumber=\"1\">基本指先振動ソース</p>\n<p>HapticInputが干渉するとVibrationAudioClipに指定された振動オーディオクリップとSEAudioClipに指定された効果音オーディオクリップを出力する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.DebugLogger.DebugLogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.DebugLogger.DebugLogLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.DebugLogger.DebugLogLevel",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.DebugLogger.DebugLogLevel.yml\" sourcestartlinenumber=\"1\">デバッグログレベル</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.DebugLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.DebugLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.DebugLogger",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.DebugLogger.yml\" sourcestartlinenumber=\"1\">デバッグログ出力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.DeviceProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.DeviceProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device.DeviceProfile",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.Device.DeviceProfile.yml\" sourcestartlinenumber=\"1\">デバイスプロファイル</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.DeviceProfiles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.DeviceProfiles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device.DeviceProfiles",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.Device.DeviceProfiles.yml\" sourcestartlinenumber=\"1\">デバイスプロファイルリスト</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.ModelNumbers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.ModelNumbers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device.ModelNumbers",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.Device.ModelNumbers.yml\" sourcestartlinenumber=\"1\">モデル番号</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.OutputPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.OutputPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device.OutputPoint",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.Device.OutputPoint.yml\" sourcestartlinenumber=\"1\">出力点</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.OutputPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.OutputPointType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device.OutputPointType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.Device.OutputPointType.yml\" sourcestartlinenumber=\"1\">出力点タイプ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.Device.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.Device",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.AudioMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.AudioMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.FingerVibration.AudioMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.FingerVibration.AudioMode.yml\" sourcestartlinenumber=\"1\">音声モード</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioPair.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioPair",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioPair.yml\" sourcestartlinenumber=\"1\">指先振動オーディオペア</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioTable",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.FingerVibration.FingerVibrationAudioTable.yml\" sourcestartlinenumber=\"1\">指先振動オーディオテーブル</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.FingerVibration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.FingerVibration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.GaussianFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.GaussianFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.GaussianFilter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.GaussianFilter.yml\" sourcestartlinenumber=\"1\">ガウシアンフィルター</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.GravityHapticForceSource.InputFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.GravityHapticForceSource.InputFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.GravityHapticForceSource.InputFrame",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.GravityHapticForceSource.InputFrame.yml\" sourcestartlinenumber=\"1\">入力フレーム</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.GravityHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.GravityHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.GravityHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.GravityHapticForceSource.yml\" sourcestartlinenumber=\"1\">重力力覚発生ソース</p>\n<p>HapticInputが干渉した際の衝突加速度と重力加速度を合成した強度の力覚を出力する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticFingerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticFingerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticFingerType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticFingerType.yml\" sourcestartlinenumber=\"1\">触覚指タイプ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.DecompositionMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.DecompositionMatrix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce.DecompositionMatrix",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticForce.DecompositionMatrix.yml\" sourcestartlinenumber=\"1\">分解行列</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.ForceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.ForceMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce.ForceMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticForce.ForceMode.yml\" sourcestartlinenumber=\"1\">フォースモード</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.ForceDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.ForceDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.ForceDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.HapticForceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.HapticForceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.HapticForceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator.yml\" sourcestartlinenumber=\"1\">触覚強度計算</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticForce.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticForce",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticInputType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticInputType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticInputType.yml\" sourcestartlinenumber=\"1\">触覚入力タイプ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticManager",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticManager.yml\" sourcestartlinenumber=\"1\">触覚フィードバックの生成と出力を管理する</p>\n<p>HapticSourceが生成した触覚情報をHapticOutputへ送信する。シーン内に必ず配置する必要がある。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticOutputBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticOutputBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticOutputBase",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticOutputBase.yml\" sourcestartlinenumber=\"1\">基底触覚出力クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HapticSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HapticSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HapticSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HapticSource.yml\" sourcestartlinenumber=\"1\">触覚発生源</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPart",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPart.yml\" sourcestartlinenumber=\"1\">人体部位</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPartGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPartGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPartGroup",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.BodyPartGroup.yml\" sourcestartlinenumber=\"1\">人体部位グループ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HumanModel.HumanBody",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.HumanModel.HumanBody.yml\" sourcestartlinenumber=\"1\">人体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.HumanModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.HumanModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IFingerVibrationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IFingerVibrationSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IFingerVibrationSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IFingerVibrationSource.yml\" sourcestartlinenumber=\"1\">指先振動ソースインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IGrabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IGrabbable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IGrabbable",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IGrabbable.yml\" sourcestartlinenumber=\"1\">掴める物体のインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticFinishedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticFinishedEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticCore.HapticFinishedEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticCore.HapticFinishedEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック終了後イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticStatingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticStatingEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticCore.HapticStatingEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticCore.HapticStatingEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック開始時イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.HapticUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticCore.HapticUpdateEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticCore.HapticUpdateEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック更新時イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticCore",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticCore.yml\" sourcestartlinenumber=\"1\">コアインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticForceSource.yml\" sourcestartlinenumber=\"1\">触覚力覚発生ソースインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticInput.yml\" sourcestartlinenumber=\"1\">触覚入力インターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticOutput.yml\" sourcestartlinenumber=\"1\">触覚出力インターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticFinishedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticFinishedEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticSource.HapticFinishedEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticSource.HapticFinishedEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック終了後イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticStatingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticStatingEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticSource.HapticStatingEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticSource.HapticStatingEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック開始時イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.HapticUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticSource.HapticUpdateEvent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticSource.HapticUpdateEvent.yml\" sourcestartlinenumber=\"1\">触覚フィードバック更新時イベントクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.IHapticSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.IHapticSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.IHapticSource.yml\" sourcestartlinenumber=\"1\">触覚発生源インターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.KeyAndValue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.KeyAndValue-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.KeyAndValue<TKey, TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.KeyAndValue-2.yml\" sourcestartlinenumber=\"1\">キーと値のペア</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.InputFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.InputFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.InputFrame",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.InputFrame.yml\" sourcestartlinenumber=\"1\">入力フレーム</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.ResistanceDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.ResistanceDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.ResistanceDirection",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.ResistanceDirection.yml\" sourcestartlinenumber=\"1\">抵抗方向</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.LinearResistanceHapticForceSource.yml\" sourcestartlinenumber=\"1\">線形抵抗力覚発生ソース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.AudioData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.AudioData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.AudioData",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.AudioData.yml\" sourcestartlinenumber=\"1\">オーディオデータ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.MultipleAudioFingerVibrationSource.yml\" sourcestartlinenumber=\"1\">複数オーディオクリップを切り替えて使用できる指先振動ソース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.PointHapticInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.PointHapticInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.PointHapticInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.PointHapticInput.yml\" sourcestartlinenumber=\"1\">触覚入力点</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.ScalarHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.ScalarHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.ScalarHapticForceSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.SingletonMonoBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.SingletonMonoBehaviour-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.SingletonMonoBehaviour<T>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.SingletonMonoBehaviour-1.yml\" sourcestartlinenumber=\"1\">シングルトンMonoBehaivior</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.TableBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.TableBase-3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.TableBase<TKey, TValue, Type>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.TableBase-3.yml\" sourcestartlinenumber=\"1\">基底テーブル</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.ForceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.ForceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.TwoPointHapticForceSource.ForceType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.ForceType.yml\" sourcestartlinenumber=\"1\">力タイプ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.PoiontData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.PoiontData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.TwoPointHapticForceSource.PoiontData",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.PoiontData.yml\" sourcestartlinenumber=\"1\">点データ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.TwoPointHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.TwoPointHapticForceSource.yml\" sourcestartlinenumber=\"1\">2点間の距離に応じた力覚発生ソース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.VibrationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.VibrationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core.VibrationType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Core.VibrationType.yml\" sourcestartlinenumber=\"1\">振動タイプ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSlot",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSlot.yml\" sourcestartlinenumber=\"1\">オーディオスロット</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSourceReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSourceReader",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.AudioSourceReader.yml\" sourcestartlinenumber=\"1\">オーディオ波形リーダー</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ClockGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ClockGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.ClockGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.ClockGenerator.yml\" sourcestartlinenumber=\"1\">クロック生成</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FTWDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FTWDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.FTWDevice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1FingerVibrationAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1FingerVibrationAudio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1FingerVibrationAudio",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1FingerVibrationAudio.yml\" sourcestartlinenumber=\"1\">FeelFuse v1.0.0 指先振動オーディオ再生</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.yml\" sourcestartlinenumber=\"1\">FeelFuse v1.0.0 出力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.Servo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.Servo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.Servo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.ForceCommandGenerator.yml\" sourcestartlinenumber=\"1\">フォースコマンド生成</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IAudioSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IAudioSourceReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.IAudioSourceReader",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.IAudioSourceReader.yml\" sourcestartlinenumber=\"1\">オーディオ波形リーダーインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.IConnection",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnection.yml\" sourcestartlinenumber=\"1\">接続インターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.IConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.IConnectionFactory.yml\" sourcestartlinenumber=\"1\">接続ファクトリインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnection",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnection.yml\" sourcestartlinenumber=\"1\">OSC接続</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.OSCConnectionFactory.yml\" sourcestartlinenumber=\"1\">OSCConnectionファクトリー</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.TactileCommandGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.TactileCommandGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.TactileCommandGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.FeelFuseV1.TactileCommandGenerator.yml\" sourcestartlinenumber=\"1\">振動コマンド生成</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.TactileData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.TactileData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1.TactileData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.FeelFuseV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.FeelFuseV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.ServoSimulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.ServoSimulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Simulator.ServoSimulator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Simulator.ServoSimulator.yml\" sourcestartlinenumber=\"1\">サーボシミュレータ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.ServoVisualGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.ServoVisualGuide.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Simulator.ServoVisualGuide",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.yml\" sourcestartlinenumber=\"1\">シミュレータ出力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.VibrationVisualGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.VibrationVisualGuide.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Simulator.VibrationVisualGuide",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Simulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Simulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.AngleWaveVisializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.AngleWaveVisializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.AngleWaveVisializer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.AngleWaveVisializer.yml\" sourcestartlinenumber=\"1\">角度波形グラフを表示する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.yml\" sourcestartlinenumber=\"1\">FeelFuse v0.1.0 出力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GaussianFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GaussianFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GaussianFilter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GaussianFilter.yml\" sourcestartlinenumber=\"1\">ガウシアンフィルター</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GraphPlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GraphPlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GraphPlot",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.GraphPlot.yml\" sourcestartlinenumber=\"1\">グラフプロッタ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoController",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoController.yml\" sourcestartlinenumber=\"1\">サーボコントローラーインターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoVisualizer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoVisualizer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.IServoVisualizer.yml\" sourcestartlinenumber=\"1\">サーボモーター可視化インターフェイス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.MotorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.MotorController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.MotorController",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.MotorController.yml\" sourcestartlinenumber=\"1\">モーターコントローラー</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SerialServoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SerialServoController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SerialServoController",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SerialServoController.yml\" sourcestartlinenumber=\"1\">シリアル経由でサーボモータを制御するコントローラー</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SideType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SideType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SideType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.SideType.yml\" sourcestartlinenumber=\"1\">左右モーター</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.UDPServoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.UDPServoController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.UDPServoController",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.UDPServoController.yml\" sourcestartlinenumber=\"1\">UDP経由でサーボモータを制御するコントローラー</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.VersionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.VersionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.VersionType",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.VersionType.yml\" sourcestartlinenumber=\"1\">FeelFuseモーターコントローラー版</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.WaveVectorUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.WaveVectorUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.WaveVectorUI",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.WaveVectorUI.yml\" sourcestartlinenumber=\"1\">波形UI</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.FeelFuseV0",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.yml\" sourcestartlinenumber=\"1\">Quest Link で接続された Meta Quest への出力</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.MetaQuest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.WindowsFingerVibrationAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.WindowsFingerVibrationAudio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.WindowsFingerVibrationAudio",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.WindowsFingerVibrationAudio.yml\" sourcestartlinenumber=\"1\">Windows用指先振動オーディオ再生</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.yml\" sourcestartlinenumber=\"1\">Windows用基底触覚出力クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Devices.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Devices.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Devices.Windows",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.FlipCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.FlipCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.FlipCamera",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.UI.FlipCamera.yml\" sourcestartlinenumber=\"1\">カメラの出力を左右反転させる</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.GenericGrabbable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.GenericGrabbable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.GenericGrabbable",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.UI.GenericGrabbable.yml\" sourcestartlinenumber=\"1\">アタッチされたオブジェクトを掴み、移動できるようにする</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.HapticInputDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.HapticInputDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.HapticInputDescription",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.UI.HapticInputDescription.yml\" sourcestartlinenumber=\"1\">HapticInputの情報を表示する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.HapticSourceDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.HapticSourceDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.HapticSourceDescription",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.UI.HapticSourceDescription.yml\" sourcestartlinenumber=\"1\">HapticSourceの情報を表示する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.TofAR.TofArHandInputAttacher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.TofAR.TofArHandInputAttacher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.TofAR.TofArHandInputAttacher",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.UI.TofAR.TofArHandInputAttacher.yml\" sourcestartlinenumber=\"1\">ToF AR のHandモデルの指先にHapticInputをアタッチし自動追従させる</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.TofAR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.TofAR.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI.TofAR",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Test.Commissure.HapticsSystem.UI.HapticInputDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Test.Commissure.HapticsSystem.UI.HapticInputDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Test.Commissure.HapticsSystem.UI.HapticInputDescription",
+      "Summary": "<p sourcefile=\"api/Test.Commissure.HapticsSystem.UI.HapticInputDescription.yml\" sourcestartlinenumber=\"1\">HapticInputの情報を表示する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Test.Commissure.HapticsSystem.UI.HapticSourceDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Test.Commissure.HapticsSystem.UI.HapticSourceDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Test.Commissure.HapticsSystem.UI.HapticSourceDescription",
+      "Summary": "<p sourcefile=\"api/Test.Commissure.HapticsSystem.UI.HapticSourceDescription.yml\" sourcestartlinenumber=\"1\">HapticSourceの情報を表示する</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Test.Commissure.HapticsSystem.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Test.Commissure.HapticsSystem.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Test.Commissure.HapticsSystem.UI",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/development.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_00.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_03.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_03.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_04.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_04.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_05.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_06.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_06.jpeg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_07.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_07.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_08.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_08.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_09.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_09.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/development_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/development_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/overview_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/overview_00.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/overview_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/overview_01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/overview_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/overview_02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_03.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_03.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_04.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_04.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_05.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_05.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/samples_06.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/samples_06.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/setup_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/setup_00.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/samples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
