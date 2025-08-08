@@ -552,7 +552,7 @@
   "docs/index.html": {
     "href": "docs/index.html",
     "title": "1. FF-SDK-Unityとは | FF-SDK-Unity",
-    "summary": "1. FF-SDK-Unityとは FF-SDK-UnityはFeelFuseデバイスで触覚を再生するアプリケーションの開発を行えるUnity用ライブラリです。 FF-SDK-Unityが提供するコンポーネントをUnityプロジェクト内のシーンに配置するだけで簡単に触覚を再生するアプリケーションを開発することができます。 コンポーネントは拡張可能なので、開発者は独自の触覚を実装することができます。 1.1. システム要件 FF-SDK-Unityと関連ライブラリの動作確認済みバージョン Unity2021.3.33f1 (Standalone Windows Platform) OscCore v1.1.0 Meta XR All-in-One SDK v72.0.0 ToF AR v1.4.0"
+    "summary": "1. FF-SDK-Unityとは FF-SDK-UnityはFeelFuseデバイスで触覚を再生するアプリケーションの開発を行えるUnity用ライブラリです。 FF-SDK-Unityが提供するコンポーネントをUnityプロジェクト内のシーンに配置するだけで簡単に触覚を再生するアプリケーションを開発することができます。 コンポーネントは拡張可能なので、開発者は独自の触覚を実装することができます。 1.1. システム要件 FF-SDK-Unityと関連ライブラリの動作確認済みバージョン Unity2021.3.62f1 OscCore v1.1.0 Meta XR All-in-One SDK v77.0.0"
   },
   "docs/overview.html": {
     "href": "docs/overview.html",

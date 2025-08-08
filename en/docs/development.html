@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>4. FF-SDK-Unityアプリケーション開発 | FF-SDK-Unity </title>
+      <title>4. FF-SDK-Unity application development | FF-SDK-Unity </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="4. FF-SDK-Unityアプリケーション開発 | FF-SDK-Unity ">
+      <meta name="title" content="4. FF-SDK-Unity application development | FF-SDK-Unity ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/development.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/development.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,82 +85,82 @@
         </div>
 
         <article data-uid="">
-<h1 id="4-ff-sdk-unityアプリケーション開発">4. FF-SDK-Unityアプリケーション開発</h1>
+<h1 id="4-ff-sdk-unity-application-development">4. FF-SDK-Unity application development</h1>
 
-<h2 id="41-ff-sdk-unityアプリケーション開発の基本">4.1. FF-SDK-Unityアプリケーション開発の基本</h2>
-<p>FF-SDK-Unityアプリケーション開発の基本的な流れは以下のようになります。<br>
-(FF-SDK-Unityのセットアップは完了している前提です。)</p>
+<h2 id="41-ff-sdk-unity-basics-of-development">4.1. FF-SDK-Unity basics of development</h2>
+<p>The basic flow of FF-SDK-Unity application development is as follows.
+(It is assumed that the FF-SDK-Unity setup is already complete.)</p>
 <ol>
-<li><p>シーンにHapticManagerプレファブを配置する<br>
-Assets/Commissure/HapticsSystem/Core/Prefabs/HapticManager をシーンに配置します。<br>
+<li><p>Place HapticManager prefab into a scene<br>
+Place Assets/Commissure/HapticsSystem/Core/Prefabs/HapticManager into the scene.<br>
 <img src="images/development_00.png" alt="Put HapticManager prefab"></p>
 </li>
-<li><p>シーンに任意のHapticOutput系プレファブを配置する<br>
-Assets/Commissure/HapticsSystem/Devices/FeelFuseV1/Prefabs/FeelFuseV1Output などのプレファブをシーンに配置します。<br>
+<li><p>Place arbitrary HapticOutput-related prefab into the scene<br>
+Place a Prefab such as Assets/Commissure/HapticsSystem/Devices/FeelFuseV1/Prefabs/FeelFuseV1Output into the scene.<br>
 <img src="images/development_01.png" alt="Put HapticOutput prefab"><br>
-HapticOutputの種類と説明については <a href="#432hapticoutput" title="4.3.2. HapticOutput">4.3.2. HapticOutput</a> をご参照ください。</p>
+To see the types of HapticOutput and their descriptions, please refer to <a href="#432hapticoutput" title="4.3.2.HapticOutput">4.3.2. HapticOutput</a>.</p>
 </li>
-<li><p>HapticManagerとHapticOutputを関連付ける<br>
-HapticManagerのInspectorでOutputsフィールドに、シーンに配置したHapticOutputを設定します。<br>
-以下の図では、2つのHapticOutputを関連付けています。<br>
-これにより2つの出力先へ触覚が出力されます。<br>
+<li><p>Link HapticManager and HapticOutput<br>
+Set HapticOutput placed into the scene to Outputs field at the HapticManager Inspector.<br>
+In the image below, the two HapticOutput are connected.<br>
+This enables haptic feedback to be delivered to two output destinations.<br>
 <img src="images/development_02.png" alt="Setup HapticManager"></p>
 </li>
-<li><p>シーンに任意のHapticInput系プレファブを配置する<br>
-Assets/Commissure/HapticsSystem/Core/Prefabs/PointHapticInput などのプレファブをシーンに配置します。<br>
-以下の図では、4つのHapticInputを配置しています。<br>
-MetaQuestを使用する場合は、<a href="#44-ui%E6%A7%8B%E7%AF%89%E3%83%98%E3%83%AB%E3%83%91%E3%83%BC">4.4. UI構築ヘルパー</a>にあるMetaXRHapticInputs.prefabを使用してください。<br>
+<li><p>Place arbitrary HapticInput-related prefab into the scene<br>
+Place a Prefab such as Assets/Commissure/HapticsSystem/Core/Prefabs/PointHapticInput into the scene.<br>
+In the diagram below, four HapticInputs are placed.<br>
+If you use MetaQuest, use MetaXRHapticInputs.prefab in <a href="#44-ui-development-helper">4.4. UI development helper</a>.
 <img src="images/development_03.png" alt="Put HapticInput prefab"></p>
 </li>
-<li><p>HapticInputの設定を行う<br>
-PointHapticInputには人体のどの部位に相当するかの設定がありますので、適切に設定を行います。<br>
+<li><p>Set up HapticInput<br>
+PointHapticInput has a setting for which part of the human body corresponds to, so configure it appropriately.
 <img src="images/development_04.png" alt="Setup HapticInput"></p>
 </li>
-<li><p>触覚を発生させたいオブジェクトのHapticSource系のコンポーネントをアタッチする<br>
-HapticSource, FingerVibrationSource, HapticForceSource の3つのコンポーネントをアタッチします。
-HapticSourceはColliderを使用しますので、Collider系のコンポーネントもアタッチします。<br>
-以下の例では、基本的な振動触覚を発するBasicFingerVibrationSourceと重力感触覚を発するGravityHapticForceSourceをアタッチしています。<br>
+<li><p>Attach the HapticSource-related component to the object where you want to generate haptic feedback<br>
+Attach 3 components, HapticSource, FingerVibrationSource, and HapticForceSource.<br>
+HapticSource uses the Collider, so attach the Collider-related component as well.<br>
+In the following example, attach BasicFingerVibrationSource, which generates basic vibration haptics, and GravityHapticForceSource, which generates gravity haptics.<br>
 <img src="images/development_05.png" alt="Setup HapticSource"></p>
 </li>
-<li><p>HapticSourceの各種パラメータを変更し、触覚をカスタマイズする<br>
-振動を発するためのAudioClipなどの設定を行います。</p>
+<li><p>Modify various paramaters to customize the haptic feedback<br>
+Configure settings such as AudioClip to generate vibrations.</p>
 </li>
 </ol>
-<h2 id="42-触覚のカスタマイズ">4.2. 触覚のカスタマイズ</h2>
-<p>触覚のカスタマイズを行うには、SDKが提供するHapticsSource系コンポーネントの設定をInspectorで変更したり、コードからプロパティを変更することに加え、独自のコンポーネントを作成する方法もあります。<br>
-独自のコンポーネントを実装するには、以下のインターフェイスを実装したクラスを作成し、HapticSourceと同じGameObjectにアタッチしてください。</p>
+<h2 id="42-customize-haptics">4.2. Customize haptics</h2>
+<p>To customize haptics feedback, you can modify the settings of the HapticsSource-related components provided by SDK in the Inspector, change properties via code, or create custom components.<br>
+To implement a custom component, create a class that implements the interface below, and attach it to a GameObject which is same as the HapticSource.</p>
 <table>
 <thead>
 <tr>
-<th>インターフェイス</th>
-<th>説明</th>
+<th>Interface</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>IFingerVibrationSource</td>
-<td>振動触覚ソースのインターフェイス</td>
+<td>Interface of vibration haptic source</td>
 </tr>
 <tr>
 <td>IHapticForceSource</td>
-<td>剪断触覚ソースのインターフェイス</td>
+<td>Interface of shear haptic source</td>
 </tr>
 </tbody>
 </table>
-<h2 id="43-sdkが提供するコンポーネント">4.3. SDKが提供するコンポーネント</h2>
-<p>SDKが提供するコンポーネントは Commissure/HapticsSystem/ 配下に配置されており、下記となります。</p>
+<h2 id="43-components-provided-by-sdk">4.3. Components provided by SDK</h2>
+<p>Components provided by SDK are placed under Commissure/HapticsSystem/ as below.</p>
 <h3 id="431hapticinput">4.3.1.　HapticInput</h3>
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>説明</th>
+<th>Component</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Core/Prefabs/PointHapticInput.prefab</td>
-<td>点入力</td>
+<td>Point input</td>
 </tr>
 </tbody>
 </table>
@@ -168,22 +168,22 @@ HapticSourceはColliderを使用しますので、Collider系のコンポーネ�
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>説明</th>
+<th>Component</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Devices/Simulator/Prefabs/SimulatorOutput.prefab</td>
-<td>触覚の出力を画面上で確認できるシミュレーター</td>
+<td>Simulator that allows you to visually check haptic output on the screen</td>
 </tr>
 <tr>
 <td>Devices/FeelFuseV1/Prefabs/FeelFuseV1Output.prefab</td>
-<td>FeelFuseデバイス用出力</td>
+<td>Output for FeelFuse devices</td>
 </tr>
 <tr>
 <td>Devices.Windows/FeelFuseV0/Prefabs/FeelFuseV0Output.prefab</td>
-<td>USB有線接続版FeelFuseデバイス用出力</td>
+<td>Output for FeelFuse devices with USB wired connection</td>
 </tr>
 </tbody>
 </table>
@@ -191,18 +191,18 @@ HapticSourceはColliderを使用しますので、Collider系のコンポーネ�
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>説明</th>
+<th>Component</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Core/Scripts/HapticSources/FingerVibration/BasicFingerVibrationSource.cs</td>
-<td>単一の振動オーディオを出力する</td>
+<td>Output single vibration audio</td>
 </tr>
 <tr>
 <td>Core/Scripts/HapticSources/HapticForce/GravityHapticForceSource.cs</td>
-<td>複数オーディオクリップを切り替えて出力することが可能</td>
+<td>Enable to switch between multiple audio clips for output</td>
 </tr>
 </tbody>
 </table>
@@ -210,60 +210,60 @@ HapticSourceはColliderを使用しますので、Collider系のコンポーネ�
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>説明</th>
+<th>Component</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Core/Scripts/HapticSources/FingerVibration/BasicFingerVibrationSource.cs</td>
-<td>重力を出力する</td>
+<td>Output gravity</td>
 </tr>
 <tr>
 <td>Core/Scripts/HapticSources/HapticForce/LinearResistanceHapticForceSource.cs</td>
-<td>線形抵抗力を出力する</td>
+<td>Output linear resistive force</td>
 </tr>
 <tr>
 <td>Core/Scripts/HapticSources/HapticForce/TwoPointHapticForceSource.cs</td>
-<td>2点間の距離に応じた力を出力する</td>
+<td>Output force based on the distance between two points</td>
 </tr>
 </tbody>
 </table>
-<h2 id="44-ui構築ヘルパー">4.4. UI構築ヘルパー</h2>
-<p>アプリケーションを開発するために役立つヘルパーコンポーネントが Assets/Commissure/HapticsSystem 配下に用意されています。</p>
+<h2 id="44-ui-development-helper">4.4. UI development helper</h2>
+<p>Helper components useful for the application development are provided under Assets/Commissure/HapticsSystem.</p>
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>説明</th>
+<th>Component</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>UI/Scripts/GenericGrabbable.cs</td>
-<td>HapticSourceがアタッチされた物体を掴む操作<br>HapticSourceと同じGame Objectにアタッチして使用する<br>Meta Questなどデバイス側のSDKで物体を掴む動作が用意されている場合は triggerOnly フィールドをtrueに設定すれば触覚発生の検知のみ行うことが可能</td>
+<td>The action of grabbing an object to which HapticSource is attached<br>Attach it to the same GameObject as HapticSource and use it<br>If the device-side SDK, such as Meta Quest, provides a grabbing action, setting the triggerOnly field to true allows detection of haptic feedback only</td>
 </tr>
 <tr>
 <td>UI.MetaXR/Prefabs/MetaXRHapticInputs.prefab</td>
-<td>Meta XR SDKが提供するHandモデルの指先にHapticInputをアタッチし自動追従させるオブジェクト<br>シーンに配置して使用する</td>
+<td>An object that attaches HapticInput to the fingertips of the Hand model provided by Meta XR SDK and automatically follows their movement<br>Place into a scene and use it</td>
 </tr>
 <tr>
 <td>UI.TofAr/Prefabs/TofARCamera.prefab</td>
-<td>ToF AR SDKが提供するHandモデルの指先にHapticInputをアタッチし自動追従させるオブジェクト<br>シーンに配置して使用する</td>
+<td>An object that attaches HapticInput to the fingertips of the Hand model provided by ToF AR SDK and automatically follows their movement<br>Place into a scene and use it</td>
 </tr>
 </tbody>
 </table>
-<h3 id="441-metaxrhapticinputsの設定">4.4.1. MetaXRHapticInputsの設定</h3>
+<h3 id="441-metaxrhapticinputs-setting">4.4.1. MetaXRHapticInputs setting</h3>
 <ol>
-<li>UI.MetaXR/Prefabs/MetaXRHapticInputs.prefab をシーンに配置する。</li>
-<li>MetaXRHapticInputs配下の4つのHapticInputにアタッチされている HandJoint コンポーネントのHandフィールドの参照を設定する。<br>
-参照先は下記のようにする。</li>
+<li>Place UI.MetaXR/Prefabs/MetaXRHapticInputs.prefab into a scene.</li>
+<li>Set the reference for the Hand field of the HandJoint component attached to the four of  HapticInput under MetaXRHapticInputs.<br>
+Set the reference destination as follows.</li>
 </ol>
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>参照先</th>
+<th>Component</th>
+<th>Reference destination</th>
 </tr>
 </thead>
 <tbody>
@@ -287,14 +287,14 @@ HapticSourceはColliderを使用しますので、Collider系のコンポーネ�
 </table>
 <p><img src="images/development_10.png" alt="HandJoint.Hand Reference"></p>
 <ol start="3">
-<li>MetaXRHapticInputs配下の4つのHapticInputにアタッチされている HandJoint コンポーネントのJoint Idフィールドの値を設定する<br>
-値は下記のようにする</li>
+<li>Set the value of the Joint Id field of the HandJoint component attached to the four of  HapticInput under MetaXRHapticInputs.<br>
+Set the value as follows.</li>
 </ol>
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>Joint Id 値</th>
+<th>Component</th>
+<th>Joint Id Value</th>
 </tr>
 </thead>
 <tbody>
@@ -316,30 +316,30 @@ HapticSourceはColliderを使用しますので、Collider系のコンポーネ�
 </tr>
 </tbody>
 </table>
-<h2 id="45-開発デバッグ支援機能">4.5. 開発・デバッグ支援機能</h2>
-<p>ヘッドマウントディスプレイを被らない状態でのハンドトラッキングを使用した開発・デバッグを効率化する目的で ToF AR SDK を使用することができます。</p>
+<h2 id="45-development-and-debugging-support">4.5. Development and debugging support</h2>
+<p>You can use ToF AR SDK to streamline development and debugging with hand tracking without wearing a head-mounted display.</p>
 <ol>
-<li>ToF AR 動作対応スマートフォン（Face IDに対応したiPhoneやiPad Pro）でApp Storeより ToF AR Serverをダウンロードする。<br>
+<li>Download ToF AR Server from App Store on ToF AR compatible devices (iPhones or iPad Pros that support Face ID).<br>
 <a href="https://apps.apple.com/jp/app/tof-ar-server/id1613866652">https://apps.apple.com/jp/app/tof-ar-server/id1613866652</a></li>
-<li>シーンにTofArCamera.prefab を配置する。</li>
-<li>スマートフォンとUnityを使用しているPCを同一ネットワークに接続する。</li>
-<li>スマートフォンでToF AR Serverを起動し、画面に表示されたIPアドレスを確認する。
+<li>Place TofArCamera.prefab into a scene.</li>
+<li>Connect your smartphone and the PC running Unity to the same network.</li>
+<li>Launch ToF AR Server on your smartphone and check IP address displayed on the application.<br>
 <img src="images/development_06.jpeg" alt="ToF AR Server"></li>
-<li>そのIPアドレスをシーン上の TofArCamera/TofArManagerのInspector上のDebug Server IP Addressに設定する。<br>
+<li>Set that IP address in the Debug Server IP Address field of TofArCamera/TofArManager in the scene's Inspector.<br>
 <img src="images/development_07.png" alt="TofArManager"></li>
-<li>Unity Editorを再起動する。</li>
+<li>Restart the Unity Editor.</li>
 </ol>
-<p>上記設定を行った後、シーンをPlayするとスマートフォンのFace IDカメラ映像でハンドトラッキングが行われ、物体に触れたり掴むといった操作を行いながら開発・デバッグを行うことができます。<br>
+<p>After complementing the above settings, playing the scene will enable hand trackiing using the Face ID camera on the smartphone. This allows to intract with objects by touching or grabbing them while developing and debugging.<br>
 <img src="images/development_08.png" alt="Hand tracking by ToF AR"></p>
-<h2 id="46-usb有線接続版feelfuse接続設定">4.6. USB有線接続版FeelFuse接続設定</h2>
-<p>USB有線接続版FeelFuseはWindows PCのCOMポートを使用して通信を行います。<br>
-通信に使用するCOMポートは、FeelFuseV0Outputオブジェクト配下の SerialPort_Left および SerialPort_Right オブジェクトのInspectorで指定します。<br>
-設定値はPCローカルに自動保存されるので、次回起動時の再設定は不要です。</p>
+<h2 id="46-feelfuse-with-usb-wired-connection-setting">4.6. FeelFuse with USB wired connection setting</h2>
+<p>FeelFuse with USB wired connection performs communication by using the COM port of a Windows PC.<br>
+Specify the COM port used by communication at SerialPort_Left or SerialPort_Right Inspector under FeelFuseV0Output object.<br>
+The settings are automatically saved locally on the PC, so reconfiguration is not required on the next startup.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/development.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/development.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

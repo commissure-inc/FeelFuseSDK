@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GenericGrabbable | FF-SDK-Unity ">
       
-      <meta name="description" content="アタッチされたオブジェクトを掴み、移動できるようにする">
+      <meta name="description" content="Enable grabbing and moving of attached objects">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/feature/9_doc_2/apiSpec/new?filename=Commissure_HapticsSystem_UI_GenericGrabbable.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.UI.GenericGrabbable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/release/0.1.1/apiSpec/new?filename=Commissure_HapticsSystem_UI_GenericGrabbable.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.UI.GenericGrabbable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Commissure_HapticsSystem_UI_GenericGrabbable" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable" class="text-break">
-Class GenericGrabbable  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class GenericGrabbable  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>Commissure.HapticsSystem.UI.Assembly.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>アタッチされたオブジェクトを掴み、移動できるようにする</p>
+  <div class="markdown summary"><p>Enable grabbing and moving of attached objects</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -164,12 +164,43 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
 
 
-  <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_grabReleased" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.grabReleased">
-  grabReleased
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_grabInputsDistance" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.grabInputsDistance">
+  grabInputsDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>放した時に発動するイベント</p>
+  <div class="markdown level1 summary"><p>Distance berween two HapticInputs to be consindered as grabbed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float grabInputsDistance</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_grabReleased" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.grabReleased">
+  grabReleased
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event triggered when releasing</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -197,10 +228,10 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_grabStarted" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.grabStarted">
   grabStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>掴み始めた時に発動するイベント</p>
+  <div class="markdown level1 summary"><p>Event triggered when grabbing starts</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -228,10 +259,10 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_triggerOnly" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.triggerOnly">
   triggerOnly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>trueの場合、掴んだ時にイベントは発生させるが、物体の移動は行わない</p>
+  <div class="markdown level1 summary"><p>If true, an event is triggered when grabbed, but the object does not move</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -264,10 +295,10 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_IsGrabbing" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.IsGrabbing">
   IsGrabbing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>trueの場合、掴んでいる</p>
+  <div class="markdown level1 summary"><p>If true, grabbing</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -300,10 +331,10 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_Grab_Commissure_HapticsSystem_Core_IHapticInput_" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.Grab(Commissure.HapticsSystem.Core.IHapticInput)">
   Grab(IHapticInput)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>掴む</p>
+  <div class="markdown level1 summary"><p>Grab</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -314,7 +345,7 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hapticInput</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticInput.html">IHapticInput</a></dt>
-    <dd><p>掴もうとしているHapticInput</p>
+    <dd><p>HapticInput that try to be grabbed</p>
 </dd>
   </dl>
 
@@ -333,10 +364,10 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_UI_GenericGrabbable_UnGrab" data-uid="Commissure.HapticsSystem.UI.GenericGrabbable.UnGrab">
   UnGrab()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>放す</p>
+  <div class="markdown level1 summary"><p>Release</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -360,7 +391,7 @@ Class GenericGrabbable  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/UI/Scripts/GenericGrabbable.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

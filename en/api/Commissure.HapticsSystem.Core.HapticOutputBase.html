@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class HapticOutputBase | FF-SDK-Unity ">
       
-      <meta name="description" content="基底触覚出力クラス">
+      <meta name="description" content="Base Haptic output class">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/feature/9_doc_2/apiSpec/new?filename=Commissure_HapticsSystem_Core_HapticOutputBase.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.HapticOutputBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/release/0.1.1/apiSpec/new?filename=Commissure_HapticsSystem_Core_HapticOutputBase.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.HapticOutputBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Commissure_HapticsSystem_Core_HapticOutputBase" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase" class="text-break">
-Class HapticOutputBase  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class HapticOutputBase  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>Commissure.HapticsSystem.Core.Assembly.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>基底触覚出力クラス</p>
+  <div class="markdown summary"><p>Base Haptic output class</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class HapticOutputBase : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class HapticOutputBase : MonoBehaviour, IHapticOutput</code></pre>
   </div>
 
 
@@ -120,12 +120,19 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Commissure.HapticsSystem.Core.IHapticOutput.html">IHapticOutput</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
       <div><a class="xref" href="Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.html">FeelFuseV1HapticOutput</a></div>
       <div><a class="xref" href="Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.html">SimulatorHapticOutput</a></div>
+      <div><a class="xref" href="Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html">WindowsHapticOutputBase</a></div>
     </dd>
   </dl>
 
@@ -167,10 +174,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_supportedAudioOutputTypes" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.supportedAudioOutputTypes">
   supportedAudioOutputTypes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>サポートしているオーディオ出力点リスト</p>
+  <div class="markdown level1 summary"><p>List of supported audio output points</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -203,10 +210,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_AudioMode" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.AudioMode">
   AudioMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>音声モード</p>
+  <div class="markdown level1 summary"><p>Audio mode</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -235,10 +242,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_DeviceProfile" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.DeviceProfile">
   DeviceProfile
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>デバイスプロファイル</p>
+  <div class="markdown level1 summary"><p>Device profile</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -267,15 +274,15 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_DeviceProfiles" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.DeviceProfiles">
   DeviceProfiles
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>デバイスプロファイルリスト</p>
+  <div class="markdown level1 summary"><p>Device profile list</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DeviceProfiles DeviceProfiles { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DeviceProfiles DeviceProfiles { get; protected set; }</code></pre>
   </div>
 
 
@@ -299,10 +306,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_Enabled" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.Enabled">
   Enabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>trueの場合、有効である</p>
+  <div class="markdown level1 summary"><p>If true, it is enabled</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -331,10 +338,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_ShearPoints" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.ShearPoints">
   ShearPoints
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>せん断触覚出力点数</p>
+  <div class="markdown level1 summary"><p>The number of shear haptic output points</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -367,10 +374,10 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_Initialize_Commissure_HapticsSystem_Core_IHapticCore_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.Initialize(Commissure.HapticsSystem.Core.IHapticCore)">
   Initialize(IHapticCore)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>初期化</p>
+  <div class="markdown level1 summary"><p>Initialization</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -381,7 +388,7 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hapticCore</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticCore.html">IHapticCore</a></dt>
-    <dd><p>コア</p>
+    <dd><p>Core</p>
 </dd>
   </dl>
 
@@ -396,21 +403,240 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_Start_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.Start*"></a>
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_SEStart_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEStart*"></a>
 
-  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_Start" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.Start">
-  Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_SEStart_Commissure_HapticsSystem_Core_IHapticSource_UnityEngine_AudioClip_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEStart(Commissure.HapticsSystem.Core.IHapticSource,UnityEngine.AudioClip)">
+  SEStart(IHapticSource, AudioClip)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>MonoBehaviour.Start() の処理</p>
+  <div class="markdown level1 summary"><p>Start sound effect output</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void SEStart(IHapticSource hapticSource, AudioClip audioClip)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+    <dt><code>audioClip</code> <span class="xref">AudioClip</span></dt>
+    <dd><p>Sound effect audio clip to be played</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_SEStop_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEStop*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_SEStop_Commissure_HapticsSystem_Core_IHapticSource_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEStop(Commissure.HapticsSystem.Core.IHapticSource)">
+  SEStop(IHapticSource)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stop sound effect output</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SEStop(IHapticSource hapticSource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_SEUpdate_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_SEUpdate_Commissure_HapticsSystem_Core_IHapticSource_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate(Commissure.HapticsSystem.Core.IHapticSource)">
+  SEUpdate(IHapticSource)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify parameters of the sound effect during playback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SEUpdate(IHapticSource hapticSource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_ShearOutput_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_ShearOutput_System_Single___" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput(System.Single[])">
+  ShearOutput(float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shear haptic output</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ShearOutput(float[] angles)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>angles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd><p>Output angle value array</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStart_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStart_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip)">
+  VibrationStart(IHapticSource, IHapticInput, AudioClip)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start vibration output</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void VibrationStart(IHapticSource hapticSource, IHapticInput hapticInput, AudioClip audioClip)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+    <dt><code>hapticInput</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticInput.html">IHapticInput</a></dt>
+    <dd><p>HapticInput that generates haptic feedback</p>
+</dd>
+    <dt><code>audioClip</code> <span class="xref">AudioClip</span></dt>
+    <dd><p>Vibration audio clip to be played</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStop_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStop_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)">
+  VibrationStop(IHapticSource, IHapticInput)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stop vibration output</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void VibrationStop(IHapticSource hapticSource, IHapticInput hapticInput)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+    <dt><code>hapticInput</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticInput.html">IHapticInput</a></dt>
+    <dd><p>HapticInput that generates haptic feedback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationUpdate_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate*"></a>
+
+  <h3 id="Commissure_HapticsSystem_Core_HapticOutputBase_VibrationUpdate_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_" data-uid="Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)">
+  VibrationUpdate(IHapticSource, IHapticInput)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updating parameters of the vibrating playback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void VibrationUpdate(IHapticSource hapticSource, IHapticInput hapticInput)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hapticSource</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticSource.html">IHapticSource</a></dt>
+    <dd><p>Haptic source</p>
+</dd>
+    <dt><code>hapticInput</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticInput.html">IHapticInput</a></dt>
+    <dd><p>HapticInput that generates haptic feedback</p>
+</dd>
+  </dl>
 
 
 
@@ -427,7 +653,7 @@ Class HapticOutputBase  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticOutputs/HapticOutputBase.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

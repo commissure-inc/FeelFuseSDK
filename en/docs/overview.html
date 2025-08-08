@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>2. FF-SDK-Unityの概要 | FF-SDK-Unity </title>
+      <title>2. FF-SDK-Unity Overiew | FF-SDK-Unity </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="2. FF-SDK-Unityの概要 | FF-SDK-Unity ">
+      <meta name="title" content="2. FF-SDK-Unity Overiew | FF-SDK-Unity ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/overview.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/overview.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,120 +85,116 @@
         </div>
 
         <article data-uid="">
-<h1 id="2-ff-sdk-unityの概要">2. FF-SDK-Unityの概要</h1>
+<h1 id="2-ff-sdk-unity-overiew">2. FF-SDK-Unity Overiew</h1>
 
-<h2 id="21-触覚を再生するしくみ">2.1. 触覚を再生するしくみ</h2>
+<h2 id="21-how-to-playback-haptic">2.1. How to playback haptic</h2>
 <p><img src="images/overview_00.png" alt="Haptics Playback Flow"><br>
-FF-SDK-Unity 触覚再生フロー図</p>
-<h3 id="211-基本コンポーネント">2.1.1. 基本コンポーネント</h3>
-<p>FF-SDK-Unityは以下のコンポーネントを提供します。</p>
+FF-SDK-Unity Haptics Playback Flowchart</p>
+<h3 id="211-base-components">2.1.1. Base components</h3>
+<p>FF-SDK-Unity provides these components below.</p>
 <table>
 <thead>
 <tr>
-<th>コンポーネント</th>
-<th>役割</th>
+<th>Component</th>
+<th>Function</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>HapticsInput</td>
-<td>触覚を知覚する入力点<br>例) 親指や人差し指の指先</td>
+<td>HapticInput</td>
+<td>Haptic input point<br>ex.) The fingertips of the thumb or index finger</td>
 </tr>
 <tr>
-<td>HapticsSource</td>
-<td>触覚を発生する物体<br>振動を発するFingerVibrationSourceと剪断強度を計算するHapticForceSourceを配下に持つ</td>
+<td>HapticSource</td>
+<td>Objects that generates haptic feedback<br> FingerVibrationSource that emits vibrations and HapticForceSource that calculates shear strength are under this component</td>
 </tr>
 <tr>
 <td>HapticsOutput</td>
-<td>触覚を出力するデバイス<br>例) FeelFuseデバイスやシミュレーター</td>
+<td>Devices that output haptics<br>ex.) FeelFuse devices or siumilators</td>
 </tr>
 <tr>
 <td>HapticsManager</td>
-<td>触覚入力から出力までを制御するコンポーネント</td>
+<td>Components that control haptics from input to output</td>
 </tr>
 </tbody>
 </table>
-<h3 id="212-触覚の入力から出力までのフロー">2.1.2. 触覚の入力から出力までのフロー</h3>
+<h3 id="212-flow-from-haptic-input-to-output">2.1.2. Flow from haptic input to output</h3>
 <ol>
-<li>HapticInputがHapticSourceに干渉する。</li>
-<li>HapticSourceは配下のFingerVibrationSourceとHaticForceSourceから計算された触覚パラメータ（振動音生クリップや剪断再生用モーターの駆動量）を取得する。</li>
-<li>HapticeSourceは触覚パラメータをHapticsManagerへ送信する。</li>
-<li>HapticsManagerは触覚パラメータをHapticsInputへ送信する。HapticsOutputはFeelFuseデバイス等で触覚を再生する。</li>
+<li>HapticInput interfere with HapticSource.</li>
+<li>HapticSource gets haptic parameters (such as vibration audio clips and the drive amount of motors for playbacking shear) calculated from FingerVibrationSource and HaticForceSource.
+HapticSource obtains FingerVibrationSource and haptic paramater calculated from HaticForceSource (vibration sound clip or motion output of motor for shear playback)</li>
+<li>HapticeSource transfers haptic paramater to HapticsManager.</li>
+<li>HapticeSource transfers haptic paramater to HapticsInput. HapticsOutput playbacks haptic by FeelFuse devices and so on.</li>
 </ol>
-<h2 id="22-パッケージ構成">2.2. パッケージ構成</h2>
-<p>FF-SDK-Unityのパッケージには下記のものが含まれます。</p>
+<h2 id="22-package-layout">2.2. Package layout</h2>
+<p>FF-SDK-Unity package includes the following.</p>
 <p><img src="images/overview_01.png" alt="SDK Package Contents"></p>
 <table>
 <thead>
 <tr>
-<th>パッケージ</th>
-<th>内容</th>
+<th>Package</th>
+<th>Content</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Core</td>
-<td>SDKコア機能</td>
+<td>SDK core feature</td>
 </tr>
 <tr>
 <td>MetaXR</td>
-<td>Meta XR SDKとの連携機能</td>
+<td>Feature that integrate with Meta XR SDK</td>
 </tr>
 <tr>
 <td>TofAR</td>
-<td>ToF AR SDKとの連携機能（開発・デバッグ支援機能）</td>
+<td>Feature that integrate with ToF AR SDK（Development and debugging support）</td>
 </tr>
 <tr>
 <td>Samples</td>
-<td>サンプルシーン</td>
+<td>Sample scenes</td>
 </tr>
 <tr>
 <td>Windows</td>
-<td>USB有線接続版FeelFuse向けパッケージ、有償アセットへの依存が存在する</td>
+<td>USB wired connection version package for FeelFuse. There is a dependecy on paid assets.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="23-フォルダ構成">2.3. フォルダ構成</h2>
-<p>FF-SDK-Unityのパッケージを全てUnityにインポートした場合のフォルダ構成は下記のようになります。</p>
+<h2 id="23-folder-layout">2.3. Folder layout</h2>
+<p>The folder layout when FF-SDK-Unity package are all imported is as follows:</p>
 <p><img src="images/overview_02.png" alt="SDK Folder Structure"></p>
 <table>
 <thead>
 <tr>
-<th>フォルダ</th>
-<th>パッケージ</th>
-<th>内容</th>
+<th>Folder</th>
+<th>Package</th>
+<th>Content</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Commissure/HapticsSystem/Core</td>
 <td>Core</td>
-<td>FF-SDK-Unityコア機能<br>SDK動作に必須のファイル類</td>
+<td>FF-SDK-Unity ore feature<br>Essential files for SDK operation</td>
 </tr>
 <tr>
 <td>Commissure/HapticsSystem/Devices</td>
 <td>Core</td>
-<td>デバイス依存機能</td>
-</tr>
-<tr>
-<td>Commissure/HapticsSystem/Devices.Windows</td>
-<td>Windows</td>
-<td>USB有線接続版FeelFuse向け機能</td>
+<td>Device-dependent function</td>
 </tr>
 <tr>
 <td>Commissure/HapticsSystem/UI</td>
 <td>Core</td>
-<td>UI構築ヘルパー</td>
+<td>UI development helper</td>
 </tr>
 <tr>
 <td>Commissure/HapticsSystem/UI.MetaXR</td>
 <td>MetaXR</td>
-<td>Meta XR SDK 依存UI構築ヘルパー</td>
+<td>Meta XR SDK-dependent UI development helper</td>
 </tr>
 <tr>
 <td>Commissure/HapticsSystem/UI.TofAr</td>
 <td>TofAR</td>
-<td>ToF AR SDK 依存UI構築ヘルパー</td>
+<td>ToF AR SDK-dependent UI development helper</td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +202,7 @@ FF-SDK-Unity 触覚再生フロー図</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/overview.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/overview.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

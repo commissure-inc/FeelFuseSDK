@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PointHapticInput | FF-SDK-Unity ">
       
-      <meta name="description" content="触覚入力点">
+      <meta name="description" content="Haptic input point">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/feature/9_doc_2/apiSpec/new?filename=Commissure_HapticsSystem_Core_PointHapticInput.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.PointHapticInput%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/release/0.1.1/apiSpec/new?filename=Commissure_HapticsSystem_Core_PointHapticInput.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.PointHapticInput%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Commissure_HapticsSystem_Core_PointHapticInput" data-uid="Commissure.HapticsSystem.Core.PointHapticInput" class="text-break">
-Class PointHapticInput  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class PointHapticInput  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,12 @@ Class PointHapticInput  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>Commissure.HapticsSystem.Core.Assembly.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>触覚入力点</p>
+  <div class="markdown summary"><p>Haptic input point</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Rigidbody))]
-public class PointHapticInput : MonoBehaviour, IHapticInput</code></pre>
+    <pre><code class="lang-csharp hljs">public class PointHapticInput : HapticInputBase, IHapticInput</code></pre>
   </div>
 
 
@@ -117,6 +116,7 @@ public class PointHapticInput : MonoBehaviour, IHapticInput</code></pre>
       <div><span class="xref">Component</span></div>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
+      <div><a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html">HapticInputBase</a></div>
       <div><span class="xref">PointHapticInput</span></div>
     </dd>
   </dl>
@@ -132,6 +132,30 @@ public class PointHapticInput : MonoBehaviour, IHapticInput</code></pre>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_InputType">HapticInputBase.InputType</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_FingerType">HapticInputBase.FingerType</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Transform">HapticInputBase.Transform</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Rigidbody">HapticInputBase.Rigidbody</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Grabbable">HapticInputBase.Grabbable</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Validation">HapticInputBase.Validation()</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Register">HapticInputBase.Register()</a>
+    </div>
+    <div>
+      <a class="xref" href="Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Unregister">HapticInputBase.Unregister()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -160,206 +184,11 @@ public class PointHapticInput : MonoBehaviour, IHapticInput</code></pre>
 
 
 
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_FingerType_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.FingerType*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_FingerType" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.FingerType">
-  FingerType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L24"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>触覚指タイプ</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HapticFingerType FingerType { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Commissure.HapticsSystem.Core.HapticFingerType.html">HapticFingerType</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_Grabbable_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Grabbable*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_Grabbable" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Grabbable">
-  Grabbable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L40"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Grabbable</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IGrabbable Grabbable { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Commissure.HapticsSystem.Core.IGrabbable.html">IGrabbable</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_InputType_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.InputType*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_InputType" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.InputType">
-  InputType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>触覚入力タイプ</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HapticInputType InputType { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Commissure.HapticsSystem.Core.HapticInputType.html">HapticInputType</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_Rigidbody_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_Rigidbody" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody">
-  Rigidbody
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Rigidbody</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rigidbody Rigidbody { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Rigidbody</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_Transform_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Transform*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_Transform" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Transform">
-  Transform
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Transform</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Transform { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Transform</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Commissure_HapticsSystem_Core_PointHapticInput_Start_" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Start*"></a>
-
-  <h3 id="Commissure_HapticsSystem_Core_PointHapticInput_Start" data-uid="Commissure.HapticsSystem.Core.PointHapticInput.Start">
-  Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L45"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>MonoBehaviour.Start() の処理</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Scripts/HapticInputs/PointHapticInput.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

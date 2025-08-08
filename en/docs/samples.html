@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>5. サンプルシーン | FF-SDK-Unity </title>
+      <title>5. Sample scenes | FF-SDK-Unity </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="5. サンプルシーン | FF-SDK-Unity ">
+      <meta name="title" content="5. Sample scenes | FF-SDK-Unity ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/samples.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/samples.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,62 +85,62 @@
         </div>
 
         <article data-uid="">
-<h1 id="5-サンプルシーン">5. サンプルシーン</h1>
+<h1 id="5-sample-scenes">5. Sample scenes</h1>
 
-<p>FF-SDKの機能をすぐに体験でき、開発時の参考にすることができるサンプルシーンが用意されています。</p>
-<h2 id="51-サンプルシーンのリスト">5.1. サンプルシーンのリスト</h2>
-<p>Assets/Commissure/HapticsSystem/Samples/HelloHaptics に以下のサンプルシーンが用意されています。<br>
-これらのシーンはQuest Linkで接続されたMeta Questで動作します。</p>
+<p>Sample scenes are provided that allows you to quickly experience the FF-SDK functionality and use it as a reference during development.</p>
+<h2 id="51-sample-scenes-list">5.1. Sample scenes list</h2>
+<p>The following sample scenes are available at Assets/Commissure/HapticsSystem/Samples/HelloHaptics.<br>
+These scenes works on Meta Quest connected via Quest Link.</p>
 <table>
 <thead>
 <tr>
-<th>シーン</th>
-<th>概要</th>
+<th>Scene</th>
+<th>Description</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>HelloHaptics.unity</td>
-<td>他のサンプルへの入口となるシーン</td>
+<td>A scene that serves as an entry point to the other samples</td>
 <td><img src="images/samples_01.png" alt="HelloHaptics"></td>
 </tr>
 <tr>
 <td>Scenes/BallInBox.unity</td>
-<td>ボールが中に入った箱を揺らした時の感触を再現</td>
+<td>Reproduce the sensation when shaking a box with a ball inside</td>
 <td><img src="images/samples_02.png" alt="Ball in Box"></td>
 </tr>
 <tr>
 <td>Scenes/Slider.unity</td>
-<td>スイッチを操作する感覚を再現</td>
+<td>Reproduce the sensation of operating a switch button</td>
 <td><img src="images/samples_03.png" alt="HelloHaptics"></td>
 </tr>
 <tr>
 <td>Scenes/SlingShot.unity</td>
-<td>ゴムを引っ張った時の張力と離した時の衝撃を再現</td>
+<td>Reproduce the tension when pulling and releaseing a rubber band</td>
 <td><img src="images/samples_04.png" alt="HelloHaptics"></td>
 </tr>
 <tr>
 <td>Scenes/Squeeze.unity</td>
-<td>物体を握り潰す触覚を再現</td>
+<td>Reproduce to crush an object</td>
 <td><img src="images/samples_05.png" alt="HelloHaptics"></td>
 </tr>
 </tbody>
 </table>
-<p>また、それぞれのシーンにはシーン名末尾に _TofAR がついた、ToF ARで動作するシーンも用意されています。</p>
-<h2 id="52-サンプルシーンのセットアップ">5.2. サンプルシーンのセットアップ</h2>
+<p>Also, each sample has ToF AR version with the suffix &quot;_TofAR&quot; added to the scene name.</p>
+<h2 id="52-setting-up-sameple-scenes">5.2. Setting up sameple scenes</h2>
 <ol>
-<li><a href="setup.html#33-meta-xr-sdk%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.3. Meta XR SDKのセットアップ">3.3 Meta XR SDKのセットアップ</a> に従い、Meta Quest用の Universal 3D テンプレートを適用したUnityプロジェクトを作成します。</li>
-<li><a href="setup.html#31-ff-sdk-unity%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97" title="3.1 FF-SDK-Unityのセットアップ">3.1 FF-SDK-Unityのセットアップ</a> に従い、FF-SDKのセットアップを行います。</li>
-<li>FF-SDK-Unity_Samples_vx.x.x.unitypackage をインポートします。</li>
-<li>Unity Editorのメニューの File / Build Settings を開き、動作させたいサンプルシーンを Scenes in Build に追加します。<br>
+<li>Follow <a href="setup.html#33-setting-up-meta-xr-sdk-optional" title="3.3 Setting up Meta XR SDK">3.3 Setting up Meta XR SDK</a> to create a Unity prpject applied Universal 3D template for Meta Quest.</li>
+<li>Follow <a href="setup.html#31-setting-up-ff-sdk-unity" title="3.1 Setting up FF-SDK-Unity">3.1 Setting up FF-SDK-Unity</a> to set up FF-SDK.</li>
+<li>Import FF-SDK-Unity_Samples_vx.x.x.unitypackage.</li>
+<li>From the menu in the Unity Editor, open File / Build Settings, and add any sample scene to &quot;Scenes in Build&quot;.<br>
 <img src="images/samples_06.png" alt="Build Settings"></li>
 </ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/samples.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/samples.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

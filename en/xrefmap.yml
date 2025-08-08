@@ -1079,6 +1079,116 @@ references:
   commentId: F:Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator._forceMode
   fullName: Commissure.HapticsSystem.Core.HapticForce.HapticForceCalculator._forceMode
   nameWithType: HapticForceCalculator._forceMode
+- uid: Commissure.HapticsSystem.Core.HapticInputBase
+  name: HapticInputBase
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html
+  commentId: T:Commissure.HapticsSystem.Core.HapticInputBase
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase
+  nameWithType: HapticInputBase
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.FingerType
+  name: FingerType
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_FingerType
+  commentId: P:Commissure.HapticsSystem.Core.HapticInputBase.FingerType
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.FingerType
+  nameWithType: HapticInputBase.FingerType
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.FingerType*
+  name: FingerType
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_FingerType_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.FingerType
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.FingerType
+  nameWithType: HapticInputBase.FingerType
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Grabbable
+  name: Grabbable
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Grabbable
+  commentId: P:Commissure.HapticsSystem.Core.HapticInputBase.Grabbable
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Grabbable
+  nameWithType: HapticInputBase.Grabbable
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Grabbable*
+  name: Grabbable
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Grabbable_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Grabbable
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Grabbable
+  nameWithType: HapticInputBase.Grabbable
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.InputType
+  name: InputType
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_InputType
+  commentId: P:Commissure.HapticsSystem.Core.HapticInputBase.InputType
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.InputType
+  nameWithType: HapticInputBase.InputType
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.InputType*
+  name: InputType
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_InputType_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.InputType
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.InputType
+  nameWithType: HapticInputBase.InputType
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Register
+  name: Register()
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Register
+  commentId: M:Commissure.HapticsSystem.Core.HapticInputBase.Register
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Register()
+  nameWithType: HapticInputBase.Register()
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Register*
+  name: Register
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Register_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Register
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Register
+  nameWithType: HapticInputBase.Register
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody
+  name: Rigidbody
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Rigidbody
+  commentId: P:Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody
+  nameWithType: HapticInputBase.Rigidbody
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody*
+  name: Rigidbody
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Rigidbody_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Rigidbody
+  nameWithType: HapticInputBase.Rigidbody
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Transform
+  name: Transform
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Transform
+  commentId: P:Commissure.HapticsSystem.Core.HapticInputBase.Transform
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Transform
+  nameWithType: HapticInputBase.Transform
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Transform*
+  name: Transform
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Transform_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Transform
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Transform
+  nameWithType: HapticInputBase.Transform
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Unregister
+  name: Unregister()
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Unregister
+  commentId: M:Commissure.HapticsSystem.Core.HapticInputBase.Unregister
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Unregister()
+  nameWithType: HapticInputBase.Unregister()
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Unregister*
+  name: Unregister
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Unregister_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Unregister
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Unregister
+  nameWithType: HapticInputBase.Unregister
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Validation
+  name: Validation()
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Validation
+  commentId: M:Commissure.HapticsSystem.Core.HapticInputBase.Validation
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Validation()
+  nameWithType: HapticInputBase.Validation()
+- uid: Commissure.HapticsSystem.Core.HapticInputBase.Validation*
+  name: Validation
+  href: api/Commissure.HapticsSystem.Core.HapticInputBase.html#Commissure_HapticsSystem_Core_HapticInputBase_Validation_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticInputBase.Validation
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticInputBase.Validation
+  nameWithType: HapticInputBase.Validation
 - uid: Commissure.HapticsSystem.Core.HapticInputType
   name: HapticInputType
   href: api/Commissure.HapticsSystem.Core.HapticInputType.html
@@ -1109,6 +1219,32 @@ references:
   commentId: T:Commissure.HapticsSystem.Core.HapticManager
   fullName: Commissure.HapticsSystem.Core.HapticManager
   nameWithType: HapticManager
+- uid: Commissure.HapticsSystem.Core.HapticManager.AddHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  name: AddHapticInput(IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_AddHapticInput_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticManager.AddHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.HapticManager.AddHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: HapticManager.AddHapticInput(IHapticInput)
+- uid: Commissure.HapticsSystem.Core.HapticManager.AddHapticInput*
+  name: AddHapticInput
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_AddHapticInput_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.AddHapticInput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticManager.AddHapticInput
+  nameWithType: HapticManager.AddHapticInput
+- uid: Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  name: AddHapticOutput(IHapticOutput)
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_AddHapticOutput_Commissure_HapticsSystem_Core_IHapticOutput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  fullName: Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  nameWithType: HapticManager.AddHapticOutput(IHapticOutput)
+- uid: Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput*
+  name: AddHapticOutput
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_AddHapticOutput_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticManager.AddHapticOutput
+  nameWithType: HapticManager.AddHapticOutput
 - uid: Commissure.HapticsSystem.Core.HapticManager.HapticFinished
   name: HapticFinished
   href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_HapticFinished
@@ -1148,6 +1284,19 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.HapticManager.HapticUpdate
   nameWithType: HapticManager.HapticUpdate
+- uid: Commissure.HapticsSystem.Core.HapticManager.Inputs
+  name: Inputs
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_Inputs
+  commentId: P:Commissure.HapticsSystem.Core.HapticManager.Inputs
+  fullName: Commissure.HapticsSystem.Core.HapticManager.Inputs
+  nameWithType: HapticManager.Inputs
+- uid: Commissure.HapticsSystem.Core.HapticManager.Inputs*
+  name: Inputs
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_Inputs_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.Inputs
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticManager.Inputs
+  nameWithType: HapticManager.Inputs
 - uid: Commissure.HapticsSystem.Core.HapticManager.Outputs
   name: Outputs
   href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_Outputs
@@ -1161,19 +1310,32 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.HapticManager.Outputs
   nameWithType: HapticManager.Outputs
-- uid: Commissure.HapticsSystem.Core.HapticManager.Start
-  name: Start()
-  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_Start
-  commentId: M:Commissure.HapticsSystem.Core.HapticManager.Start
-  fullName: Commissure.HapticsSystem.Core.HapticManager.Start()
-  nameWithType: HapticManager.Start()
-- uid: Commissure.HapticsSystem.Core.HapticManager.Start*
-  name: Start
-  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_Start_
-  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.Start
+- uid: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  name: RemoveHapticInput(IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_RemoveHapticInput_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput(Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: HapticManager.RemoveHapticInput(IHapticInput)
+- uid: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput*
+  name: RemoveHapticInput
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_RemoveHapticInput_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput
   isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.HapticManager.Start
-  nameWithType: HapticManager.Start
+  fullName: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticInput
+  nameWithType: HapticManager.RemoveHapticInput
+- uid: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  name: RemoveHapticOutput(IHapticOutput)
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_RemoveHapticOutput_Commissure_HapticsSystem_Core_IHapticOutput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  fullName: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  nameWithType: HapticManager.RemoveHapticOutput(IHapticOutput)
+- uid: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput*
+  name: RemoveHapticOutput
+  href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_RemoveHapticOutput_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticManager.RemoveHapticOutput
+  nameWithType: HapticManager.RemoveHapticOutput
 - uid: Commissure.HapticsSystem.Core.HapticManager.StartFeedback(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip,UnityEngine.AudioClip)
   name: StartFeedback(IHapticSource, IHapticInput, AudioClip, AudioClip)
   href: api/Commissure.HapticsSystem.Core.HapticManager.html#Commissure_HapticsSystem_Core_HapticManager_StartFeedback_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_UnityEngine_AudioClip_
@@ -1297,6 +1459,61 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.HapticOutputBase.Initialize
   nameWithType: HapticOutputBase.Initialize
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEStart(Commissure.HapticsSystem.Core.IHapticSource,UnityEngine.AudioClip)
+  name: SEStart(IHapticSource, AudioClip)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEStart_Commissure_HapticsSystem_Core_IHapticSource_UnityEngine_AudioClip_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.SEStart(Commissure.HapticsSystem.Core.IHapticSource,UnityEngine.AudioClip)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEStart(Commissure.HapticsSystem.Core.IHapticSource, UnityEngine.AudioClip)
+  nameWithType: HapticOutputBase.SEStart(IHapticSource, AudioClip)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEStart*
+  name: SEStart
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEStart_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.SEStart
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEStart
+  nameWithType: HapticOutputBase.SEStart
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEStop(Commissure.HapticsSystem.Core.IHapticSource)
+  name: SEStop(IHapticSource)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEStop_Commissure_HapticsSystem_Core_IHapticSource_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.SEStop(Commissure.HapticsSystem.Core.IHapticSource)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEStop(Commissure.HapticsSystem.Core.IHapticSource)
+  nameWithType: HapticOutputBase.SEStop(IHapticSource)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEStop*
+  name: SEStop
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEStop_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.SEStop
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEStop
+  nameWithType: HapticOutputBase.SEStop
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate(Commissure.HapticsSystem.Core.IHapticSource)
+  name: SEUpdate(IHapticSource)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEUpdate_Commissure_HapticsSystem_Core_IHapticSource_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate(Commissure.HapticsSystem.Core.IHapticSource)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate(Commissure.HapticsSystem.Core.IHapticSource)
+  nameWithType: HapticOutputBase.SEUpdate(IHapticSource)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate*
+  name: SEUpdate
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_SEUpdate_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.SEUpdate
+  nameWithType: HapticOutputBase.SEUpdate
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput(System.Single[])
+  name: ShearOutput(float[])
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_ShearOutput_System_Single___
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput(System.Single[])
+  name.vb: ShearOutput(Single())
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput(float[])
+  fullName.vb: Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput(Single())
+  nameWithType: HapticOutputBase.ShearOutput(float[])
+  nameWithType.vb: HapticOutputBase.ShearOutput(Single())
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput*
+  name: ShearOutput
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_ShearOutput_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.ShearOutput
+  nameWithType: HapticOutputBase.ShearOutput
 - uid: Commissure.HapticsSystem.Core.HapticOutputBase.ShearPoints
   name: ShearPoints
   href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_ShearPoints
@@ -1310,19 +1527,45 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.HapticOutputBase.ShearPoints
   nameWithType: HapticOutputBase.ShearPoints
-- uid: Commissure.HapticsSystem.Core.HapticOutputBase.Start
-  name: Start()
-  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_Start
-  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.Start
-  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.Start()
-  nameWithType: HapticOutputBase.Start()
-- uid: Commissure.HapticsSystem.Core.HapticOutputBase.Start*
-  name: Start
-  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_Start_
-  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.Start
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip)
+  name: VibrationStart(IHapticSource, IHapticInput, AudioClip)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStart_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource, Commissure.HapticsSystem.Core.IHapticInput, UnityEngine.AudioClip)
+  nameWithType: HapticOutputBase.VibrationStart(IHapticSource, IHapticInput, AudioClip)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart*
+  name: VibrationStart
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStart_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart
   isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.Start
-  nameWithType: HapticOutputBase.Start
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStart
+  nameWithType: HapticOutputBase.VibrationStart
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
+  name: VibrationStop(IHapticSource, IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStop_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource, Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: HapticOutputBase.VibrationStop(IHapticSource, IHapticInput)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop*
+  name: VibrationStop
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationStop_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationStop
+  nameWithType: HapticOutputBase.VibrationStop
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
+  name: VibrationUpdate(IHapticSource, IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationUpdate_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate(Commissure.HapticsSystem.Core.IHapticSource, Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: HapticOutputBase.VibrationUpdate(IHapticSource, IHapticInput)
+- uid: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate*
+  name: VibrationUpdate
+  href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_VibrationUpdate_
+  commentId: Overload:Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.HapticOutputBase.VibrationUpdate
+  nameWithType: HapticOutputBase.VibrationUpdate
 - uid: Commissure.HapticsSystem.Core.HapticOutputBase.supportedAudioOutputTypes
   name: supportedAudioOutputTypes
   href: api/Commissure.HapticsSystem.Core.HapticOutputBase.html#Commissure_HapticsSystem_Core_HapticOutputBase_supportedAudioOutputTypes
@@ -1864,6 +2107,19 @@ references:
   commentId: T:Commissure.HapticsSystem.Core.IHapticCore
   fullName: Commissure.HapticsSystem.Core.IHapticCore
   nameWithType: IHapticCore
+- uid: Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  name: AddHapticOutput(IHapticOutput)
+  href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_AddHapticOutput_Commissure_HapticsSystem_Core_IHapticOutput_
+  commentId: M:Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  fullName: Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  nameWithType: IHapticCore.AddHapticOutput(IHapticOutput)
+- uid: Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput*
+  name: AddHapticOutput
+  href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_AddHapticOutput_
+  commentId: Overload:Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.IHapticCore.AddHapticOutput
+  nameWithType: IHapticCore.AddHapticOutput
 - uid: Commissure.HapticsSystem.Core.IHapticCore.HapticFinished
   name: HapticFinished
   href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_HapticFinished
@@ -1934,6 +2190,19 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.IHapticCore.Outputs
   nameWithType: IHapticCore.Outputs
+- uid: Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  name: RemoveHapticOutput(IHapticOutput)
+  href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_RemoveHapticOutput_Commissure_HapticsSystem_Core_IHapticOutput_
+  commentId: M:Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  fullName: Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput(Commissure.HapticsSystem.Core.IHapticOutput)
+  nameWithType: IHapticCore.RemoveHapticOutput(IHapticOutput)
+- uid: Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput*
+  name: RemoveHapticOutput
+  href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_RemoveHapticOutput_
+  commentId: Overload:Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.IHapticCore.RemoveHapticOutput
+  nameWithType: IHapticCore.RemoveHapticOutput
 - uid: Commissure.HapticsSystem.Core.IHapticCore.StartFeedback(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip,UnityEngine.AudioClip)
   name: StartFeedback(IHapticSource, IHapticInput, AudioClip, AudioClip)
   href: api/Commissure.HapticsSystem.Core.IHapticCore.html#Commissure_HapticsSystem_Core_IHapticCore_StartFeedback_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_UnityEngine_AudioClip_
@@ -2169,19 +2438,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Core.IHapticOutput.Enabled
   nameWithType: IHapticOutput.Enabled
-- uid: Commissure.HapticsSystem.Core.IHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  name: Initialize(IHapticCore)
-  href: api/Commissure.HapticsSystem.Core.IHapticOutput.html#Commissure_HapticsSystem_Core_IHapticOutput_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
-  commentId: M:Commissure.HapticsSystem.Core.IHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  fullName: Commissure.HapticsSystem.Core.IHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  nameWithType: IHapticOutput.Initialize(IHapticCore)
-- uid: Commissure.HapticsSystem.Core.IHapticOutput.Initialize*
-  name: Initialize
-  href: api/Commissure.HapticsSystem.Core.IHapticOutput.html#Commissure_HapticsSystem_Core_IHapticOutput_Initialize_
-  commentId: Overload:Commissure.HapticsSystem.Core.IHapticOutput.Initialize
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.IHapticOutput.Initialize
-  nameWithType: IHapticOutput.Initialize
 - uid: Commissure.HapticsSystem.Core.IHapticOutput.SEStart(Commissure.HapticsSystem.Core.IHapticSource,UnityEngine.AudioClip)
   name: SEStart(IHapticSource, AudioClip)
   href: api/Commissure.HapticsSystem.Core.IHapticOutput.html#Commissure_HapticsSystem_Core_IHapticOutput_SEStart_Commissure_HapticsSystem_Core_IHapticSource_UnityEngine_AudioClip_
@@ -2689,84 +2945,6 @@ references:
   commentId: T:Commissure.HapticsSystem.Core.PointHapticInput
   fullName: Commissure.HapticsSystem.Core.PointHapticInput
   nameWithType: PointHapticInput
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.FingerType
-  name: FingerType
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_FingerType
-  commentId: P:Commissure.HapticsSystem.Core.PointHapticInput.FingerType
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.FingerType
-  nameWithType: PointHapticInput.FingerType
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.FingerType*
-  name: FingerType
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_FingerType_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.FingerType
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.FingerType
-  nameWithType: PointHapticInput.FingerType
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Grabbable
-  name: Grabbable
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Grabbable
-  commentId: P:Commissure.HapticsSystem.Core.PointHapticInput.Grabbable
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Grabbable
-  nameWithType: PointHapticInput.Grabbable
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Grabbable*
-  name: Grabbable
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Grabbable_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.Grabbable
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Grabbable
-  nameWithType: PointHapticInput.Grabbable
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.InputType
-  name: InputType
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_InputType
-  commentId: P:Commissure.HapticsSystem.Core.PointHapticInput.InputType
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.InputType
-  nameWithType: PointHapticInput.InputType
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.InputType*
-  name: InputType
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_InputType_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.InputType
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.InputType
-  nameWithType: PointHapticInput.InputType
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody
-  name: Rigidbody
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Rigidbody
-  commentId: P:Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody
-  nameWithType: PointHapticInput.Rigidbody
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody*
-  name: Rigidbody
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Rigidbody_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Rigidbody
-  nameWithType: PointHapticInput.Rigidbody
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Start
-  name: Start()
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Start
-  commentId: M:Commissure.HapticsSystem.Core.PointHapticInput.Start
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Start()
-  nameWithType: PointHapticInput.Start()
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Start*
-  name: Start
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Start_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.Start
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Start
-  nameWithType: PointHapticInput.Start
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Transform
-  name: Transform
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Transform
-  commentId: P:Commissure.HapticsSystem.Core.PointHapticInput.Transform
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Transform
-  nameWithType: PointHapticInput.Transform
-- uid: Commissure.HapticsSystem.Core.PointHapticInput.Transform*
-  name: Transform
-  href: api/Commissure.HapticsSystem.Core.PointHapticInput.html#Commissure_HapticsSystem_Core_PointHapticInput_Transform_
-  commentId: Overload:Commissure.HapticsSystem.Core.PointHapticInput.Transform
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Core.PointHapticInput.Transform
-  nameWithType: PointHapticInput.Transform
 - uid: Commissure.HapticsSystem.Core.ScalarHapticForceSource
   name: ScalarHapticForceSource
   href: api/Commissure.HapticsSystem.Core.ScalarHapticForceSource.html
@@ -3204,6 +3382,137 @@ references:
   commentId: F:Commissure.HapticsSystem.Core.TwoPointHapticForceSource.smoothTime
   fullName: Commissure.HapticsSystem.Core.TwoPointHapticForceSource.smoothTime
   nameWithType: TwoPointHapticForceSource.smoothTime
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource
+  name: VectorHapticForceSource
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html
+  commentId: T:Commissure.HapticsSystem.Core.VectorHapticForceSource
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource
+  nameWithType: VectorHapticForceSource
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles(Commissure.HapticsSystem.Core.IHapticInput,System.Int32)
+  name: CalculateShearAngles(IHapticInput, int)
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_CalculateShearAngles_Commissure_HapticsSystem_Core_IHapticInput_System_Int32_
+  commentId: M:Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles(Commissure.HapticsSystem.Core.IHapticInput,System.Int32)
+  name.vb: CalculateShearAngles(IHapticInput, Integer)
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles(Commissure.HapticsSystem.Core.IHapticInput, int)
+  fullName.vb: Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles(Commissure.HapticsSystem.Core.IHapticInput, Integer)
+  nameWithType: VectorHapticForceSource.CalculateShearAngles(IHapticInput, int)
+  nameWithType.vb: VectorHapticForceSource.CalculateShearAngles(IHapticInput, Integer)
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles*
+  name: CalculateShearAngles
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_CalculateShearAngles_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.CalculateShearAngles
+  nameWithType: VectorHapticForceSource.CalculateShearAngles
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled
+  name: Enabled
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Enabled
+  commentId: P:Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled
+  nameWithType: VectorHapticForceSource.Enabled
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled*
+  name: Enabled
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Enabled_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Enabled
+  nameWithType: VectorHapticForceSource.Enabled
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted
+  name: HapticStarted
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_HapticStarted
+  commentId: P:Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted
+  nameWithType: VectorHapticForceSource.HapticStarted
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted*
+  name: HapticStarted
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_HapticStarted_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.HapticStarted
+  nameWithType: VectorHapticForceSource.HapticStarted
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Start
+  name: Start()
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Start
+  commentId: M:Commissure.HapticsSystem.Core.VectorHapticForceSource.Start
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Start()
+  nameWithType: VectorHapticForceSource.Start()
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Start*
+  name: Start
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Start_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.Start
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Start
+  nameWithType: VectorHapticForceSource.Start
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  name: StartHaptic(IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_StartHaptic_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: VectorHapticForceSource.StartHaptic(IHapticInput)
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic*
+  name: StartHaptic
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_StartHaptic_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.StartHaptic
+  nameWithType: VectorHapticForceSource.StartHaptic
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  name: StopHaptic(IHapticInput)
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_StopHaptic_Commissure_HapticsSystem_Core_IHapticInput_
+  commentId: M:Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic(Commissure.HapticsSystem.Core.IHapticInput)
+  nameWithType: VectorHapticForceSource.StopHaptic(IHapticInput)
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic*
+  name: StopHaptic
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_StopHaptic_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.StopHaptic
+  nameWithType: VectorHapticForceSource.StopHaptic
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L
+  name: Vector_L
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Vector_L
+  commentId: P:Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L
+  nameWithType: VectorHapticForceSource.Vector_L
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L*
+  name: Vector_L
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Vector_L_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_L
+  nameWithType: VectorHapticForceSource.Vector_L
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R
+  name: Vector_R
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Vector_R
+  commentId: P:Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R
+  nameWithType: VectorHapticForceSource.Vector_R
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R*
+  name: Vector_R
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_Vector_R_
+  commentId: Overload:Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R
+  isSpec: "True"
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.Vector_R
+  nameWithType: VectorHapticForceSource.Vector_R
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.hapticSource
+  name: hapticSource
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_hapticSource
+  commentId: F:Commissure.HapticsSystem.Core.VectorHapticForceSource.hapticSource
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.hapticSource
+  nameWithType: VectorHapticForceSource.hapticSource
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.maxSpeed
+  name: maxSpeed
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_maxSpeed
+  commentId: F:Commissure.HapticsSystem.Core.VectorHapticForceSource.maxSpeed
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.maxSpeed
+  nameWithType: VectorHapticForceSource.maxSpeed
+- uid: Commissure.HapticsSystem.Core.VectorHapticForceSource.smoothTime
+  name: smoothTime
+  href: api/Commissure.HapticsSystem.Core.VectorHapticForceSource.html#Commissure_HapticsSystem_Core_VectorHapticForceSource_smoothTime
+  commentId: F:Commissure.HapticsSystem.Core.VectorHapticForceSource.smoothTime
+  fullName: Commissure.HapticsSystem.Core.VectorHapticForceSource.smoothTime
+  nameWithType: VectorHapticForceSource.smoothTime
 - uid: Commissure.HapticsSystem.Core.VibrationType
   name: VibrationType
   href: api/Commissure.HapticsSystem.Core.VibrationType.html
@@ -3542,19 +3851,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.DeviceProfile
   nameWithType: FeelFuseV1HapticOutput.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  name: Initialize(IHapticCore)
-  href: api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.html#Commissure_HapticsSystem_Devices_FeelFuseV1_FeelFuseV1HapticOutput_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
-  commentId: M:Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  fullName: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  nameWithType: FeelFuseV1HapticOutput.Initialize(IHapticCore)
-- uid: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize*
-  name: Initialize
-  href: api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.html#Commissure_HapticsSystem_Devices_FeelFuseV1_FeelFuseV1HapticOutput_Initialize_
-  commentId: Overload:Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.Initialize
-  nameWithType: FeelFuseV1HapticOutput.Initialize
 - uid: Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.OutputLog
   name: OutputLog
   href: api/Commissure.HapticsSystem.Devices.FeelFuseV1.FeelFuseV1HapticOutput.html#Commissure_HapticsSystem_Devices_FeelFuseV1_FeelFuseV1HapticOutput_OutputLog
@@ -4278,19 +4574,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.DeviceProfile
   nameWithType: SimulatorHapticOutput.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  name: Initialize(IHapticCore)
-  href: api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.html#Commissure_HapticsSystem_Devices_Simulator_SimulatorHapticOutput_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
-  commentId: M:Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  fullName: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  nameWithType: SimulatorHapticOutput.Initialize(IHapticCore)
-- uid: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize*
-  name: Initialize
-  href: api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.html#Commissure_HapticsSystem_Devices_Simulator_SimulatorHapticOutput_Initialize_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.Initialize
-  nameWithType: SimulatorHapticOutput.Initialize
 - uid: Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.OutputLog
   name: OutputLog
   href: api/Commissure.HapticsSystem.Devices.Simulator.SimulatorHapticOutput.html#Commissure_HapticsSystem_Devices_Simulator_SimulatorHapticOutput_OutputLog
@@ -4511,19 +4794,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.DeviceProfile
   nameWithType: FeelFuseV0HapticOutput.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  name: Initialize(IHapticCore)
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
-  commentId: M:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  nameWithType: FeelFuseV0HapticOutput.Initialize(IHapticCore)
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize*
-  name: Initialize
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_Initialize_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Initialize
-  nameWithType: FeelFuseV0HapticOutput.Initialize
 - uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.OutputLog
   name: OutputLog
   href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_OutputLog
@@ -4572,19 +4842,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.ShearOutput
   nameWithType: FeelFuseV0HapticOutput.ShearOutput
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start
-  name: Start()
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_Start
-  commentId: M:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start()
-  nameWithType: FeelFuseV0HapticOutput.Start()
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start*
-  name: Start
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_Start_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.Start
-  nameWithType: FeelFuseV0HapticOutput.Start
 - uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip)
   name: VibrationStart(IHapticSource, IHapticInput, AudioClip)
   href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_VibrationStart_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_
@@ -4598,19 +4855,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStart
   nameWithType: FeelFuseV0HapticOutput.VibrationStart
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
-  name: VibrationStop(IHapticSource, IHapticInput)
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_VibrationStop_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_
-  commentId: M:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop(Commissure.HapticsSystem.Core.IHapticSource, Commissure.HapticsSystem.Core.IHapticInput)
-  nameWithType: FeelFuseV0HapticOutput.VibrationStop(IHapticSource, IHapticInput)
-- uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop*
-  name: VibrationStop
-  href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_VibrationStop_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationStop
-  nameWithType: FeelFuseV0HapticOutput.VibrationStop
 - uid: Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.VibrationUpdate(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput)
   name: VibrationUpdate(IHapticSource, IHapticInput)
   href: api/Commissure.HapticsSystem.Devices.Windows.FeelFuseV0.FeelFuseV0HapticOutput.html#Commissure_HapticsSystem_Devices_Windows_FeelFuseV0_FeelFuseV0HapticOutput_VibrationUpdate_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_
@@ -4997,19 +5241,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.DeviceProfile
   nameWithType: LinkedMetaQuestHapticOutput.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  name: Initialize(IHapticCore)
-  href: api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.html#Commissure_HapticsSystem_Devices_Windows_MetaQuest_LinkedMetaQuestHapticOutput_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
-  commentId: M:Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  fullName: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
-  nameWithType: LinkedMetaQuestHapticOutput.Initialize(IHapticCore)
-- uid: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize*
-  name: Initialize
-  href: api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.html#Commissure_HapticsSystem_Devices_Windows_MetaQuest_LinkedMetaQuestHapticOutput_Initialize_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.Initialize
-  nameWithType: LinkedMetaQuestHapticOutput.Initialize
 - uid: Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.OutputLog
   name: OutputLog
   href: api/Commissure.HapticsSystem.Devices.Windows.MetaQuest.LinkedMetaQuestHapticOutput.html#Commissure_HapticsSystem_Devices_Windows_MetaQuest_LinkedMetaQuestHapticOutput_OutputLog
@@ -5269,58 +5500,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMixer
   nameWithType: WindowsHapticOutputBase.AudioMixer
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode
-  name: AudioMode
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_AudioMode
-  commentId: P:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode
-  nameWithType: WindowsHapticOutputBase.AudioMode
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode*
-  name: AudioMode
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_AudioMode_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.AudioMode
-  nameWithType: WindowsHapticOutputBase.AudioMode
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile
-  name: DeviceProfile
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_DeviceProfile
-  commentId: P:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile
-  nameWithType: WindowsHapticOutputBase.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile*
-  name: DeviceProfile
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_DeviceProfile_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfile
-  nameWithType: WindowsHapticOutputBase.DeviceProfile
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles
-  name: DeviceProfiles
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_DeviceProfiles
-  commentId: P:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles
-  nameWithType: WindowsHapticOutputBase.DeviceProfiles
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles*
-  name: DeviceProfiles
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_DeviceProfiles_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.DeviceProfiles
-  nameWithType: WindowsHapticOutputBase.DeviceProfiles
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled
-  name: Enabled
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_Enabled
-  commentId: P:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled
-  nameWithType: WindowsHapticOutputBase.Enabled
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled*
-  name: Enabled
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_Enabled_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Enabled
-  nameWithType: WindowsHapticOutputBase.Enabled
 - uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Initialize(Commissure.HapticsSystem.Core.IHapticCore)
   name: Initialize(IHapticCore)
   href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_Initialize_Commissure_HapticsSystem_Core_IHapticCore_
@@ -5402,32 +5581,6 @@ references:
   isSpec: "True"
   fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.SetupAudioOutputs
   nameWithType: WindowsHapticOutputBase.SetupAudioOutputs
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints
-  name: ShearPoints
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_ShearPoints
-  commentId: P:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints
-  nameWithType: WindowsHapticOutputBase.ShearPoints
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints*
-  name: ShearPoints
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_ShearPoints_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.ShearPoints
-  nameWithType: WindowsHapticOutputBase.ShearPoints
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start
-  name: Start()
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_Start
-  commentId: M:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start()
-  nameWithType: WindowsHapticOutputBase.Start()
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start*
-  name: Start
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_Start_
-  commentId: Overload:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start
-  isSpec: "True"
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.Start
-  nameWithType: WindowsHapticOutputBase.Start
 - uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.VibrationStart(Commissure.HapticsSystem.Core.IHapticSource,Commissure.HapticsSystem.Core.IHapticInput,UnityEngine.AudioClip)
   name: VibrationStart(IHapticSource, IHapticInput, AudioClip)
   href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_VibrationStart_Commissure_HapticsSystem_Core_IHapticSource_Commissure_HapticsSystem_Core_IHapticInput_UnityEngine_AudioClip_
@@ -5490,12 +5643,6 @@ references:
   commentId: F:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.mixerRightThresholdID
   fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.mixerRightThresholdID
   nameWithType: WindowsHapticOutputBase.mixerRightThresholdID
-- uid: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.supportedAudioOutputTypes
-  name: supportedAudioOutputTypes
-  href: api/Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.html#Commissure_HapticsSystem_Devices_Windows_WindowsHapticOutputBase_supportedAudioOutputTypes
-  commentId: F:Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.supportedAudioOutputTypes
-  fullName: Commissure.HapticsSystem.Devices.Windows.WindowsHapticOutputBase.supportedAudioOutputTypes
-  nameWithType: WindowsHapticOutputBase.supportedAudioOutputTypes
 - uid: Commissure.HapticsSystem.UI
   name: Commissure.HapticsSystem.UI
   href: api/Commissure.HapticsSystem.UI.html
@@ -5555,7 +5702,7 @@ references:
   nameWithType: GenericGrabbable.UnGrab
 - uid: Commissure.HapticsSystem.UI.GenericGrabbable.grabInputsDistance
   name: grabInputsDistance
-  href: api/Commissure.HapticsSystem.UI.GenericGrabbable.html
+  href: api/Commissure.HapticsSystem.UI.GenericGrabbable.html#Commissure_HapticsSystem_UI_GenericGrabbable_grabInputsDistance
   commentId: F:Commissure.HapticsSystem.UI.GenericGrabbable.grabInputsDistance
   fullName: Commissure.HapticsSystem.UI.GenericGrabbable.grabInputsDistance
   nameWithType: GenericGrabbable.grabInputsDistance

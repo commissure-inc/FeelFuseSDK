@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>3. セットアップ | FF-SDK-Unity </title>
+      <title>3. Setup | FF-SDK-Unity </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="3. セットアップ | FF-SDK-Unity ">
+      <meta name="title" content="3. Setup | FF-SDK-Unity ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/setup.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/setup.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,72 +85,72 @@
         </div>
 
         <article data-uid="">
-<h1 id="3-セットアップ">3. セットアップ</h1>
+<h1 id="3-setup">3. Setup</h1>
 
-<h2 id="31-ff-sdk-unityのセットアップ">3.1. FF-SDK-Unityのセットアップ</h2>
-<h3 id="311-unitypackageのインポート">3.1.1. unitypackageのインポート</h3>
+<h2 id="31-setting-up-ff-sdk-unity">3.1. Setting up FF-SDK-Unity</h2>
+<h3 id="311-import-unitypackage">3.1.1. Import unitypackage</h3>
 <ol>
-<li>Unity EditorのメニューのAssets / Import Package / Custom Package…を選択し、.unitypackage ファイルをインポートします。<br>
+<li>From the menu in the Unity Editor, select Assets / Import Package / Custom Package... and import .unitypackage.<br>
 <img src="images/setup_00.png" alt="Import SDK package"></li>
-<li>TextMesh Proのアセットのインストールダイアログが表示された場合は、インストールを行います。</li>
+<li>If the installation dialog for the TextMesh Pro asset appears, install it.</li>
 </ol>
-<p>unitypackageの種類と説明</p>
+<p>The types of unitypackages and the description</p>
 <table>
 <thead>
 <tr>
 <th>unitypackage</th>
-<th>説明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>FF-SDK-Unity_Core</td>
-<td>FF-SDK-Unityコア機能<br>SDK動作に必ずインポートする必要があります</td>
+<td>FF-SDK-Unity core features<br>It is required to import for SDK operation.</td>
 </tr>
 <tr>
 <td>FF-SDK-Unity_Windows</td>
-<td>USB有線接続版FeelFuse向け機能<br><a href="#35-usb%E6%9C%89%E7%B7%9A%E6%8E%A5%E7%B6%9A%E7%89%88feelfuse%E5%90%91%E3%81%91%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.5. USB有線接続版FeelFuse向けセットアップ （オプション）">3.5. USB有線接続版FeelFuse向けセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+<td>Features for FeelFuse with USB Wired Connection<br>Please also complete the setup described in <br><a href="#35-setting-up-feelfuse-with-usb-wired-connection-optional" title="3.5. Setting up FeelFuse with USB Wired Connection (Optional)">3.5. Setting up FeelFuse with USB Wired Connection (Optional)</a></td>
 </tr>
 <tr>
 <td>FF-SDK-Unity_MetaXR</td>
-<td>Meta Questとの連携機能を使用する場合にインポートする<br><a href="#33-meta-xr-sdk%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.3. Meta XR SDKのセットアップ （オプション）">3.3. Meta XR SDKのセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+<td>Import it when using the connection feature with Meta Quest<br>Please also complete the setup described in <br><a href="#33-setting-up-meta-xr-sdk-optional" title="3.3. Setting up Meta XR SDK (Optional)">3.3. Setting up Meta XR SDK (Optional)</a></td>
 </tr>
 <tr>
 <td>FF-SDK-Unity_TofAR</td>
-<td>ToF ARと連携した開発・デバッグ支援機能を使用する場合にインポートする<br><a href="#34-tof-ar-sdk%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3" title="3.4. ToF AR SDKのセットアップ （オプション）">3.4. ToF AR SDKのセットアップ （オプション）</a> <br>のセットアップを追加で実施してください</td>
+<td>Import it when using the features that supporting development and debug connected with ToF AR<br>Please also complete the setup described in<br><a href="#34-setting-up-tof-ar-sdk-optional" title="3.4. Setting up ToF AR SDK (Optional)">3.4. Setting up ToF AR SDK (Optional)</a></td>
 </tr>
 <tr>
 <td>FF-SDK-Unity_Samples</td>
-<td>サンプルシーン</td>
+<td>Sample scenes</td>
 </tr>
 </tbody>
 </table>
-<h3 id="312-osccoreのunitypackageのインポート">3.1.2. OscCoreのunitypackageのインポート</h3>
+<h3 id="312-import-osccore-unitypackage">3.1.2 Import OscCore unitypackage</h3>
 <ol>
-<li>OscCore_vX.X.X.unitypackage を <a href="https://github.com/stella3d/OscCore/releases">https://github.com/stella3d/OscCore/releases</a> よりダウンロードしてインポートします。</li>
+<li>Download OscCore_vX.X.X.unitypackage from <a href="https://github.com/stella3d/OscCore/releases">https://github.com/stella3d/OscCore/releases</a>, and import it.</li>
 </ol>
-<h2 id="32-ff-sdk-unityのアップグレード">3.2. FF-SDK-Unityのアップグレード</h2>
+<h3 id="32-upgrade-ff-sdk-unity">3.2. Upgrade FF-SDK-Unity</h3>
 <ol>
-<li>Unity EditorのProjectビューの Commissure/HapticsSystem フォルダを削除します。</li>
-<li>Unity EditorのメニューのAssets / Import Package / Custom Package…を選択し、.unitypackage ファイルをインポートします。</li>
+<li>Delete Commissure/HapticsSystem folder in the Project view of the Unity Editor.</li>
+<li>From the menu in the Unity Editor, select Assets / Import Package / Custom Package... and import the .unitypackage file.</li>
 </ol>
-<h2 id="33-meta-xr-sdkのセットアップ-オプション">3.3. Meta XR SDKのセットアップ （オプション）</h2>
-<p>Meta XR SDKを使用すると、Meta Questなどのヘッドマウントディスプレイで触覚体験ができるアプリケーションを開発することができます。</p>
-<p>Meta XR SDKを使用する場合はMeta XR SDKのセットアップ手順に従って、セットアップを行なってください。<br>
-XR プラグインは Unity OpenXR プラグインの利用を推奨します。</p>
+<h2 id="33-setting-up-meta-xr-sdk-optional">3.3. Setting up Meta XR SDK (Optional)</h2>
+<p>By using the Meta XR SDK, you can develop an application that enables haptic experiences with head-mounted displays such as Meta Quest.</p>
+<p>If you use the Meta XR SDK, please follow the Meta XR SDK setup steps.<br>
+The use of the Unity OpenXR plugin is recommended for XR plugins.</p>
 <p><a href="https://developers.meta.com/horizon/documentation/unity/unity-project-setup">https://developers.meta.com/horizon/documentation/unity/unity-project-setup</a></p>
-<h2 id="34-tof-ar-sdkのセットアップ-オプション">3.4. ToF AR SDKのセットアップ （オプション）</h2>
-<p>ToF AR SDKと対応スマートフォンを使用するとヘッドマウントディスプレイ非着用状態での開発・デバッグを効率化することができます。</p>
+<h2 id="34-setting-up-tof-ar-sdk-optional">3.4. Setting up ToF AR SDK (Optional)</h2>
+<p>By using ToF AR SDK and supported smartphones, it allows to to streamline development and debugging without wearing a head-mounted display.</p>
 <ol>
-<li>ToF AR SDKを以下のサイトよりダウンロードします。<br>
+<li>Download ToF AR SDK from below.<br>
 <a href="https://tof-ar.com/">https://tof-ar.com/</a></li>
-<li>TofAR_Base_vx.x.x_Android.unitypackage と TofAR_Base_vx.x.x_iOS.unitypackage をインポートします。</li>
+<li>Import TofAR_Base_vx.x.x_Android.unitypackage and TofAR_Base_vx.x.x_iOS.unitypackage.</li>
 </ol>
-<p><strong>スマートフォンへのデプロイは行わないので、Unityのプロジェクト設定は変更不要です。</strong></p>
-<h2 id="35-usb有線接続版feelfuse向けセットアップ-オプション">3.5. USB有線接続版FeelFuse向けセットアップ （オプション）</h2>
-<p>USB有線接続版FeelFuseを動作させるには、下記アセットをインストールします。</p>
+<p><strong>No changes to  modify Unity Project settings since Deployment to a smartphone is not required.</strong></p>
+<h2 id="35-setting-up-feelfuse-with-usb-wired-connection-optional">3.5. Setting up FeelFuse with USB Wired Connection (Optional)</h2>
+<p>To run FeerFuse with USB Wired Connection, install assets below:</p>
 <ul>
-<li><p>AudioStream(有償)<br>
+<li><p>AudioStream (The asset requires a fee.)<br>
 <a href="https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411">https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411</a></p>
 </li>
 <li><p>FMOD for Unity<br>
@@ -161,7 +161,7 @@ XR プラグインは Unity OpenXR プラグインの利用を推奨します。
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/ja/docfx/docs/setup.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/Document/en/docfx/docs/setup.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

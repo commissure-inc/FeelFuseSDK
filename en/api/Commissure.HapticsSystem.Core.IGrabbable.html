@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IGrabbable | FF-SDK-Unity ">
       
-      <meta name="description" content="掴める物体のインターフェイス">
+      <meta name="description" content="Interface for grabbable objects">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/feature/9_doc_2/apiSpec/new?filename=Commissure_HapticsSystem_Core_IGrabbable.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.IGrabbable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FF-SDK/new/release/0.1.1/apiSpec/new?filename=Commissure_HapticsSystem_Core_IGrabbable.md&amp;value=---%0Auid%3A%20Commissure.HapticsSystem.Core.IGrabbable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Commissure_HapticsSystem_Core_IGrabbable" data-uid="Commissure.HapticsSystem.Core.IGrabbable" class="text-break">
-Interface IGrabbable  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Interface IGrabbable  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>Commissure.HapticsSystem.Core.Assembly.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>掴める物体のインターフェイス</p>
+  <div class="markdown summary"><p>Interface for grabbable objects</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -125,10 +125,10 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
 
   <h3 id="Commissure_HapticsSystem_Core_IGrabbable_IsGrabbing" data-uid="Commissure.HapticsSystem.Core.IGrabbable.IsGrabbing">
   IsGrabbing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>trueの場合、掴んでいる</p>
+  <div class="markdown level1 summary"><p>If true, the object is being grabbed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -161,10 +161,10 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
 
   <h3 id="Commissure_HapticsSystem_Core_IGrabbable_Grab_Commissure_HapticsSystem_Core_IHapticInput_" data-uid="Commissure.HapticsSystem.Core.IGrabbable.Grab(Commissure.HapticsSystem.Core.IHapticInput)">
   Grab(IHapticInput)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>掴む</p>
+  <div class="markdown level1 summary"><p>Grab</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -175,7 +175,9 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>hapticInput</code> <a class="xref" href="Commissure.HapticsSystem.Core.IHapticInput.html">IHapticInput</a></dt>
-    <dd><p>掴もうとしているHapticInput</p>
+    <dd><blockquote>
+<p>HapticInput that try to be grabbed</p>
+</blockquote>
 </dd>
   </dl>
 
@@ -194,10 +196,10 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
 
   <h3 id="Commissure_HapticsSystem_Core_IGrabbable_UnGrab" data-uid="Commissure.HapticsSystem.Core.IGrabbable.UnGrab">
   UnGrab()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>放す</p>
+  <div class="markdown level1 summary"><p>Release</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -221,7 +223,7 @@ Interface IGrabbable  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/commissure-inc/FF-SDK/blob/feature/9_doc_2/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/commissure-inc/FF-SDK/blob/release/0.1.1/FF-SDK-Unity/Assets/Commissure/HapticsSystem/Core/Internal/Interfaces/IGrabbable.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
