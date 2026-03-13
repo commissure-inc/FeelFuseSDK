@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FeelFuseSDK System Architecture | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FeelFuseSDK System Architecture | FeelFuseSDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/debug/Operation-confirmation/documents/docs/system-architecture.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+<h1 id="feelfusesdk-system-architecture">FeelFuseSDK System Architecture</h1>
+
+<h2 id="system-overview-architecture-diagram">System Overview Architecture Diagram</h2>
+<pre><code class="lang-mermaid">graph TB
+    subgraph &quot;Unity Project: FeelFuseSDK&quot;
+        subgraph &quot;External Dependencies&quot;
+            MetaXR[&quot;Meta XR SDK 78.0.0&lt;br/&gt;- Hand Tracking&lt;br/&gt;- Interaction System&quot;]
+            OpenXR[&quot;OpenXR 1.14.3&lt;br/&gt;- Cross-platform XR&quot;]
+            Unity[&quot;Unity 2022.3.62f1&lt;br/&gt;- Core Engine&quot;]
+        end
+
+        subgraph &quot;Core System&quot;
+            HapticManager[&quot;HapticManager&lt;br/&gt;- Device Registration&lt;br/&gt;- Input/Output Management&quot;]
+            HapticHands[&quot;HapticHands&lt;br/&gt;- Hand Position Control&lt;br/&gt;- Body Part Targeting&quot;]
+            
+            subgraph &quot;Input System&quot;
+                HapticInput[&quot;HapticInput&lt;br/&gt;- Source Registration&lt;br/&gt;- Value Collection&quot;]
+                AudioInput[&quot;HapticAudioInput&quot;]
+                ForceInput[&quot;HapticForceInput&quot;]
+            end
+            
+            subgraph &quot;Output System&quot;
+                HapticOutput[&quot;HapticOutput&lt;br/&gt;- Value Distribution&quot;]
+                AudioOutput[&quot;HapticAudioOutput&quot;]
+                ForceOutput[&quot;HapticForceOutput&quot;]
+            end
+        end
+
+        subgraph &quot;Body Part System&quot;
+            BodyPartModel[&quot;BodyPartModel&lt;br/&gt;- Body Part Targeting&lt;br/&gt;- Transform Management&quot;]
+            HandModel[&quot;HandModel&lt;br/&gt;- Hand Structure&lt;br/&gt;- Finger Tracking&quot;]
+            HandTrackingModel[&quot;HandTrackingModel&lt;br/&gt;- Extended Hand Tracking&lt;br/&gt;- Forearm Support&quot;]
+        end
+
+        subgraph &quot;Device Layer&quot;
+            HapticDevice[&quot;HapticDevice Interface&quot;]
+            DeviceMock[&quot;Mock Device&lt;br/&gt;- Testing &amp; Debug&quot;]
+            DeviceV0[&quot;Device V0&lt;br/&gt;- Legacy Implementation&quot;]
+            DeviceV1[&quot;Device V1&lt;br/&gt;- Current Implementation&quot;]
+        end
+
+        subgraph &quot;Platform Adapters&quot;
+            HandsMeta[&quot;Hands.Meta&lt;br/&gt;- Meta Hand Tracking&quot;]
+            HandsXRIT[&quot;Hands.XRIT&lt;br/&gt;- Unity XR Hands&quot;]
+            InteractionMeta[&quot;Interaction.Meta&lt;br/&gt;- Meta Interaction SDK&quot;]
+            InteractionXRIT[&quot;Interaction.XRIT&lt;br/&gt;- Unity XR Interaction&quot;]
+        end
+
+        subgraph &quot;Test Framework&quot;
+            TestScenes[&quot;Test Scenes&lt;br/&gt;- BlankScene&lt;br/&gt;- SampleScene&lt;br/&gt;- UnityEventChecker&quot;]
+            TestPrefabs[&quot;Test Prefabs&lt;br/&gt;- HapticSources&lt;br/&gt;- HapticTriggers&quot;]
+        end
+    end
+
+    %% Core Dependencies
+    HapticManager --&gt; HapticInput
+    HapticManager --&gt; HapticOutput
+    HapticManager --&gt; HapticDevice
+    HapticHands --&gt; BodyPartModel
+    
+    %% Input/Output Flow
+    HapticInput --&gt; AudioInput
+    HapticInput --&gt; ForceInput
+    HapticOutput --&gt; AudioOutput
+    HapticOutput --&gt; ForceOutput
+    
+    %% Device Implementations
+    HapticDevice --&gt; DeviceMock
+    HapticDevice --&gt; DeviceV0
+    HapticDevice --&gt; DeviceV1
+    
+    %% Body Part Hierarchy
+    BodyPartModel --&gt; HandModel
+    HandModel --&gt; HandTrackingModel
+    
+    %% Platform Integration
+    HandsMeta --&gt; MetaXR
+    HandsXRIT --&gt; OpenXR
+    InteractionMeta --&gt; MetaXR
+    InteractionXRIT --&gt; OpenXR
+    
+    %% Testing Integration
+    TestScenes --&gt; HapticManager
+    TestPrefabs --&gt; HapticInput
+</code></pre>
+<h2 id="architecture-layers">Architecture Layers</h2>
+<h3 id="1-infrastructure-layer">1. Infrastructure Layer</h3>
+<ul>
+<li><strong>Unity 2022.3.62f1</strong>: Core game engine</li>
+<li><strong>Meta XR SDK 78.0.0</strong>: Meta Quest platform support</li>
+<li><strong>OpenXR 1.14.3</strong>: Cross-platform XR standard</li>
+</ul>
+<h3 id="2-platform-abstraction-layer">2. Platform Abstraction Layer</h3>
+<ul>
+<li><strong>Hands.Meta/XRIT</strong>: Hand tracking implementations</li>
+<li><strong>Interaction.Meta/XRIT</strong>: Interaction system implementations</li>
+<li><strong>Device V0/V1/Mock</strong>: Device abstraction versions</li>
+</ul>
+<h3 id="3-core-layer">3. Core Layer</h3>
+<ul>
+<li><strong>HapticManager</strong>: Central system coordinator</li>
+<li><strong>HapticHands</strong>: Hand position and targeting control</li>
+<li><strong>Input/Output System</strong>: Haptic data flow management</li>
+</ul>
+<h3 id="4-application-layer">4. Application Layer</h3>
+<ul>
+<li><strong>Test Scenes</strong>: Development and validation environments</li>
+<li><strong>Test Prefabs</strong>: Reusable haptic components</li>
+</ul>
+<h2 id="key-design-patterns">Key Design Patterns</h2>
+<h3 id="interface-based-design">Interface-Based Design</h3>
+<p>All major components are interface-driven for flexibility and testability.</p>
+<h3 id="generic-type-system">Generic Type System</h3>
+<p>Type-safe haptic value processing through generic interfaces like <code>IHapticManager&lt;TValue&gt;</code>.</p>
+<h3 id="registrar-pattern">Registrar Pattern</h3>
+<p>Dynamic component registration/deregistration via <code>IHapticSourceRegisterer</code>.</p>
+<h3 id="layered-architecture">Layered Architecture</h3>
+<p>Clear separation of concerns across infrastructure, platform, core, and application layers.</p>
+<h2 id="project-structure">Project Structure</h2>
+<p>The FeelFuseSDK is organized into three separate Unity projects to support different deployment scenarios:</p>
+<h3 id="1-feelfusesdk-core">1. FeelFuseSDK-core</h3>
+<p><strong>Purpose</strong>: Core SDK development and shared assets
+<strong>Location</strong>: <code>FeelFuseSDK-dev/FeelFuseSDK-core/</code>
+<strong>Contents</strong>:</p>
+<ul>
+<li>All core modules (Base, HapticsSystem, ModelTracking)</li>
+<li>Platform-agnostic implementations</li>
+<li>Shared scripts and assets</li>
+<li>Development and testing environment</li>
+</ul>
+<h3 id="2-feelfusesdk-meta">2. FeelFuseSDK-meta</h3>
+<p><strong>Purpose</strong>: Meta Quest optimized builds
+<strong>Location</strong>: <code>FeelFuseSDK-dev/FeelFuseSDK-meta/</code>
+<strong>Target Platform</strong>: Android (Meta Quest devices)
+<strong>Features</strong>:</p>
+<ul>
+<li>Meta XR SDK integration</li>
+<li>Meta-specific hand tracking (Hands_Meta)</li>
+<li>Meta interaction system (Interaction_Meta)</li>
+<li>Optimized for Quest performance</li>
+</ul>
+<h3 id="3-feelfusesdk-xrit">3. FeelFuseSDK-xrit</h3>
+<p><strong>Purpose</strong>: Cross-platform XR builds
+<strong>Location</strong>: <code>FeelFuseSDK-dev/FeelFuseSDK-xrit/</code>
+<strong>Target Platform</strong>: OpenXR compatible devices
+<strong>Features</strong>:</p>
+<ul>
+<li>Unity XR Interaction Toolkit integration</li>
+<li>Unity XR Hands implementation (Hands_XRIT)</li>
+<li>Unity XR interaction system (Interaction_XRIT)</li>
+<li>Broader device compatibility</li>
+</ul>
+<h3 id="project-selection-guide">Project Selection Guide</h3>
+<ul>
+<li><strong>Use FeelFuseSDK-core</strong> for SDK development and testing</li>
+<li><strong>Use FeelFuseSDK-meta</strong> for Meta Quest-specific applications requiring maximum performance</li>
+<li><strong>Use FeelFuseSDK-xrit</strong> for applications targeting multiple XR platforms or non-Meta devices</li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
