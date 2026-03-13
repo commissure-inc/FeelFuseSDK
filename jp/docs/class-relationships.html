@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FeelFuseSDK Class Relationships | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FeelFuseSDK Class Relationships | FeelFuseSDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/debug/Operation-confirmation/documents/docs/class-relationships.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+<h1 id="feelfusesdk-class-relationships">FeelFuseSDK Class Relationships</h1>
+
+<h2 id="main-class-relationships-diagram">Main Class Relationships Diagram</h2>
+<pre><code class="lang-mermaid">classDiagram
+    class IHapticManager {
+        &lt;&lt;interface&gt;&gt;
+        +IReadOnlyList~IHapticDevice~ Devices
+        +RegisterDevice(IHapticDevice)
+        +UnregisterDevice(IHapticDevice)
+    }
+    
+    class IHapticManager~TValue~ {
+        &lt;&lt;interface&gt;&gt;
+        +IReadOnlyList~IHapticInput~TValue~~ Inputs
+        +IReadOnlyList~IHapticOutput~TValue~~ Outputs
+        +RegisterInput(IHapticInput~TValue~)
+        +RegisterOutput(IHapticOutput~TValue~)
+    }
+    
+    class IHapticHands {
+        &lt;&lt;interface&gt;&gt;
+        +MoveToChild(BodyPartTarget, Transform, Vector3, Quaternion)
+        +MoveToChild(BodyPartTarget, Transform)
+    }
+    
+    class IHapticHands~TValue~ {
+        &lt;&lt;interface&gt;&gt;
+        +TryGetInput(BodyPartTarget, out IHapticInput~TValue~)
+    }
+    
+    class IHapticInput~TValue~ {
+        &lt;&lt;interface&gt;&gt;
+        +BodyPartTarget BodyPartTarget
+        +IReadOnlyList~IHapticSource~TValue~~ Sources
+        +RegisterSource(IHapticSourceRegisterer, IHapticSource~TValue~)
+        +UnregisterSource(IHapticSourceRegisterer, IHapticSource~TValue~)
+    }
+    
+    class IHapticOutput~TValue~ {
+        &lt;&lt;interface&gt;&gt;
+        +BodyPartTarget BodyPartTarget
+        +DistributeValues(IReadOnlyList~TValue~)
+    }
+    
+    class IHapticSource~TValue~ {
+        &lt;&lt;interface&gt;&gt;
+        +OnRegistering(IHapticSourceRegisterer, IHapticInput~TValue~)
+        +OnUnregistering(IHapticSourceRegisterer, IHapticInput~TValue~)
+        +CollectValues(IHapticInput~TValue~, IValueCollector~TValue~)
+    }
+    
+    class IHapticDevice {
+        &lt;&lt;interface&gt;&gt;
+        +Dispose()
+    }
+    
+    class BodyPartTarget {
+        +static Unknown
+        +static All
+        +static Hand
+        +static Finger
+        +static Palm
+        +IEnumerator~byte~ GetEnumerator()
+        +bool Equals(BodyPartTarget)
+    }
+    
+    class IBodyPartModel {
+        &lt;&lt;interface&gt;&gt;
+        +bool IsInitialized
+        +UnityEvent~IBodyPartModel~ OnModelRebuild
+        +TryGetPart(BodyPartTarget, out Transform)
+    }
+    
+    class IHandModel {
+        &lt;&lt;interface&gt;&gt;
+        +HandSide HandSide
+        +Transform Palm
+        +Transform ThumbFirst
+        +Transform IndexFirst
+        +TryGetPart(HandPart, out Transform)
+    }
+    
+    class IHandTrackingModel {
+        &lt;&lt;interface&gt;&gt;
+        +Transform Forearm
+        +TryGetPart(HandTrackingPart, out Transform)
+    }
+    
+    class IHandModelsContainer {
+        &lt;&lt;interface&gt;&gt;
+        +TryGetModel(string, HandSide, out IHandModel)
+    }
+    
+    %% Inheritance relationships
+    IHapticHands~TValue~ --|&gt; IHapticHands
+    IHandModel --|&gt; IBodyPartModel
+    IHandTrackingModel --|&gt; IHandModel
+    
+    %% Composition relationships
+    IHapticManager --&gt; IHapticDevice : manages
+    IHapticManager~TValue~ --&gt; IHapticInput~TValue~ : manages
+    IHapticManager~TValue~ --&gt; IHapticOutput~TValue~ : manages
+    IHapticInput~TValue~ --&gt; IHapticSource~TValue~ : contains
+    IHapticInput~TValue~ --&gt; BodyPartTarget : targets
+    IHapticOutput~TValue~ --&gt; BodyPartTarget : targets
+    IHapticHands~TValue~ --&gt; IHapticInput~TValue~ : provides
+    IHandModel --&gt; BodyPartTarget : uses
+    IHandModelsContainer --&gt; IHandModel : contains
+    
+    classDef interfaceClass fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef valueClass fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    
+    class IHapticManager interfaceClass
+    class IHapticHands interfaceClass
+    class IHapticDevice interfaceClass
+    class IBodyPartModel interfaceClass
+    class IHandModel interfaceClass
+    class IHandTrackingModel interfaceClass
+    class IHandModelsContainer interfaceClass
+    class BodyPartTarget valueClass
+</code></pre>
+<h2 id="interface-hierarchy">Interface Hierarchy</h2>
+<h3 id="core-management-interfaces">Core Management Interfaces</h3>
+<ul>
+<li><strong>IHapticManager</strong>: Basic device management interface</li>
+<li><strong>IHapticManager<tvalue></tvalue></strong>: Generic haptic data flow management</li>
+<li><strong>IHapticHands</strong>: Hand positioning and control interface</li>
+<li><strong>IHapticHands<tvalue></tvalue></strong>: Generic hand-based haptic input access</li>
+</ul>
+<h3 id="inputoutput-interfaces">Input/Output Interfaces</h3>
+<ul>
+<li><strong>IHapticInput<tvalue></tvalue></strong>: Haptic input sources management</li>
+<li><strong>IHapticOutput<tvalue></tvalue></strong>: Haptic output value distribution</li>
+<li><strong>IHapticSource<tvalue></tvalue></strong>: Individual haptic data source</li>
+<li><strong>IValueCollector<tvalue></tvalue></strong>: Value collection utility interface</li>
+</ul>
+<h3 id="device-interfaces">Device Interfaces</h3>
+<ul>
+<li><strong>IHapticDevice</strong>: Base haptic device interface</li>
+<li><strong>IHapticInputRegisterer</strong>: Input registration management</li>
+<li><strong>IHapticSourceRegisterer</strong>: Source registration management</li>
+</ul>
+<h3 id="body-part-model-interfaces">Body Part Model Interfaces</h3>
+<ul>
+<li><strong>IBodyPartModel</strong>: Base body part model interface</li>
+<li><strong>IHandModel</strong>: Hand-specific model interface</li>
+<li><strong>IHandTrackingModel</strong>: Extended hand tracking model</li>
+<li><strong>IHandModelsContainer</strong>: Hand model container management</li>
+</ul>
+<h2 id="key-value-types">Key Value Types</h2>
+<h3 id="bodyparttarget">BodyPartTarget</h3>
+<p>A sophisticated body part targeting system using hierarchical byte values.</p>
+<p><strong>Module</strong>: <code>Commissure.ModelTracking.Core</code>
+<strong>Location</strong>: <code>Assets/Commissure/ModelTracking/Core/Scripts/Value.cs</code></p>
+<p>The BodyPartTarget struct provides precise hierarchical identification of body parts for haptic feedback targeting:</p>
+<pre><code>Static Properties:
+- Unknown, All (basic)
+- Upper, Lower, Right, Left, Front, Back (directions)
+- Arm, Head, Chest, Waist, Leg (major body parts)
+- Upperarm, Forearm, Hand, etc. (detailed parts)
+- Palm, Finger, Sole, Toe (extremities)
+- Thumb, Index, Middle, Ring, Pinky (finger specification)
+- FirstPhalanx, SecondPhalanx, ThirdPhalanx (finger segments)
+</code></pre>
+<h2 id="design-patterns">Design Patterns</h2>
+<h3 id="interface-segregation">Interface Segregation</h3>
+<p>Interfaces are carefully segregated by responsibility:</p>
+<ul>
+<li>Device management vs. data flow management</li>
+<li>Basic vs. generic type-safe operations</li>
+<li>Input vs. output concerns</li>
+</ul>
+<h3 id="generic-type-safety">Generic Type Safety</h3>
+<p>The <code>&lt;TValue&gt;</code> parameter allows type-safe haptic data processing while maintaining flexibility for different data types (audio, force, etc.).</p>
+<h3 id="observer-pattern">Observer Pattern</h3>
+<p>UnityEvent-based notifications for:</p>
+<ul>
+<li>Model rebuilding events</li>
+<li>Container lifecycle events</li>
+<li>Registration/unregistration events</li>
+</ul>
+<h3 id="strategy-pattern">Strategy Pattern</h3>
+<p>Different implementations can be plugged in through interfaces:</p>
+<ul>
+<li>Mock vs. real device implementations</li>
+<li>Meta vs. Unity XR platform implementations</li>
+<li>V0 vs. V1 device versions</li>
+</ul>
+<h2 id="relationship-types">Relationship Types</h2>
+<ul>
+<li><strong>Inheritance (--|&gt;)</strong>: Interface extension relationships</li>
+<li><strong>Composition (--&gt;)</strong>: Ownership and management relationships</li>
+<li><strong>Association</strong>: Usage and dependency relationships</li>
+</ul>
+<h2 id="interface-color-coding">Interface Color Coding</h2>
+<ul>
+<li><strong>Blue (Interface Class)</strong>: All interface definitions</li>
+<li><strong>Orange (Value Class)</strong>: Concrete value types like BodyPartTarget</li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

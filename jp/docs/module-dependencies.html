@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FeelFuseSDK Module Dependencies | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FeelFuseSDK Module Dependencies | FeelFuseSDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/debug/Operation-confirmation/documents/docs/module-dependencies.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+<h1 id="feelfusesdk-module-dependencies">FeelFuseSDK Module Dependencies</h1>
+
+<h2 id="assembly-dependencies-diagram">Assembly Dependencies Diagram</h2>
+<pre><code class="lang-mermaid">graph TB
+    subgraph &quot;Assembly Dependencies&quot;
+        Base[&quot;Commissure.Base&lt;br/&gt;Foundation Module&lt;br/&gt;No Dependencies&quot;]
+
+        HapticsCore[&quot;Commissure.HapticsSystem.Core&lt;br/&gt;GUID: 88591a43dcbae984e824ec45efc88bf2&quot;]
+        ModelTrackingCore[&quot;Commissure.ModelTracking.Core&lt;br/&gt;Body Part Tracking &amp; BodyPartTarget&quot;]
+
+        Device[&quot;Commissure.HapticsSystem.Device&lt;br/&gt;GUID: 00b1ac7bc41cd81408c3c9765d9b6edc&quot;]
+
+        DeviceV0[&quot;Commissure.HapticsSystem.Device.V0&quot;]
+        DeviceV1[&quot;Commissure.HapticsSystem.Device.V1&quot;]
+
+        HandsMeta[&quot;Commissure.ModelTracking.Hands_Meta&quot;]
+        HandsXRIT[&quot;Commissure.ModelTracking.Hands_XRIT&quot;]
+
+        InteractionMeta[&quot;Commissure.HapticsSystem.Interaction_Meta&quot;]
+        InteractionXRIT[&quot;Commissure.HapticsSystem.Interaction_XRIT&quot;]
+
+        subgraph &quot;External Packages&quot;
+            MetaXRCore[&quot;Meta XR Core&lt;br/&gt;GUID: f64c9ebcd7899c3448a08dc9f9ddbe30&quot;]
+            MetaXRInteraction[&quot;Meta XR Interaction&lt;br/&gt;GUID: 2a230cb87a1d3ba4a98bdc0ddae76e6c&quot;]
+            UnityXRHands[&quot;Unity XR Hands&lt;br/&gt;GUID: ce522b6ed64c8be4c989a1d26d0e3275&quot;]
+        end
+    end
+
+    %% Core Dependencies
+    HapticsCore --&gt; Base
+    ModelTrackingCore --&gt; Base
+    Device --&gt; ModelTrackingCore
+    Device --&gt; HapticsCore
+
+    %% Device Version Dependencies
+    DeviceV0 --&gt; Base
+    DeviceV0 --&gt; ModelTrackingCore
+    DeviceV0 --&gt; HapticsCore
+    DeviceV0 --&gt; Device
+
+    DeviceV1 --&gt; Base
+    DeviceV1 --&gt; ModelTrackingCore
+    DeviceV1 --&gt; HapticsCore
+    DeviceV1 --&gt; Device
+
+    %% Hand Tracking Dependencies
+    HandsMeta --&gt; Base
+    HandsMeta --&gt; ModelTrackingCore
+    HandsMeta --&gt; MetaXRCore
+
+    HandsXRIT --&gt; Base
+    HandsXRIT --&gt; ModelTrackingCore
+    HandsXRIT --&gt; UnityXRHands
+
+    %% Interaction Dependencies
+    InteractionMeta --&gt; Base
+    InteractionMeta --&gt; ModelTrackingCore
+    InteractionMeta --&gt; HapticsCore
+    InteractionMeta --&gt; MetaXRCore
+    InteractionMeta --&gt; MetaXRInteraction
+
+    InteractionXRIT --&gt; Base
+    InteractionXRIT --&gt; ModelTrackingCore
+    InteractionXRIT --&gt; HapticsCore
+
+    classDef foundationModule fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px
+    classDef coreModule fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef deviceModule fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef platformModule fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef externalModule fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+
+    class Base foundationModule
+    class HapticsCore,ModelTrackingCore coreModule
+    class Device,DeviceV0,DeviceV1 deviceModule
+    class HandsMeta,HandsXRIT,InteractionMeta,InteractionXRIT platformModule
+    class MetaXRCore,MetaXRInteraction,UnityXRHands externalModule
+</code></pre>
+<h2 id="module-categories">Module Categories</h2>
+<h3 id="foundation-module-green">Foundation Module (Green)</h3>
+<ul>
+<li><strong>Base</strong>: Foundation module with no dependencies, provides common utilities, registries, and shared interfaces</li>
+</ul>
+<h3 id="core-modules-blue">Core Modules (Blue)</h3>
+<ul>
+<li><strong>HapticsSystem.Core</strong>: Main haptic system interfaces and management, depends on Base</li>
+<li><strong>ModelTracking.Core</strong>: Body part tracking and BodyPartTarget system, depends on Base</li>
+</ul>
+<h3 id="device-modules-purple">Device Modules (Purple)</h3>
+<ul>
+<li><strong>Device</strong>: Base device abstraction, depends on HapticsSystem.Core and ModelTracking.Core</li>
+<li><strong>Device.V0</strong>: Legacy device implementation</li>
+<li><strong>Device.V1</strong>: Current device implementation with OSC communication</li>
+<li>Both V0 and V1 depend on Device, both Core modules, and Base</li>
+</ul>
+<h3 id="platform-modules-orange">Platform Modules (Orange)</h3>
+<ul>
+<li><strong>ModelTracking.Hands_Meta</strong>: Meta hand tracking implementation</li>
+<li><strong>ModelTracking.Hands_XRIT</strong>: Unity XR hand tracking implementation</li>
+<li><strong>HapticsSystem.Interaction_Meta</strong>: Meta interaction system implementation</li>
+<li><strong>HapticsSystem.Interaction_XRIT</strong>: Unity XR interaction implementation</li>
+</ul>
+<h3 id="external-dependencies-light-green">External Dependencies (Light Green)</h3>
+<ul>
+<li><strong>Meta XR Core</strong>: Meta Quest platform SDK</li>
+<li><strong>Meta XR Interaction</strong>: Meta interaction framework</li>
+<li><strong>Unity XR Hands</strong>: Unity's cross-platform hand tracking</li>
+</ul>
+<h2 id="assembly-guids-reference">Assembly GUIDs Reference</h2>
+<table>
+<thead>
+<tr>
+<th>Assembly</th>
+<th>GUID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commissure.HapticsSystem.Core</td>
+<td>88591a43dcbae984e824ec45efc88bf2</td>
+</tr>
+<tr>
+<td>Commissure.HapticsSystem.Device</td>
+<td>00b1ac7bc41cd81408c3c9765d9b6edc</td>
+</tr>
+<tr>
+<td>Meta XR Core</td>
+<td>f64c9ebcd7899c3448a08dc9f9ddbe30</td>
+</tr>
+<tr>
+<td>Meta XR Interaction</td>
+<td>2a230cb87a1d3ba4a98bdc0ddae76e6c</td>
+</tr>
+<tr>
+<td>Unity XR Hands</td>
+<td>ce522b6ed64c8be4c989a1d26d0e3275</td>
+</tr>
+</tbody>
+</table>
+<h2 id="conditional-compilation">Conditional Compilation</h2>
+<h3 id="meta-platform-defines">Meta Platform Defines</h3>
+<ul>
+<li><code>Meta_XR_Hands</code>: Enabled when Meta XR Core package is present</li>
+<li><code>Meta_XR_Interaction</code>: Enabled when Meta Interaction package is present</li>
+</ul>
+<h3 id="unity-platform-defines">Unity Platform Defines</h3>
+<ul>
+<li><code>Unity_XR_Hands</code>: Enabled when Unity XR Hands package is present</li>
+</ul>
+<h2 id="dependency-rules">Dependency Rules</h2>
+<ol>
+<li><strong>Base</strong> is the foundation - no external dependencies, provides common infrastructure</li>
+<li><strong>Core modules</strong> (HapticsSystem.Core, ModelTracking.Core) build on Base</li>
+<li><strong>Device</strong> layer depends on both Core modules (HapticsSystem and ModelTracking)</li>
+<li><strong>Platform adapters</strong> depend on Base, Core modules, plus external SDKs</li>
+<li><strong>Version modules</strong> (V0, V1) extend the base Device module and depend on all foundation layers</li>
+</ol>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
