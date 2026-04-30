@@ -1,0 +1,4161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BodyPartTarget | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BodyPartTarget | FeelFuseSDK ">
+      
+      <meta name="description" content="身体部位のtargetクラス">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/new/release/0.2.0/apiSpec/new?filename=Commissure_ModelTracking_BodyPartTarget.md&amp;value=---%0Auid%3A%20Commissure.ModelTracking.BodyPartTarget%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="Commissure.ModelTracking.BodyPartTarget">
+
+
+
+  <h1 id="Commissure_ModelTracking_BodyPartTarget" data-uid="Commissure.ModelTracking.BodyPartTarget" class="text-break">
+Class BodyPartTarget  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Commissure.html">Commissure</a>.<a class="xref" href="Commissure.ModelTracking.html">ModelTracking</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Commissure.ModelTracking.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>身体部位のtargetクラス</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BodyPartTarget : IEnumerable&lt;byte&gt;, IEnumerable, IEquatable&lt;BodyPartTarget&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BodyPartTarget</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_All" data-uid="Commissure.ModelTracking.BodyPartTarget.All">
+  All
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget All</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Arm" data-uid="Commissure.ModelTracking.BodyPartTarget.Arm">
+  Arm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Arm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Back" data-uid="Commissure.ModelTracking.BodyPartTarget.Back">
+  Back
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Back</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Calf" data-uid="Commissure.ModelTracking.BodyPartTarget.Calf">
+  Calf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Calf</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Chest" data-uid="Commissure.ModelTracking.BodyPartTarget.Chest">
+  Chest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Chest</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Crane" data-uid="Commissure.ModelTracking.BodyPartTarget.Crane">
+  Crane
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Crane</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Finger" data-uid="Commissure.ModelTracking.BodyPartTarget.Finger">
+  Finger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Finger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_FirstPhalanx" data-uid="Commissure.ModelTracking.BodyPartTarget.FirstPhalanx">
+  FirstPhalanx
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget FirstPhalanx</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Foot" data-uid="Commissure.ModelTracking.BodyPartTarget.Foot">
+  Foot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Foot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Forearm" data-uid="Commissure.ModelTracking.BodyPartTarget.Forearm">
+  Forearm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Forearm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Front" data-uid="Commissure.ModelTracking.BodyPartTarget.Front">
+  Front
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Front</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Hallux" data-uid="Commissure.ModelTracking.BodyPartTarget.Hallux">
+  Hallux
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Hallux</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Hand" data-uid="Commissure.ModelTracking.BodyPartTarget.Hand">
+  Hand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Hand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Head" data-uid="Commissure.ModelTracking.BodyPartTarget.Head">
+  Head
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Head</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Index" data-uid="Commissure.ModelTracking.BodyPartTarget.Index">
+  Index
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Index</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_IndexFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.IndexFirst">
+  IndexFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget IndexFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_IndexSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.IndexSecond">
+  IndexSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget IndexSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_IndexThird" data-uid="Commissure.ModelTracking.BodyPartTarget.IndexThird">
+  IndexThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget IndexThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_IndexToe" data-uid="Commissure.ModelTracking.BodyPartTarget.IndexToe">
+  IndexToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget IndexToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Left" data-uid="Commissure.ModelTracking.BodyPartTarget.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Left</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftArm" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftArm">
+  LeftArm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftArm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftCalf" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftCalf">
+  LeftCalf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftCalf</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftFinger" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftFinger">
+  LeftFinger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftFinger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftFoot" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftFoot">
+  LeftFoot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftFoot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftForearm" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftForearm">
+  LeftForearm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftForearm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftHand" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftHand">
+  LeftHand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftHand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftIndex" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftIndex">
+  LeftIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftIndex</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftIndexFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftIndexFirst">
+  LeftIndexFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftIndexFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftIndexSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftIndexSecond">
+  LeftIndexSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftIndexSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftIndexThird" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftIndexThird">
+  LeftIndexThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftIndexThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftMiddle" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftMiddle">
+  LeftMiddle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftMiddle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftMiddleFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftMiddleFirst">
+  LeftMiddleFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftMiddleFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftMiddleSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftMiddleSecond">
+  LeftMiddleSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftMiddleSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftMiddleThird" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftMiddleThird">
+  LeftMiddleThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftMiddleThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftPalm" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftPalm">
+  LeftPalm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftPalm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftPinky" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftPinky">
+  LeftPinky
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftPinky</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftPinkyFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftPinkyFirst">
+  LeftPinkyFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftPinkyFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftPinkySecond" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftPinkySecond">
+  LeftPinkySecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftPinkySecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftPinkyThird" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftPinkyThird">
+  LeftPinkyThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftPinkyThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftRing" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftRing">
+  LeftRing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftRing</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftRingFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftRingFirst">
+  LeftRingFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftRingFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftRingSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftRingSecond">
+  LeftRingSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftRingSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftRingThird" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftRingThird">
+  LeftRingThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftRingThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftSole" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftSole">
+  LeftSole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftSole</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftThigh" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftThigh">
+  LeftThigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftThigh</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftThumb" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftThumb">
+  LeftThumb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftThumb</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftThumbFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftThumbFirst">
+  LeftThumbFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftThumbFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftThumbSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftThumbSecond">
+  LeftThumbSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftThumbSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftThumbThird" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftThumbThird">
+  LeftThumbThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftThumbThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftToe" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftToe">
+  LeftToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftUpperChest" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftUpperChest">
+  LeftUpperChest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftUpperChest</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LeftUpperarm" data-uid="Commissure.ModelTracking.BodyPartTarget.LeftUpperarm">
+  LeftUpperarm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LeftUpperarm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Leg" data-uid="Commissure.ModelTracking.BodyPartTarget.Leg">
+  Leg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Leg</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Lower" data-uid="Commissure.ModelTracking.BodyPartTarget.Lower">
+  Lower
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Lower</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_LowerWaist" data-uid="Commissure.ModelTracking.BodyPartTarget.LowerWaist">
+  LowerWaist
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget LowerWaist</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Middle" data-uid="Commissure.ModelTracking.BodyPartTarget.Middle">
+  Middle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Middle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_MiddleFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.MiddleFirst">
+  MiddleFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget MiddleFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_MiddleSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.MiddleSecond">
+  MiddleSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget MiddleSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_MiddleThird" data-uid="Commissure.ModelTracking.BodyPartTarget.MiddleThird">
+  MiddleThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget MiddleThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_MiddleToe" data-uid="Commissure.ModelTracking.BodyPartTarget.MiddleToe">
+  MiddleToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget MiddleToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Neck" data-uid="Commissure.ModelTracking.BodyPartTarget.Neck">
+  Neck
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Neck</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Palm" data-uid="Commissure.ModelTracking.BodyPartTarget.Palm">
+  Palm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Palm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Pinky" data-uid="Commissure.ModelTracking.BodyPartTarget.Pinky">
+  Pinky
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Pinky</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_PinkyFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.PinkyFirst">
+  PinkyFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget PinkyFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_PinkySecond" data-uid="Commissure.ModelTracking.BodyPartTarget.PinkySecond">
+  PinkySecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget PinkySecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_PinkyThird" data-uid="Commissure.ModelTracking.BodyPartTarget.PinkyThird">
+  PinkyThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget PinkyThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_PinkyToe" data-uid="Commissure.ModelTracking.BodyPartTarget.PinkyToe">
+  PinkyToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget PinkyToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Right" data-uid="Commissure.ModelTracking.BodyPartTarget.Right">
+  Right
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Right</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightArm" data-uid="Commissure.ModelTracking.BodyPartTarget.RightArm">
+  RightArm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightArm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightCalf" data-uid="Commissure.ModelTracking.BodyPartTarget.RightCalf">
+  RightCalf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightCalf</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightFinger" data-uid="Commissure.ModelTracking.BodyPartTarget.RightFinger">
+  RightFinger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightFinger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightFoot" data-uid="Commissure.ModelTracking.BodyPartTarget.RightFoot">
+  RightFoot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightFoot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightForearm" data-uid="Commissure.ModelTracking.BodyPartTarget.RightForearm">
+  RightForearm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightForearm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightHand" data-uid="Commissure.ModelTracking.BodyPartTarget.RightHand">
+  RightHand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightHand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightIndex" data-uid="Commissure.ModelTracking.BodyPartTarget.RightIndex">
+  RightIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightIndex</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightIndexFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RightIndexFirst">
+  RightIndexFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightIndexFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightIndexSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RightIndexSecond">
+  RightIndexSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightIndexSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightIndexThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RightIndexThird">
+  RightIndexThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightIndexThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightMiddle" data-uid="Commissure.ModelTracking.BodyPartTarget.RightMiddle">
+  RightMiddle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightMiddle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightMiddleFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RightMiddleFirst">
+  RightMiddleFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightMiddleFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightMiddleSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RightMiddleSecond">
+  RightMiddleSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightMiddleSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightMiddleThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RightMiddleThird">
+  RightMiddleThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightMiddleThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightPalm" data-uid="Commissure.ModelTracking.BodyPartTarget.RightPalm">
+  RightPalm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightPalm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightPinky" data-uid="Commissure.ModelTracking.BodyPartTarget.RightPinky">
+  RightPinky
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightPinky</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightPinkyFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RightPinkyFirst">
+  RightPinkyFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightPinkyFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightPinkySecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RightPinkySecond">
+  RightPinkySecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightPinkySecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightPinkyThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RightPinkyThird">
+  RightPinkyThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightPinkyThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightRing" data-uid="Commissure.ModelTracking.BodyPartTarget.RightRing">
+  RightRing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightRing</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightRingFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RightRingFirst">
+  RightRingFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightRingFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightRingSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RightRingSecond">
+  RightRingSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightRingSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightRingThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RightRingThird">
+  RightRingThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightRingThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightSole" data-uid="Commissure.ModelTracking.BodyPartTarget.RightSole">
+  RightSole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightSole</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightThigh" data-uid="Commissure.ModelTracking.BodyPartTarget.RightThigh">
+  RightThigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightThigh</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightThumb" data-uid="Commissure.ModelTracking.BodyPartTarget.RightThumb">
+  RightThumb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightThumb</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightThumbFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RightThumbFirst">
+  RightThumbFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightThumbFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightThumbSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RightThumbSecond">
+  RightThumbSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightThumbSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightThumbThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RightThumbThird">
+  RightThumbThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightThumbThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightToe" data-uid="Commissure.ModelTracking.BodyPartTarget.RightToe">
+  RightToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightUpperChest" data-uid="Commissure.ModelTracking.BodyPartTarget.RightUpperChest">
+  RightUpperChest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightUpperChest</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RightUpperarm" data-uid="Commissure.ModelTracking.BodyPartTarget.RightUpperarm">
+  RightUpperarm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RightUpperarm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Ring" data-uid="Commissure.ModelTracking.BodyPartTarget.Ring">
+  Ring
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Ring</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RingFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.RingFirst">
+  RingFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RingFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RingSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.RingSecond">
+  RingSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RingSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RingThird" data-uid="Commissure.ModelTracking.BodyPartTarget.RingThird">
+  RingThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RingThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_RingToe" data-uid="Commissure.ModelTracking.BodyPartTarget.RingToe">
+  RingToe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget RingToe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_SecondPhalanx" data-uid="Commissure.ModelTracking.BodyPartTarget.SecondPhalanx">
+  SecondPhalanx
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget SecondPhalanx</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Sole" data-uid="Commissure.ModelTracking.BodyPartTarget.Sole">
+  Sole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Sole</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Thigh" data-uid="Commissure.ModelTracking.BodyPartTarget.Thigh">
+  Thigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Thigh</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ThirdPhalanx" data-uid="Commissure.ModelTracking.BodyPartTarget.ThirdPhalanx">
+  ThirdPhalanx
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget ThirdPhalanx</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Thumb" data-uid="Commissure.ModelTracking.BodyPartTarget.Thumb">
+  Thumb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Thumb</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ThumbFirst" data-uid="Commissure.ModelTracking.BodyPartTarget.ThumbFirst">
+  ThumbFirst
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget ThumbFirst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ThumbSecond" data-uid="Commissure.ModelTracking.BodyPartTarget.ThumbSecond">
+  ThumbSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget ThumbSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ThumbThird" data-uid="Commissure.ModelTracking.BodyPartTarget.ThumbThird">
+  ThumbThird
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget ThumbThird</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Toe" data-uid="Commissure.ModelTracking.BodyPartTarget.Toe">
+  Toe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Toe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Unknown" data-uid="Commissure.ModelTracking.BodyPartTarget.Unknown">
+  Unknown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Unknown</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Upper" data-uid="Commissure.ModelTracking.BodyPartTarget.Upper">
+  Upper
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Upper</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_UpperWaist" data-uid="Commissure.ModelTracking.BodyPartTarget.UpperWaist">
+  UpperWaist
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget UpperWaist</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Upperarm" data-uid="Commissure.ModelTracking.BodyPartTarget.Upperarm">
+  Upperarm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Upperarm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Waist" data-uid="Commissure.ModelTracking.BodyPartTarget.Waist">
+  Waist
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BodyPartTarget Waist</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Add_" data-uid="Commissure.ModelTracking.BodyPartTarget.Add*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Add_System_Byte_" data-uid="Commissure.ModelTracking.BodyPartTarget.Add(System.Byte)">
+  Add(byte)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L678"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>値を追加します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(byte value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd><p>追加する値</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Contains_" data-uid="Commissure.ModelTracking.BodyPartTarget.Contains*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Contains_Commissure_ModelTracking_BodyPartTarget_" data-uid="Commissure.ModelTracking.BodyPartTarget.Contains(Commissure.ModelTracking.BodyPartTarget)">
+  Contains(BodyPartTarget)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L693"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>指定されたtargetを含むかどうかを判定します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(BodyPartTarget target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd><p>判定するtarget</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>含む場合はtrue、それ以外はfalse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_ContainsAll_" data-uid="Commissure.ModelTracking.BodyPartTarget.ContainsAll*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ContainsAll_System_Collections_Generic_IReadOnlyList_Commissure_ModelTracking_BodyPartTarget__" data-uid="Commissure.ModelTracking.BodyPartTarget.ContainsAll(System.Collections.Generic.IReadOnlyList{Commissure.ModelTracking.BodyPartTarget})">
+  ContainsAll(IReadOnlyList&lt;BodyPartTarget&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L719"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>すべてのtargetを含むかどうかを判定します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsAll(IReadOnlyList&lt;BodyPartTarget&gt; targets)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a>&gt;</dt>
+    <dd><p>判定するtargetのlist</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>すべて含む場合はtrue、それ以外はfalse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_ContainsAny_" data-uid="Commissure.ModelTracking.BodyPartTarget.ContainsAny*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ContainsAny_System_Collections_Generic_IReadOnlyList_Commissure_ModelTracking_BodyPartTarget__" data-uid="Commissure.ModelTracking.BodyPartTarget.ContainsAny(System.Collections.Generic.IReadOnlyList{Commissure.ModelTracking.BodyPartTarget})">
+  ContainsAny(IReadOnlyList&lt;BodyPartTarget&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L734"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>いずれかのtargetを含むかどうかを判定します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsAny(IReadOnlyList&lt;BodyPartTarget&gt; targets)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a>&gt;</dt>
+    <dd><p>判定するtargetのlist</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>いずれかを含む場合はtrue、それ以外はfalse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Convert_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Convert_Commissure_ModelTracking_BodyPart_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert(Commissure.ModelTracking.BodyPart)">
+  Convert(BodyPart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>BodyPartをBodyPartTargetに変換します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BodyPartTarget Convert(BodyPart part)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>part</code> <a class="xref" href="Commissure.ModelTracking.BodyPart.html">BodyPart</a></dt>
+    <dd><p>Body part</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd><p>変換されたBodyPartTarget</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Convert_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Convert_Commissure_ModelTracking_Handedness_Commissure_ModelTracking_HandPart_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert(Commissure.ModelTracking.Handedness,Commissure.ModelTracking.HandPart)">
+  Convert(Handedness, HandPart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HandednessとHandPartをBodyPartTargetに変換します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BodyPartTarget Convert(Handedness handedness, HandPart part)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>handedness</code> <a class="xref" href="Commissure.ModelTracking.Handedness.html">Handedness</a></dt>
+    <dd><p>利き手</p>
+</dd>
+    <dt><code>part</code> <a class="xref" href="Commissure.ModelTracking.HandPart.html">HandPart</a></dt>
+    <dd><p>Hand part</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd><p>変換されたBodyPartTarget</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Convert_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Convert_Commissure_ModelTracking_Handedness_Commissure_ModelTracking_HandTrackingPart_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert(Commissure.ModelTracking.Handedness,Commissure.ModelTracking.HandTrackingPart)">
+  Convert(Handedness, HandTrackingPart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HandednessとHandTrackingPartをBodyPartTargetに変換します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BodyPartTarget Convert(Handedness handedness, HandTrackingPart part)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>handedness</code> <a class="xref" href="Commissure.ModelTracking.Handedness.html">Handedness</a></dt>
+    <dd><p>利き手</p>
+</dd>
+    <dt><code>part</code> <a class="xref" href="Commissure.ModelTracking.HandTrackingPart.html">HandTrackingPart</a></dt>
+    <dd><p>Hand tracking part</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd><p>変換されたBodyPartTarget</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Convert_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Convert_Commissure_ModelTracking_HumanoidPart_" data-uid="Commissure.ModelTracking.BodyPartTarget.Convert(Commissure.ModelTracking.HumanoidPart)">
+  Convert(HumanoidPart)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L536"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HumanoidPartをBodyPartTargetに変換します</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BodyPartTarget Convert(HumanoidPart humanoid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>humanoid</code> <a class="xref" href="Commissure.ModelTracking.HumanoidPart.html">HumanoidPart</a></dt>
+    <dd><p>Humanoid part</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Commissure.ModelTracking.BodyPartTarget.html">BodyPartTarget</a></dt>
+    <dd><p>変換されたBodyPartTarget</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_Equals_" data-uid="Commissure.ModelTracking.BodyPartTarget.Equals*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_Equals_System_Object_" data-uid="Commissure.ModelTracking.BodyPartTarget.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L679"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_GetHashCode_" data-uid="Commissure.ModelTracking.BodyPartTarget.GetHashCode*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_GetHashCode" data-uid="Commissure.ModelTracking.BodyPartTarget.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L680"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Commissure_ModelTracking_BodyPartTarget_ToString_" data-uid="Commissure.ModelTracking.BodyPartTarget.ToString*"></a>
+
+  <h3 id="Commissure_ModelTracking_BodyPartTarget_ToString" data-uid="Commissure.ModelTracking.BodyPartTarget.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/FeelFuseSDK-core/Assets/Commissure/ModelTracking/Core/Scripts/Value.cs/#L682"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

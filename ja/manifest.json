@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Unity/FeelFuseSDK-dev/documents",
+  "source_base_path": "D:/Project/Github/Commissure/FeelFuseSDK-dev/documents",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,2511 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.CombinedDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.CombinedDictionary-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.CombinedDictionary<TKey, TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.CombinedDictionary-2.yml\" sourcestartlinenumber=\"1\">2つの辞書を結合した読み取り専用辞書</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.Draw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.Draw.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.Draw",
+      "Summary": "<p sourcefile=\"api/Commissure.Draw.yml\" sourcestartlinenumber=\"1\">GLを使用してデバッグ用の線や図形を描画する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.DrawCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.DrawCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.DrawCamera",
+      "Summary": "<p sourcefile=\"api/Commissure.DrawCamera.yml\" sourcestartlinenumber=\"1\">Drawクラスによる描画を有効にするためのカメラコンポーネント\nこのコンポーネントをカメラにアタッチすることで、Draw.DrawLine()などで登録された描画が表示されます</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.AttachMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.AttachMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.AttachMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.AttachMode.yml\" sourcestartlinenumber=\"1\">ハプティクスデバイスの装着モードを表す列挙型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Angle4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Angle4.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Angle4",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.Angle4.yml\" sourcestartlinenumber=\"1\">4つの角度を保持する構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.IAngle4Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.IAngle4Provider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.IAngle4Provider",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.IAngle4Provider.yml\" sourcestartlinenumber=\"1\">Angle4を提供するproviderのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4ConverterMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4ConverterMock.yml\" sourcestartlinenumber=\"1\">Angle4に変換するForceConverterのmock実装</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.IAngle4Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.IAngle4Provider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.IAngle4Provider",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.IAngle4Provider.yml\" sourcestartlinenumber=\"1\">Angle4を提供するproviderのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4Converter_Device",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4Converter_Device.yml\" sourcestartlinenumber=\"1\">Device用のAngle4変換ForceConverterクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.IAngle4Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.IAngle4Provider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.IAngle4Provider",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.IAngle4Provider.yml\" sourcestartlinenumber=\"1\">Angle4を提供するproviderのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceAngle4Converter_DeviceV0.yml\" sourcestartlinenumber=\"1\">Device V0用のAngle4変換ForceConverterクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceConverterFactoryBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceConverterFactoryBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceConverterFactoryBase<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceConverterFactoryBase-1.yml\" sourcestartlinenumber=\"1\">ForceConverterFactoryのScriptableObject基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.ForceConverterModule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.ForceConverterModule-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.ForceConverterModule<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.ForceConverterModule-1.yml\" sourcestartlinenumber=\"1\">ForceConverterのmodule基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.GaussianFilter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.GaussianFilter.yml\" sourcestartlinenumber=\"1\">ゼロメモリ割り当てで単一のfloat値に対応するGaussianフィルタクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilterAngle4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilterAngle4.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.GaussianFilterAngle4",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.GaussianFilterAngle4.yml\" sourcestartlinenumber=\"1\">4つの角度に対応するGaussianフィルタクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilterParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.GaussianFilterParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.GaussianFilterParameter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.GaussianFilterParameter.yml\" sourcestartlinenumber=\"1\">GaussianフィルタのparameterをScriptableObjectとして保持するクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.HapticDeviceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.HapticDeviceBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.HapticDeviceBase",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.HapticDeviceBase.yml\" sourcestartlinenumber=\"1\">HapticDeviceの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.HapticDeviceDefault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.HapticDeviceDefault.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.HapticDeviceDefault",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.HapticDeviceDefault.yml\" sourcestartlinenumber=\"1\">HapticDeviceのデフォルト実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.HapticOutputBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.HapticOutputBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.HapticOutputBase<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.HapticOutputBase-1.yml\" sourcestartlinenumber=\"1\">HapticOutputの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.HapticOutputDefault-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.HapticOutputDefault-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.HapticOutputDefault<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.HapticOutputDefault-1.yml\" sourcestartlinenumber=\"1\">HapticOutputのデフォルト実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.IForceConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.IForceConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.IForceConverter<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.IForceConverter-1.yml\" sourcestartlinenumber=\"1\">HapticForceを特定の値型に変換するconverterのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.IForceConverterFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.IForceConverterFactory-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.IForceConverterFactory<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.IForceConverterFactory-1.yml\" sourcestartlinenumber=\"1\">IForceConverterを生成するfactoryのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.IGaussianFilterParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.IGaussianFilterParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.IGaussianFilterParameter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.IGaussianFilterParameter.yml\" sourcestartlinenumber=\"1\">Gaussianフィルタのparameterを提供するinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Mock.ForceAngle4ConverterMockFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Mock.ForceAngle4ConverterMockFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Mock.ForceAngle4ConverterMockFactory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.Mock.ForceAngle4ConverterMockFactory.yml\" sourcestartlinenumber=\"1\">ForceAngle4ConverterMockを生成するfactoryのScriptableObjectクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticAudioOutputMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticAudioOutputMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Mock.HapticAudioOutputMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.Mock.HapticAudioOutputMock.yml\" sourcestartlinenumber=\"1\">HapticAudio用のoutputのmock実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticDevicMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticDevicMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Mock.HapticDevicMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.Mock.HapticDevicMock.yml\" sourcestartlinenumber=\"1\">HapticDeviceのmock実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticForceOutputMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Mock.HapticForceOutputMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Mock.HapticForceOutputMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.Mock.HapticForceOutputMock.yml\" sourcestartlinenumber=\"1\">HapticForce用のoutputのmock実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.Mock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.Mock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.Mock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.SerialDeviceController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.SerialDeviceController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.SerialDeviceController",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.SerialDeviceController.yml\" sourcestartlinenumber=\"1\">Abstract base class for controlling serial devices.\nProvides methods for connecting, disconnecting, and sending packets over COM ports.\nWorks only on Windows (Standalone or Editor).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.AudioMixerDropdownAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.AudioMixerDropdownAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.AudioMixerDropdownAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.AudioOutputDropdownAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.AudioOutputDropdownAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.AudioOutputDropdownAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.ForceAngle4Converter_DeviceV0Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.ForceAngle4Converter_DeviceV0Factory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.ForceAngle4Converter_DeviceV0Factory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.ForceAngle4Converter_DeviceV0Factory.yml\" sourcestartlinenumber=\"1\">Factory for creating ForceAngle4Converter_DeviceV0 instances.\nConverts force vectors to 4-motor angle values for V0 devices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.ForceAngle4NewConverter_DeviceV0Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.ForceAngle4NewConverter_DeviceV0Factory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.ForceAngle4NewConverter_DeviceV0Factory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.ForceAngle4NewConverter_DeviceV0Factory.yml\" sourcestartlinenumber=\"1\">Alternative factory for creating ForceAngle4Converter_DeviceV0 instances with modified conversion logic.\nUses a different force-to-angle calculation method compared to the standard converter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticAudioManagerV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticAudioManagerV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.HapticAudioManagerV0",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticAudioOutputV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticAudioOutputV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.HapticAudioOutputV0",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.HapticAudioOutputV0.yml\" sourcestartlinenumber=\"1\">Haptic audio output component for V0 devices.\nFilters and distributes audio values to the audio manager.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticDeviceV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticDeviceV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.HapticDeviceV0",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.HapticDeviceV0.yml\" sourcestartlinenumber=\"1\">Main Haptic Device class managing both force and audio outputs.\nHandles serial communication and audio routing for left and right hands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticForceOutputV0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.HapticForceOutputV0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.HapticForceOutputV0",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.HapticForceOutputV0.yml\" sourcestartlinenumber=\"1\">Haptic force output component for V0 devices.\nConverts and filters force values for a specific humanoid body part.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Controller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.SerialDeviceV0Controller",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Controller.yml\" sourcestartlinenumber=\"1\">Concrete serial controller for V0 devices.\nManages COM ports, builds angle packets, and sends them.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Manager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.SerialDeviceV0Manager",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V0.SerialDeviceV0Manager.yml\" sourcestartlinenumber=\"1\">ScriptableObject manager for V0 serial device communication.\nHandles initialization and forwarding angle data to the controller.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialPortDropdownAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.SerialPortDropdownAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.SerialPortDropdownAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.VersionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.VersionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0.VersionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V0.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V0",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.AudioSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.AudioSlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.AudioSlot",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.AudioSlot.yml\" sourcestartlinenumber=\"1\">Audio slotクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.AudioSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.AudioSourceReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.AudioSourceReader",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.AudioSourceReader.yml\" sourcestartlinenumber=\"1\">Audio波形readerクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.ClockGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.ClockGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.ClockGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.ClockGenerator.yml\" sourcestartlinenumber=\"1\">Clock生成クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.ForceCommandGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.ForceCommandGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.ForceCommandGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.ForceCommandGenerator.yml\" sourcestartlinenumber=\"1\">Force command生成クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.ProcessingOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.ProcessingOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.ProcessingOrder",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.ProcessingOrder.yml\" sourcestartlinenumber=\"1\">処理順序</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.HapticAudioOutputV1.yml\" sourcestartlinenumber=\"1\">Haptic audio output V1クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticDeviceV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticDeviceV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.HapticDeviceV1",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.HapticDeviceV1.yml\" sourcestartlinenumber=\"1\">Haptic device V1クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticForceOutputV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.HapticForceOutputV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.HapticForceOutputV1",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.HapticForceOutputV1.yml\" sourcestartlinenumber=\"1\">Haptic force output V1クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.IAudioSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.IAudioSourceReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.IAudioSourceReader",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.IAudioSourceReader.yml\" sourcestartlinenumber=\"1\">Audio波形readerのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.IConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.IConnection",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.IConnection.yml\" sourcestartlinenumber=\"1\">Connectionのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.IConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.IConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.IConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.IConnectionFactory.yml\" sourcestartlinenumber=\"1\">ConnectionのfactoryのInterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.OSCConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.OSCConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.OSCConnection",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.OSCConnection.yml\" sourcestartlinenumber=\"1\">OSC connectionクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.OSCConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.OSCConnectionFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.OSCConnectionFactory",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.OSCConnectionFactory.yml\" sourcestartlinenumber=\"1\">OSCConnection factoryクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.TactileCommandGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.TactileCommandGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1.TactileCommandGenerator",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Device.V1.TactileCommandGenerator.yml\" sourcestartlinenumber=\"1\">Tactile command生成クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.V1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.V1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device.V1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Device.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Device",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.ForceSource.DistanceHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.ForceSource.DistanceHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.ForceSource.DistanceHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.ForceSource.DistanceHapticForceSource.yml\" sourcestartlinenumber=\"1\">距離に基づいて力覚を生成するHapticSourceクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.ForceSource.ForceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.ForceSource.ForceMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.ForceSource.ForceMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.ForceSource.ForceMode.yml\" sourcestartlinenumber=\"1\">力の計算モードを表す列挙型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.ForceSource.GravityHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.ForceSource.GravityHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.ForceSource.GravityHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.ForceSource.GravityHapticForceSource.yml\" sourcestartlinenumber=\"1\">重力に基づいて力覚を生成するHapticSourceクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.ForceSource.ScalarHapticForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.ForceSource.ScalarHapticForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.ForceSource.ScalarHapticForceSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.ForceSource.ScalarHapticForceSource.yml\" sourcestartlinenumber=\"1\">スカラー値に基づいて力覚を生成するHapticSourceクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.ForceSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.ForceSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.ForceSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudio.AudioMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudio.AudioMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudio.AudioMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticAudio.AudioMode.yml\" sourcestartlinenumber=\"1\">音声の再生モードを表す列挙型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudio",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticAudio.yml\" sourcestartlinenumber=\"1\">ハプティクス音声フィードバックの情報を表す構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudioInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudioInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudioInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticAudioInput.yml\" sourcestartlinenumber=\"1\">HapticAudio用のinputクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudioSerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudioSerializable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudioSerializable",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticAudioSerializable.yml\" sourcestartlinenumber=\"1\">シリアライズ可能なハプティクス音声フィードバックの情報を表す構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudioSource.TriggerHapticAudioSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudioSource.TriggerHapticAudioSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudioSource.TriggerHapticAudioSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticAudioSource.TriggerHapticAudioSource.yml\" sourcestartlinenumber=\"1\">トリガーによってハプティクスオーディオを発生させるソース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticAudioSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticAudioSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticAudioSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticForce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticForce.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticForce",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticForce.yml\" sourcestartlinenumber=\"1\">ハプティクス力覚フィードバックの情報を表す構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticForceInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticForceInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticForceInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticForceInput.yml\" sourcestartlinenumber=\"1\">HapticForce用のinputクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticForceSerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticForceSerializable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticForceSerializable",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticForceSerializable.yml\" sourcestartlinenumber=\"1\">シリアライズ可能なハプティクス力覚フィードバックの情報を表す構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHands",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHands.yml\" sourcestartlinenumber=\"1\">ハプティクス対応の手を管理するクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsAttacher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsAttacher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsAttacher",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsAttacher.yml\" sourcestartlinenumber=\"1\">HapticHandsにオブジェクトをアタッチするクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter-1.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter-1.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsGetter<TValue>.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsGetter-1.IObserver.yml\" sourcestartlinenumber=\"1\">HapticHandsの変更を監視するObserverインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsGetter<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsGetter-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticHandsの取得を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsGetter.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsGetter.IObserver.yml\" sourcestartlinenumber=\"1\">HapticHandsの変更を監視するObserverインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsGetter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsGetter.yml\" sourcestartlinenumber=\"1\">HapticHandsの取得を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsSetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsSetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsSetter<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsSetter-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticHandsの設定を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticHandsSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticHandsSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticHandsSetter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticHandsSetter.yml\" sourcestartlinenumber=\"1\">HapticHandsの設定を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticInputBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticInputBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticInputBase<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticInputBase-1.yml\" sourcestartlinenumber=\"1\">HapticInputの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticInputContainer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticInputContainer-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticInputContainer<TKey, TInput>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticInputContainer-2.yml\" sourcestartlinenumber=\"1\">HapticInputのコンテナクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticInputDefault-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticInputDefault-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticInputDefault<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticInputDefault-1.yml\" sourcestartlinenumber=\"1\">HapticInputのデフォルト実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManager",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManager.yml\" sourcestartlinenumber=\"1\">ハプティクスシステムの中央管理を行うmanagerクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter-1.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter-1.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerGetter<TValue>.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerGetter-1.IObserver.yml\" sourcestartlinenumber=\"1\">HapticManagerの変更を監視するObserverインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerGetter<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerGetter-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticManagerの取得を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerGetter.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerGetter.IObserver.yml\" sourcestartlinenumber=\"1\">HapticManagerの変更を監視するObserverインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerGetter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerGetter.yml\" sourcestartlinenumber=\"1\">HapticManagerの取得を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerSetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerSetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerSetter<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerSetter-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticManagerの設定を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticManagerSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticManagerSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticManagerSetter",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticManagerSetter.yml\" sourcestartlinenumber=\"1\">HapticManagerの設定を行う静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.OutOfIndexValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.OutOfIndexValidation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticSequentialSourceRegister.OutOfIndexValidation",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticSequentialSourceRegister.OutOfIndexValidation.yml\" sourcestartlinenumber=\"1\">indexが範囲外の場合の検証方法を表す列挙型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.Sequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.Sequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticSequentialSourceRegister.Sequence",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticSequentialSourceRegister.Sequence.yml\" sourcestartlinenumber=\"1\">HapticSourceのシーケンスを表すクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticSequentialSourceRegister.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticSequentialSourceRegister",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticSequentialSourceRegister.yml\" sourcestartlinenumber=\"1\">シーケンシャルにHapticSourceを登録・切り替えるregistererクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticSourceBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticSourceBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticSourceBase<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticSourceBase-1.yml\" sourcestartlinenumber=\"1\">HapticSourceの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticSourceDefault-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticSourceDefault-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticSourceDefault<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticSourceDefault-1.yml\" sourcestartlinenumber=\"1\">HapticSourceのデフォルト実装クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticTriggerInputRegisterer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticTriggerInputRegisterer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticTriggerInputRegisterer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticTriggerInputRegisterer.yml\" sourcestartlinenumber=\"1\">trigger（Collider）とHapticInputを関連付けるregistererクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.HapticTriggerSourceRegisterer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.HapticTriggerSourceRegisterer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.HapticTriggerSourceRegisterer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.HapticTriggerSourceRegisterer.yml\" sourcestartlinenumber=\"1\">trigger（Collider接触）によってHapticSourceを自動登録・解除するregistererクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticComponent",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticComponent.yml\" sourcestartlinenumber=\"1\">HapticComponentの基本インターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticDevice",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticDevice.yml\" sourcestartlinenumber=\"1\">HapticDeviceのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticHands-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticHands-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticHands<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticHands-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticHandsインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticHands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticHands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticHands",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticHands.yml\" sourcestartlinenumber=\"1\">ハプティクス対応の手を管理するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticInput-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticInput-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticInput<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticInput-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticInputのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticInput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticInput.yml\" sourcestartlinenumber=\"1\">HapticInputの基本インターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticManager-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticManager<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticManager-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticManagerインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticManager",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticManager.yml\" sourcestartlinenumber=\"1\">ハプティクスシステムの中央管理を行うインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticOutput-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticOutput-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticOutput<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticOutput-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticOutputのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticOutput",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticOutput.yml\" sourcestartlinenumber=\"1\">HapticOutputの基本インターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticSource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticSource<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticSource-1.yml\" sourcestartlinenumber=\"1\">型パラメータを持つHapticSourceのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IHapticSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IHapticSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IHapticSource",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IHapticSource.yml\" sourcestartlinenumber=\"1\">HapticSourceの基本インターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IManageableHapticInput-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IManageableHapticInput-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IManageableHapticInput<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IManageableHapticInput-1.yml\" sourcestartlinenumber=\"1\">管理可能なHapticInputのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.IValueCollector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.IValueCollector-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.IValueCollector<TValue>",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.IValueCollector-1.yml\" sourcestartlinenumber=\"1\">ハプティクス値を収集するcollectorのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.PlayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.PlayMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Mock.HapticAudioSourceMock.PlayMode",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.PlayMode.yml\" sourcestartlinenumber=\"1\">再生mode</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Mock.HapticAudioSourceMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Mock.HapticAudioSourceMock.yml\" sourcestartlinenumber=\"1\">Haptic audio sourceのmockクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Mock.HapticForceSourceMock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Mock.HapticForceSourceMock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Mock.HapticForceSourceMock",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.Mock.HapticForceSourceMock.yml\" sourcestartlinenumber=\"1\">Haptic force sourceのmockクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.Mock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.Mock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.Mock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.SequentialRegisterer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.SequentialRegisterer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.SequentialRegisterer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.SequentialRegisterer.yml\" sourcestartlinenumber=\"1\">シーケンシャル（順序指定）ベースのハプティクス入力登録を管理する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.TriggerRegisterer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.TriggerRegisterer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem.TriggerRegisterer",
+      "Summary": "<p sourcefile=\"api/Commissure.HapticsSystem.TriggerRegisterer.yml\" sourcestartlinenumber=\"1\">トリガー（Collider）ベースのHapticInput登録を管理する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.HapticsSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.HapticsSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.HapticsSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IGameObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IGameObject",
+      "Summary": "<p sourcefile=\"api/Commissure.IGameObject.yml\" sourcestartlinenumber=\"1\">GameObjectへのアクセスを提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IManageableRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IManageableRegistry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IManageableRegistry",
+      "Summary": "<p sourcefile=\"api/Commissure.IManageableRegistry.yml\" sourcestartlinenumber=\"1\">登録リクエストの承認・却下を管理できるregistryのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IManagedRegisterable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IManagedRegisterable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IManagedRegisterable<TRegistry>",
+      "Summary": "<p sourcefile=\"api/Commissure.IManagedRegisterable-1.yml\" sourcestartlinenumber=\"1\">管理されたregistryに登録可能なオブジェクトのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IManagedRegistry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IManagedRegistry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IManagedRegistry<TRegisterable>",
+      "Summary": "<p sourcefile=\"api/Commissure.IManagedRegistry-1.yml\" sourcestartlinenumber=\"1\">registererによる管理を伴う登録システムを提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IMono.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IMono.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IMono",
+      "Summary": "<p sourcefile=\"api/Commissure.IMono.yml\" sourcestartlinenumber=\"1\">MonoBehaviourの基本的なプロパティへのアクセスを提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IName",
+      "Summary": "<p sourcefile=\"api/Commissure.IName.yml\" sourcestartlinenumber=\"1\">オブジェクトの名前を提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IRegisterer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IRegisterer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IRegisterer",
+      "Summary": "<p sourcefile=\"api/Commissure.IRegisterer.yml\" sourcestartlinenumber=\"1\">Registererを識別するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ISimpleRegisterable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ISimpleRegisterable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ISimpleRegisterable<TRegistry>",
+      "Summary": "<p sourcefile=\"api/Commissure.ISimpleRegisterable-1.yml\" sourcestartlinenumber=\"1\">registryに登録可能なオブジェクトのインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ISimpleRegistry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ISimpleRegistry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ISimpleRegistry<TRegisterable>",
+      "Summary": "<p sourcefile=\"api/Commissure.ISimpleRegistry-1.yml\" sourcestartlinenumber=\"1\">シンプルな登録システムを提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IStatus.LifecycleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IStatus.LifecycleState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IStatus.LifecycleState",
+      "Summary": "<p sourcefile=\"api/Commissure.IStatus.LifecycleState.yml\" sourcestartlinenumber=\"1\">ライフサイクルの状態を表す列挙型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.IStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.IStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.IStatus",
+      "Summary": "<p sourcefile=\"api/Commissure.IStatus.yml\" sourcestartlinenumber=\"1\">オブジェクトのライフサイクル状態を提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ITransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ITransform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ITransform",
+      "Summary": "<p sourcefile=\"api/Commissure.ITransform.yml\" sourcestartlinenumber=\"1\">Transformへのアクセスを提供するインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.AttachMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.AttachMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.AttachMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPart",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.BodyPart.yml\" sourcestartlinenumber=\"1\">身体部位</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartAttacher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartAttacher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartAttacher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartMask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartMask",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.BodyPartMask.yml\" sourcestartlinenumber=\"1\">身体部位のmask</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.BodyPartModel.yml\" sourcestartlinenumber=\"1\">Body part modelの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartModelsGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartModelsGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartModelsGetter.IObserver",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartModelsGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartModelsGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartModelsGetter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartModelsSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartModelsSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartModelsSetter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartTarget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartTarget",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.BodyPartTarget.yml\" sourcestartlinenumber=\"1\">身体部位のtargetクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.BodyPartTargetHolderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.BodyPartTargetHolderBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.BodyPartTargetHolderBase",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.BodyPartTargetHolderBase.yml\" sourcestartlinenumber=\"1\">Body part target holderの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandModel.yml\" sourcestartlinenumber=\"1\">Hand modelクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandModelsGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandModelsGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandModelsGetter.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandModelsGetter.IObserver.yml\" sourcestartlinenumber=\"1\">Observerのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandModelsGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandModelsGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandModelsGetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandModelsGetter.yml\" sourcestartlinenumber=\"1\">HandModelsのgetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandModelsSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandModelsSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandModelsSetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandModelsSetter.yml\" sourcestartlinenumber=\"1\">HandModelsのsetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandPart",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandPart.yml\" sourcestartlinenumber=\"1\">手の部位</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModel.yml\" sourcestartlinenumber=\"1\">Hand tracking modelクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModels",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModels.yml\" sourcestartlinenumber=\"1\">Hand tracking modelsクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModelsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModelsBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModelsBase",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModelsBase.yml\" sourcestartlinenumber=\"1\">Hand tracking modelsの基底クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModelsDefault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModelsDefault.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModelsDefault",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModelsGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModelsGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModelsGetter.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModelsGetter.IObserver.yml\" sourcestartlinenumber=\"1\">Observerのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModelsGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModelsGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModelsGetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModelsGetter.yml\" sourcestartlinenumber=\"1\">HandTrackingModelsのgetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingModelsSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingModelsSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingModelsSetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingModelsSetter.yml\" sourcestartlinenumber=\"1\">HandTrackingModelsのsetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingPart",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingPart.yml\" sourcestartlinenumber=\"1\">Hand trackingの部位</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HandTrackingPartHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HandTrackingPartHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HandTrackingPartHolder",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HandTrackingPartHolder.yml\" sourcestartlinenumber=\"1\">Hand tracking part holderクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.Handedness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.Handedness.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.Handedness",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.Handedness.yml\" sourcestartlinenumber=\"1\">利き手</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HumanoidModelGetter.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HumanoidModelGetter.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HumanoidModelGetter.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HumanoidModelGetter.IObserver.yml\" sourcestartlinenumber=\"1\">Observerのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HumanoidModelGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HumanoidModelGetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HumanoidModelGetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HumanoidModelGetter.yml\" sourcestartlinenumber=\"1\">HumanoidModelのgetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HumanoidModelSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HumanoidModelSetter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HumanoidModelSetter",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HumanoidModelSetter.yml\" sourcestartlinenumber=\"1\">HumanoidModelのsetter</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HumanoidPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HumanoidPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HumanoidPart",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HumanoidPart.yml\" sourcestartlinenumber=\"1\">Humanoidの部位</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.HumanoidPartHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.HumanoidPartHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.HumanoidPartHolder",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.HumanoidPartHolder.yml\" sourcestartlinenumber=\"1\">Humanoid part holderクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IBodyPartModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IBodyPartModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IBodyPartModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IBodyPartModel.yml\" sourcestartlinenumber=\"1\">Body part modelのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IBodyPartModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IBodyPartModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IBodyPartModels",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IBodyPartTargetHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IBodyPartTargetHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IBodyPartTargetHolder",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IBodyPartTargetHolder.yml\" sourcestartlinenumber=\"1\">Body part targetのholderのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IHandModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IHandModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IHandModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IHandModel.yml\" sourcestartlinenumber=\"1\">Hand modelのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IHandModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IHandModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IHandModels",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IHandModels.yml\" sourcestartlinenumber=\"1\">Hand modelsのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IHandTrackingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IHandTrackingModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IHandTrackingModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IHandTrackingModel.yml\" sourcestartlinenumber=\"1\">Hand tracking modelのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IHandTrackingModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IHandTrackingModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IHandTrackingModels",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IHandTrackingModels.yml\" sourcestartlinenumber=\"1\">Hand tracking modelsのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.IHumanoidModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.IHumanoidModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.IHumanoidModel",
+      "Summary": "<p sourcefile=\"api/Commissure.ModelTracking.IHumanoidModel.yml\" sourcestartlinenumber=\"1\">Humanoid modelのinterface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.ObjectAttacherBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.ObjectAttacherBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking.ObjectAttacherBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ModelTracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ModelTracking.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ModelTracking",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ReferenceEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ReferenceEqualityComparer-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ReferenceEqualityComparer<T>",
+      "Summary": "<p sourcefile=\"api/Commissure.ReferenceEqualityComparer-1.yml\" sourcestartlinenumber=\"1\">参照の等価性でオブジェクトを比較するEqualityComparer</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.StaticHolder-1.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.StaticHolder-1.IObserver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.StaticHolder<TInstance>.IObserver",
+      "Summary": "<p sourcefile=\"api/Commissure.StaticHolder-1.IObserver.yml\" sourcestartlinenumber=\"1\">インスタンスの登録・解除を監視するObserverインターフェース</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.StaticHolder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.StaticHolder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.StaticHolder<TInstance>",
+      "Summary": "<p sourcefile=\"api/Commissure.StaticHolder-1.yml\" sourcestartlinenumber=\"1\">シングルトンインスタンスを保持し、その登録・解除を管理する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.UnityStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.UnityStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.UnityStatus",
+      "Summary": "<p sourcefile=\"api/Commissure.UnityStatus.yml\" sourcestartlinenumber=\"1\">Unityアプリケーションの状態を管理する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.Utility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.Utility",
+      "Summary": "<p sourcefile=\"api/Commissure.Utility.yml\" sourcestartlinenumber=\"1\">汎用的なユーティリティメソッドを提供する静的クラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ValueDisposable.Disposable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ValueDisposable.Disposable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ValueDisposable.Disposable<T>",
+      "Summary": "<p sourcefile=\"api/Commissure.ValueDisposable.Disposable-1.yml\" sourcestartlinenumber=\"1\">値型のDisposableパターンを実装する構造体</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.ValueDisposable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.ValueDisposable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure.ValueDisposable",
+      "Summary": "<p sourcefile=\"api/Commissure.ValueDisposable.yml\" sourcestartlinenumber=\"1\">値型でDisposableパターンを実現するためのユーティリティクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commissure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commissure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Commissure",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
     },
     {
       "type": "Conceptual",
