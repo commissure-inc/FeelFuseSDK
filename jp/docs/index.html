@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FeelFuseSDK マニュアル | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FeelFuseSDK マニュアル | FeelFuseSDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/documents/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+<h1 id="feelfusesdk-マニュアル">FeelFuseSDK マニュアル</h1>
+
+<h2 id="1-feelfusesdkについて">1. FeelFuseSDKについて</h2>
+<p>FeelFuseSDKは、FeelFuseデバイスで触覚フィードバックを再生するアプリケーションを開発するためのUnityライブラリです<br>
+FeelFuseSDKが提供するコンポーネントをUnityプロジェクトのシーンに配置するだけで、触覚フィードバックを再生するアプリケーションを簡単に開発できます<br>
+コンポーネントは拡張可能であり、開発者が独自のカスタム触覚フィードバックを実装することができます</p>
+<h3 id="11-システム要件">1.1 システム要件</h3>
+<p>FeelFuseSDKおよび関連ライブラリの検証済みバージョン</p>
+<ul>
+<li>Unity 2022.3.62f3 / 6000.0.31f1 (Standalone Windows Platform / Android Platform)</li>
+<li>AudioStream v3.5</li>
+<li>FMOD v2.02</li>
+<li>OscCore v1.1.0</li>
+<li>Meta XR SDK v83.0.1</li>
+<li>XR Hands v1.4.3</li>
+<li>XR Interaction Toolkit v2.6.5</li>
+</ul>
+<p>動作確認済みVRデバイス</p>
+<ul>
+<li>Meta Quest 3</li>
+</ul>
+<h3 id="12-sdk-パッケージ">1.2 SDK パッケージ</h3>
+<p>提供されているSDKパッケージ</p>
+<ul>
+<li>FeelFuseSDK + MetaXR Sample</li>
+<li>FeelFuseSDK + XRIT Sample</li>
+</ul>
+<h3 id="13-ハードウェア">1.3 ハードウェア</h3>
+<p>対応しているハードウェア</p>
+<ul>
+<li><p><strong>FeelFuse (V0)</strong></p>
+<ul>
+<li>&amp; PC (Standalone Windows Platform)</li>
+</ul>
+</li>
+<li><p><strong>FeelFuse (V1)</strong></p>
+<ul>
+<li>&amp; PC (Standalone Windows Platform)</li>
+<li>&amp; Meta Quest 3（Android Platform）</li>
+</ul>
+</li>
+</ul>
+<h3 id="14-vr-セットアップ">1.4 VR セットアップ</h3>
+<p>サンプルシーンが用意されているVR用セットアップ</p>
+<ul>
+<li><p><strong>MetaXR Sample</strong></p>
+<ul>
+<li>Meta XR SDK</li>
+</ul>
+</li>
+<li><p><strong>XRIT Sample</strong></p>
+<ul>
+<li>XR Hands</li>
+<li>XR Interaction Toolkit</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-セットアップ">2. セットアップ</h2>
+<p>FeelFuseSDKを使用するには、使用するデバイスに応じて、提供されたUnityPackageをプロジェクトにインポートし、必要なコンポーネントをシーンに配置します<br>
+以下の手順でセットアップを行ってください</p>
+<h3 id="21-ハードウェア-セットアップ">2.1 ハードウェア セットアップ</h3>
+<ul>
+<li><p><strong>FeelFuse V0</strong></p>
+<ul>
+<li>デバイスをPCのUSB-Cポートに接続します</li>
+<li>オーディオデバイスとしてFEELTECH_L, FEELTECH_Rが認識されることを確認します
+<ul>
+<li>サウンド設定の出力デバイスから確認できます</li>
+<li>名前が異なる場合、出力デバイスの名前の変更からFEELTECH_L, FEELTECH_Rに変更してください</li>
+</ul>
+</li>
+<li>デバイスマネージャーから2つのCOMポートが認識されていることを確認します
+<ul>
+<li>認識されていない場合、ドライバーを再インストールしてください</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>FeelFuse V1</strong></p>
+<ul>
+<li>デバイスの電源を入れます</li>
+<li>PC/QuestのWiFI接続から、対象のデバイスを選択します
+<ul>
+<li>Default_ID:FTW_DEVICE</li>
+<li>Default_Pass:FTW_PSWD</li>
+</ul>
+</li>
+<li>WiFIに接続できない場合
+<ul>
+<li>一部のWiFiとPCの組み合わせでは接続できないことがあります</li>
+<li>別のWiFIドングル等をお試しください</li>
+</ul>
+</li>
+<li>WiFiには接続できたが通信できない場合
+<ul>
+<li>ネットワークのファイアウォールの設定をご確認ください</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="22-インポート">2.2 インポート</h3>
+<h4 id="221-unityプロジェクトを開くunity-20223以降を推奨">2.2.1 Unityプロジェクトを開く（Unity 2022.3.以降を推奨）</h4>
+<h4 id="222-必要な外部の依存パッケージをインポート">2.2.2 必要な外部の依存パッケージをインポート</h4>
+<p>使用するデバイスやVR用セットアップに応じて、必要な依存パッケージが変わります<br>
+依存パッケージをいれない場合は、代わりにSDKインポート時に対応するSDKフォルダを除外してください</p>
+<ul>
+<li><p><strong>V0 Device</strong></p>
+<ul>
+<li>使用時：依存パッケージをインポート
+<ul>
+<li><a href="https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411">AudioStream (有償)</a></li>
+<li>インポート後、必ず !!README1ST!! INITIAL IMPORT ERRORS の手順に従ってセットアップを完了させてください
+<ul>
+<li>ライセンスの詳細は <a href="#license">サードパーティーライセンス</a> をご確認ください</li>
+</ul>
+</li>
+<li>V0 Device 使用時には、Quest3（Android Platform）での動作はできません</li>
+</ul>
+</li>
+<li>不使用時：SDKインポート時に対象を除外
+<ul>
+<li><code>Assets/Commissure/HapticsSystem/Device_V0/</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>V1 Device</strong></p>
+<ul>
+<li>使用時：依存パッケージをインポート
+<ul>
+<li><a href="https://github.com/stella3d/OscCore/releases">OscCore</a></li>
+</ul>
+</li>
+<li>不使用時：SDKインポート時に対象を除外
+<ul>
+<li><code>Assets/Commissure/HapticsSystem/Device_V1/</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>※V0+V1 Device を 同時に使用する場合</strong></p>
+<ul>
+<li>依存パッケージをインポート
+<ul>
+<li><a href="https://assetstore.unity.com/packages/tools/audio/audiostream-pcm-audio-for-unity-65411">AudioStream (有償)</a></li>
+<li>OscCoreはAudioStreamに含まれているため、個別のインポートは不要です</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>MetaXR Sample</strong></p>
+<ul>
+<li>使用時：依存パッケージをインポート
+<ul>
+<li><p><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169">Meta XR Core SDK</a>: com.meta.xr.sdk.core</p>
+</li>
+<li><p><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-265014">Meta XR Interaction ​SDK</a>: com.meta.xr.sdk.interaction.ovr</p>
+</li>
+<li><p><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-interaction-sdk-essentials-264559">Meta XR Interaction SDK Essentials</a>: com.meta.xr.sdk.interaction</p>
+<p>もしくは、</p>
+</li>
+<li><p><a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657">Meta XR All-in-One SDK</a></p>
+</li>
+</ul>
+</li>
+<li>不使用時：SDKインポート時に対象を除外
+<ul>
+<li><code>Assets/Commissure/ModelTracking/Hands_Meta/</code></li>
+<li><code>Assets/Commissure/HapticsSystem/Interaction_Meta/</code></li>
+<li><code>Assets/CommissureSamples/Meta/</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>XRIT Sample</strong></p>
+<ul>
+<li>使用時：依存パッケージをインポート
+<ul>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.xr.hands@1.4/manual/index.html">XR Hands</a>: com.unity.xr.hands
+<ul>
+<li>Samples: HandVisualizer</li>
+</ul>
+</li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.6/manual/index.html">XR Interaction Toolkit</a>: com.unity.xr.interaction.toolkit
+<ul>
+<li>Samples: Starter Assets / Hands Interaction Demo</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>不使用時：SDKインポート時に対象を除外
+<ul>
+<li><code>Assets/Commissure/ModelTracking/Hands_XRIT/</code></li>
+<li><code>Assets/Commissure/HapticsSystem/Interaction_XRIT/</code></li>
+<li><code>Assets/CommissureSamples/XRIT/</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="223-feelfusesdkのunitypackageファイルunitypackageをプロジェクトにインポート">2.2.3 FeelFuseSDKのUnityPackageファイル（.unitypackage）をプロジェクトにインポート</h4>
+<ul>
+<li><p>メニューから <code>Assets &gt; Import Package &gt; Custom Package...</code> を選択</p>
+</li>
+<li><p>UnityPackageファイル(FeelFuseSDK-Unity_MetaまたはFeelFuseSDK-Unity_XRIT)を選択し、<code>Import</code>ボタンをクリック</p>
+<ul>
+<li><p>不必要なSDKモジュールに関して、依存パッケージがないとエラーが発生してしまうため、対応するSDKフォルダを除外</p>
+</li>
+<li><p>Sampleが不要な場合は、<code>Assets/CommissureSamples/</code>をインポート時に除外するか、あるいは削除してください</p>
+<p><img src="images/image-1.png" alt="UnityPackageのインポート"></p>
+</li>
+</ul>
+</li>
+<li><p>以下のフォルダにSDKのファイルが配置されます</p>
+<ul>
+<li><code>Assets/Commissure/</code>: SDK本体のファイル</li>
+<li><code>Assets/CommissureSamples/</code>: Sampleのファイル</li>
+</ul>
+</li>
+</ul>
+<h3 id="23-サンプルシーン">2.3 サンプルシーン</h3>
+<p>SDKにはサンプルシーンが含まれており、触覚フィードバックの動作を確認できます<br>
+対応しているレンダーパイプラインはBuilt-in Render Pipelineのみです<br>
+サンプルシーンを動作させるには以下のVR環境の設定を行う必要があります</p>
+<ul>
+<li><p><strong>Meta</strong></p>
+<ul>
+<li>Edit &gt; Project Settings &gt; XR Plug-in Management を開き、使用するタブで OpenXR にチェック
+<ul>
+<li>Meta XR feature groupにもチェックを入れてください</li>
+</ul>
+</li>
+<li>サンプルシーン：<code>Assets/CommissureSamples/Meta/SmapleScene/SampleSceneForMeta.unity</code></li>
+</ul>
+</li>
+<li><p><strong>XRIT</strong></p>
+<ul>
+<li>Edit &gt; Project Settings &gt; XR Plug-in Management を開き、使用するタブで OpenXR にチェック</li>
+<li>OpenXRの設定
+<ul>
+<li>Hand Interaction Poses を有効化</li>
+<li>Hand Tracking Subsystem を有効化</li>
+<li>Meta Hand Tracking Aim を有効化</li>
+<li>Interaction Profiles に Hand Interaction Profile を追加</li>
+<li>Render Mode を Multi-Pass に変更</li>
+</ul>
+</li>
+<li>サンプルシーン：<code>Assets/CommissureSamples/XRIT/SampleScene/SampleSceneforXRIT.unity</code></li>
+<li>Andoroid用ビルドするとき
+<ul>
+<li>OpenXRの設定でMeta Quest Support を有効化</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>使用するデバイスに応じて以下の設定を行う必要があります</p>
+<ul>
+<li><p><strong>V0</strong></p>
+<ul>
+<li>「Missing」状態の DeviceV1 オブジェクトを削除</li>
+<li>HapticDeviceV0オブジェクトの以下の欄が2.1で設定したものになっているか確認してください
+<ul>
+<li>Left/Right Hand Device Name</li>
+<li>Left/Right Com Port</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>V1</strong></p>
+<ul>
+<li>「Missing」状態の DeviceV0 オブジェクトを削除</li>
+</ul>
+</li>
+<li><p><strong>V0とV1両方</strong></p>
+<ul>
+<li>実行時（Play Mode）には、DeviceV0 または DeviceV1 のいずれか一方のみを有効にし、もう一方は必ず無効化してください</li>
+</ul>
+</li>
+</ul>
+<p>タッチパネルで以下の５つのサンプルを出し入れすることが可能です</p>
+<ul>
+<li><p><strong>Slider</strong>: 中心に戻るばねのような力（復元力）を提示するサンプル</p>
+<ul>
+<li>中心のノブをつかんで左右に動かし、反発力を確認できます</li>
+</ul>
+</li>
+<li><p><strong>ErrorFeedBack</strong>: 対象物へ右手を誘導する吸引力を提示するサンプル</p>
+<ul>
+<li>案内に従ってボタンを押したり、ひもを引っ張ったりすることで、特定の部位へ導かれる感覚を体験できます</li>
+</ul>
+</li>
+<li><p><strong>SlingShot</strong>: スリングショットを引く際の張力を提示するサンプル</p>
+<ul>
+<li>片方の手で本体を持ち、もう片方の手で弾を引いて発射する際の抵抗感を再現しています</li>
+</ul>
+</li>
+<li><p><strong>BallInBox</strong>: 箱の中でボールが転がる際の慣性や衝撃を提示するサンプル</p>
+<ul>
+<li>ボールが入った箱を振り、中身が壁面に当たる感触や転がる振動を確認できます</li>
+</ul>
+</li>
+<li><p><strong>SqueezeBall</strong>: 柔らかいボールを握りつぶす際の弾性を提示するサンプル</p>
+<ul>
+<li>ボールを手に持ち、握り込む深さに応じた反発力の変化を体験できます</li>
+</ul>
+</li>
+</ul>
+<h3 id="24-最小限のシーンセットアップ">2.4 最小限のシーンセットアップ</h3>
+<p>独自のシーンで触覚フィードバックを実装する場合、以下の最小限のセットアップが必要です<br>
+各種スクリプトの概要については<a href="summary.html">Summary</a>をご確認ください</p>
+<h4 id="必須コンポーネント">必須コンポーネント</h4>
+<ul>
+<li><p><strong>HapticManager</strong>: 触覚システム全体を管理するマネージャー</p>
+<ul>
+<li>空のGameObjectを作成し、<strong>HapticManager</strong>コンポーネントをアタッチ</li>
+</ul>
+</li>
+<li><p><strong>HapticDevice(Prefab)</strong>: 触覚デバイスとの通信を担当</p>
+<ul>
+<li>デバイスのバージョン（V0, V1）に応じた適切なPrefabを選択してシーンに配置
+<ul>
+<li><strong>V0</strong>: <code>Assets/Commissure/Device_V0/Prefabs/HapticDeviceV0</code>
+<ul>
+<li>HapticDeviceV0オブジェクトの以下の欄が2.1で設定したものになっているか確認してください
+<ul>
+<li>Left/Right Hand Device Name</li>
+<li>Left/Right Com Port</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>V1</strong>: <code>Assets/Commissure/Device_V1/Prefabs/HapticDeviceV1</code></li>
+</ul>
+</li>
+<li>デバイスのPrefabは<strong>HapticOutput</strong>スクリプトを含んでいます
+<ul>
+<li>HapticOutputを個別に配置する必要はありません</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>HapticInput</strong>: Hapticsのデータを入力（検出）するセンサを表します</p>
+<ul>
+<li>デフォルトでは、Force（力覚）とAudio（振動）データに対応しています</li>
+<li>HapticInputを個別に登録/解除することも可能ですが、一括で管理するためのスクリプトとして、<strong>HapticHands</strong>が提供されています</li>
+</ul>
+</li>
+<li><p><strong>HapticSource</strong>: Hapticsのデータの発生源を表します</p>
+<ul>
+<li>デフォルトでは、Force（力覚）とAudio（振動）データに対応しています</li>
+</ul>
+</li>
+</ul>
+<h4 id="推奨選択-コンポーネント">推奨/選択 コンポーネント</h4>
+<ul>
+<li><p><strong>HapticHands</strong>: <strong>HapticInput</strong>を、ハンドトラッキングと結び付けて動作させるためのスクリプトです</p>
+<ul>
+<li>Listに指定された部位の<strong>HapticInput</strong>を一括で生成し、対応するハンドトラッキング部位に追従するようにします</li>
+</ul>
+</li>
+<li><p><strong>HapticHandsAttacher</strong>: 任意のオブジェクトを、指定された部位に追従させるために使用できます</p>
+</li>
+</ul>
+<p>Hapticsのデータを取り扱うためにはHapticInputとHapticSourceを配置したうえで、これらを適切に接続する必要があります<br>
+HapticInputとHapticSourceを接続するために<strong>Registerer</strong>が用いられます</p>
+<ul>
+<li><strong>HapticXXXRegisterer</strong>: HapticInputやHapticSourceを接続するためのスクリプト
+<ul>
+<li>どのような契機によって接続するのか、それぞれの契機に対してスクリプトを用意します</li>
+<li>デフォルトでは以下の三つの契機に対するスクリプトが提供されています
+<ul>
+<li><strong>HapticTriggerXXXRegisterer</strong>: コライダーの接触によってInputとSourceを接続します
+<ul>
+<li>それぞれのInputやSourceに対して、対応するコライダーを登録する必要があります</li>
+<li>InputとSourceに登録されたコライダーが接触したときに、InputとSourceが接続されます</li>
+<li>触った瞬間に、あたったことを提示したい</li>
+</ul>
+</li>
+<li><strong>HapticSequentialXXXRegister</strong>: あらかじめ定められた順序、組み合わせでInputとSourceを接続します
+<ul>
+<li>あらかじめInputとSourceの組み合わせを登録します</li>
+<li>特定の関数を呼び出すことで、登録された組み合わせを順次切り替えることができます</li>
+<li>例：目標地点をガイドする感覚を、順番に発生させたい</li>
+</ul>
+</li>
+<li><strong>HapticInteractionXXXRegisterer</strong>:XRでのGrabイベント等によってInputとSourceを接続します
+<ul>
+<li>使用する外部ライブラリに応じて、GrabイベントのSender等を登録する必要があります</li>
+<li>デフォルトではMeta用とXRIT用が提供されています</li>
+<li>例：触った瞬間ではなく、持った瞬間に重力を発生させたい</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>使用する外部のライブラリに合わせて選択する必要があるものがあります</p>
+<ul>
+<li><strong>HandTrackingModels</strong>: 各種のハンドトラッキングを画一的に扱うためのスクリプト
+<ul>
+<li><p>ハンドトラッキングのボーンのトランスフォームを登録する必要があります</p>
+</li>
+<li><p>使用するハンドトラッキングの種類に応じて、HapticHandsにトラッキングを登録するためのスクリプトが提供されています</p>
+<p>現在、自動登録に対応しているハンドトラッキングは以下の通りです</p>
+<ul>
+<li><p><strong>Meta SDK</strong>: MetaHandTrackingModelsを使用</p>
+<ul>
+<li>ハンドトラッキングのモデルがあらかじめシーンに存在しない場合、Play後に動的に登録する必要があり、MetaHandTrackingModelsを使用することで再生時に自動で登録を行います</li>
+</ul>
+</li>
+<li><p><strong>XR Interaction Toolkit</strong>: HandTrackingModels、XRITSkeletonInjector を使用</p>
+<ul>
+<li>XRITSkeletonInjectorを使用して、HandTrackingModelsにボーンを割り当てることができます</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-サードパーティーライセンス-license">3. サードパーティーライセンス {#license}</h2>
+<p>本SDKのFeelFuse V0使用時は以下のサードパーティパッケージに依存しています<br>
+各パッケージのご利用にあたっては、それぞれのライセンス条件をご確認の上、ユーザー様ご自身の責任においてご対応ください</p>
+<ul>
+<li>AudioStream v3.5（Unity Asset Store有料アセット）</li>
+</ul>
+<p>インポート後、!!README1ST!! INITIAL IMPORT ERRORS の手順に従ってセットアップしてください</p>
+<p>FMOD v2.02（AudioStreamの依存ライブラリ）について<br>
+FMOD Engine は Firelight Technologies Pty Ltd. が提供するプロプライエタリなオーディオエンジンです<br>
+商用利用を含むライセンス条件については FMOD Licensing をご確認ください<br>
+FMOD Unity Integration のダウンロードには FMOD EULA への同意が必要です</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

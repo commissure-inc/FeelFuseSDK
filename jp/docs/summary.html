@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>FeelFuseSDK ソースコード群の概要 | FeelFuseSDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="FeelFuseSDK ソースコード群の概要 | FeelFuseSDK ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/commissure-inc/FeelFuseSDK-dev/blob/release/0.2.0/documents/docs/summary.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="FeelFuseSDK">
+            FeelFuseSDK
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+<h1 id="feelfusesdk-ソースコード群の概要">FeelFuseSDK ソースコード群の概要</h1>
+
+<h2 id="システム全体の概要">システム全体の概要</h2>
+<p>FeelFuseSDKの触覚フィードバックシステムは、5つの主要なコンポーネント群で構成されています。
+これらは協調して、ゲームイベントや物理インタラクションから物理的な触覚デバイスへのデータフローを実現します。</p>
+<h2 id="データフロー">データフロー</h2>
+<pre><code>[ゲームイベント/物理演算]
+        ↓
+[HapticSource群] ← [HapticRegisterer群] → [HapticInput群]
+        ↓                                        ↓
+        └────→ [HapticManager] ─────────────────┘
+                    ↓
+            [HapticOutput群]
+                    ↓
+            [HapticDevice群]
+                    ↓
+          [物理触覚デバイス]
+</code></pre>
+<hr>
+<h2 id="1-hapticsource群">1. HapticSource群</h2>
+<p><strong>役割</strong>: 触覚フィードバックデータの生成源</p>
+<h3 id="含まれるクラス">含まれるクラス</h3>
+<ul>
+<li>HapticAudioSource</li>
+<li>HapticForceSource</li>
+</ul>
+<h3 id="機能">機能</h3>
+<ul>
+<li>ゲームイベントや物理インタラクションから触覚データを生成</li>
+<li>オーディオベース（音声クリップ、音量、ピッチ）またはフォースベース（位置、方向、強度）のフィードバックを提供</li>
+<li><code>CollectValues()</code>メソッドを通じて、HapticInputにデータを送信</li>
+<li>HapticRegisterer群を介してHapticInputに動的に登録・解除される</li>
+</ul>
+<hr>
+<h2 id="2-hapticinput群">2. HapticInput群</h2>
+<p><strong>役割</strong>: 特定の身体部位に対する触覚データの集約点</p>
+<h3 id="含まれるクラス-1">含まれるクラス</h3>
+<ul>
+<li>HapticAudioInput</li>
+<li>HapticForceInput</li>
+</ul>
+<h3 id="機能-1">機能</h3>
+<ul>
+<li>特定のBodyPartTarget（左手、右手など）に対応</li>
+<li>複数のHapticSourceからのデータを収集・管理</li>
+<li>登録されたSourceのリストを保持</li>
+<li>HapticRegistererからの登録・解除リクエストを管理</li>
+<li>HapticManagerに対してデータを提供</li>
+</ul>
+<hr>
+<h2 id="3-hapticregisterer群">3. HapticRegisterer群</h2>
+<p><strong>役割</strong>: SourceとInputの動的な接続管理</p>
+<h3 id="含まれるクラス-2">含まれるクラス</h3>
+<h4 id="汎用registerer">汎用Registerer</h4>
+<ul>
+<li>HapticTriggerInputRegisterer</li>
+<li>HapticTriggerSourceRegisterer</li>
+<li>HapticSequentialSourceRegister</li>
+</ul>
+<h4 id="プラットフォーム固有registerermeta-xr-interaction統合">プラットフォーム固有Registerer（Meta XR Interaction統合）</h4>
+<ul>
+<li>HapticMetaInteractionInputRegisterer</li>
+<li>HapticMetaInteractionSourceRegisterer</li>
+</ul>
+<h4 id="プラットフォーム固有registererunity-xr-interaction-toolkit統合">プラットフォーム固有Registerer（Unity XR Interaction Toolkit統合）</h4>
+<ul>
+<li>HapticXRITInteractionInputRegisterer</li>
+<li>HapticXRITInteractionSourceRegisterer</li>
+</ul>
+<h3 id="機能-2">機能</h3>
+<ul>
+<li>ゲームロジックに基づいて、いつ、どのようにSourceがInputに接続するかを制御</li>
+<li>異なる登録戦略を実装:
+<ul>
+<li><strong>Trigger系</strong>: コライダーの衝突検出に基づく自動登録・解除</li>
+<li><strong>Sequential系</strong>: 順次的なソースの切り替え管理</li>
+<li><strong>MetaInteraction系</strong>: Meta XR Interaction SDK（IInteractorView/IInteractableView）との統合
+<ul>
+<li>InputRegisterer: Meta InteractorをHapticInputに関連付け</li>
+<li>SourceRegisterer: Meta Interactableの選択イベント（WhenSelectingInteractorViewAdded/Removed）でSourceを登録・解除</li>
+</ul>
+</li>
+<li><strong>XRITInteraction系</strong>: Unity XR Interaction Toolkit（XRBaseInteractor/XRBaseInteractable）との統合
+<ul>
+<li>InputRegisterer: XRIT InteractorをHapticInputに関連付け</li>
+<li>SourceRegisterer: XRIT Interactableの選択イベント（selectEntered/selectExited）でSourceを登録・解除</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mediatorパターンを使用し、Source-Input間の柔軟な接続を実現</li>
+<li>プラットフォーム固有のインタラクションシステムとシームレスに統合</li>
+</ul>
+<hr>
+<h2 id="4-hapticoutput群">4. HapticOutput群</h2>
+<p><strong>役割</strong>: デバイス向けのデータ処理・変換層</p>
+<h3 id="含まれるクラス-3">含まれるクラス</h3>
+<ul>
+<li>HapticAudioOutputV0 / HapticAudioOutputV1</li>
+<li>HapticForceOutputV0 / HapticForceOutputV1</li>
+</ul>
+<h3 id="機能-3">機能</h3>
+<ul>
+<li>HapticManagerから収集された触覚データを受信</li>
+<li>BodyPartTargetによるフィルタリング（左手/右手の区別など）</li>
+<li>デバイス固有の形式への変換:
+<ul>
+<li><strong>Force系</strong>: ForceConverterを使用した角度変換、ガウシアンフィルタ適用</li>
+<li><strong>Audio系</strong>: オーディオクリップの処理、再生モード管理（OneShot、Loop、Stop）</li>
+</ul>
+</li>
+<li>V0とV1でハードウェアバージョンの違いに対応</li>
+</ul>
+<hr>
+<h2 id="5-hapticdevice群">5. HapticDevice群</h2>
+<p><strong>役割</strong>: ハードウェア通信レイヤー</p>
+<h3 id="含まれるクラス-4">含まれるクラス</h3>
+<ul>
+<li>HapticDeviceV0</li>
+<li>HapticDeviceV1</li>
+</ul>
+<h3 id="機能-4">機能</h3>
+<ul>
+<li>すべてのOutputを統括するトップレベルマネージャー</li>
+<li>物理的な触覚デバイスとの通信を担当</li>
+<li><strong>V0</strong>: シリアル通信（COMポート）を使用</li>
+<li><strong>V1</strong>: OSC（Open Sound Control）プロトコルをネットワーク経由で使用</li>
+<li>処理済みデータを最終的に物理ハードウェアに送信</li>
+</ul>
+<hr>
+<h2 id="コンポーネント間の関係性">コンポーネント間の関係性</h2>
+<h3 id="データフローの詳細各フレーム">データフローの詳細（各フレーム）</h3>
+<ol>
+<li><p><strong>BeginFrame</strong>: HapticManagerがフレーム開始を全コンポーネントに通知</p>
+</li>
+<li><p><strong>CollectValuesフェーズ</strong>:</p>
+<ul>
+<li>Managerが保留中のSource登録をInputに承認</li>
+<li>各Inputの登録済みSourceから<code>CollectValues()</code>を呼び出し</li>
+<li>触覚データがValueCollectorに集約される</li>
+</ul>
+</li>
+<li><p><strong>DistributeValuesフェーズ</strong>:</p>
+<ul>
+<li>収集されたデータをすべてのOutputに配信</li>
+<li>各OutputがBodyPartTargetでフィルタリングして保存</li>
+</ul>
+</li>
+<li><p><strong>OnValuesUpdatedフェーズ</strong>:</p>
+<ul>
+<li>HapticDeviceに通知</li>
+<li>Deviceが各Outputを呼び出してデータ処理（力→角度変換、音声処理）</li>
+<li>最終コマンドをハードウェアに送信（シリアル/OSC）</li>
+</ul>
+</li>
+<li><p><strong>EndFrame</strong>: クリーンアップと次フレームの準備</p>
+</li>
+</ol>
+<h3 id="多重度の関係">多重度の関係</h3>
+<ul>
+<li><strong>Source → Input</strong>: 多対多（Registererが管理）</li>
+<li><strong>Input → Manager</strong>: 多対1（登録関係）</li>
+<li><strong>Manager → Output</strong>: 1対多（配信関係）</li>
+<li><strong>Output → Device</strong>: 多対1（集約関係）</li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
